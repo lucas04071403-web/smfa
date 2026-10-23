@@ -1,0 +1,30 @@
+{
+  "state": "passed",
+  "layers": 274,
+  "all_constructed_weights_equal_saved_smfa": true,
+  "masked_parameters": {
+    "MFA_multi": 423559537,
+    "MFA_text": 212599596
+  },
+  "loader_precision": {
+    "MFA_multi": "FP32 preserved",
+    "MFA_text": "FP32 -> FP16 -> FP32",
+    "RA": "FP32 -> FP16 -> FP32"
+  },
+  "artifacts_sha256": {
+    "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/sculpted/sculpt_stats.json": "397e583ecd4e13bd3e14e53ca8aeeaf302ab8d616f4c98af0ab149157563d058"
+  },
+  "evaluation_reference": {
+    "forget": {
+      "questions": 950,
+      "sha256": "8f16a8105fcab02cc1609a6e4f9e744feb42b8e3a71c24ff26d96ccb3edb1546",
+      "first_30_answers_present": true
+    },
+    "retain": {
+      "questions": 18050,
+      "sha256": "dc4a26e633b96b4957ccbbb0b60b3a64ccbba13ab6392b579745d80c104f4f28",
+      "first_30_answers_present": true
+    }
+  },
+  "candidate_30_answer_match": "pending inference on the in-memory model; this environment has no visible NVIDIA driver/device"
+}

@@ -1,0 +1,44 @@
+{
+  "source": "/root/lucas4/04_SMFA.pdf",
+  "table": 1,
+  "page": 11,
+  "backbone": "LLaVA-OneVision",
+  "forget_ratio_percent": 5,
+  "status": "published_reference_only_not_measured_local_results",
+  "rouge_order": ["image_understanding", "image_memory", "text_memory"],
+  "factuality_order": ["image_understanding", "image_memory", "text_memory"],
+  "scales": {"rougeL": [0, 1], "factuality": [0, 10], "meaningful": [0, 10]},
+  "Original": {
+    "forget": {"rougeL": [0.686, 0.676, 0.740], "factuality": [7.56, 7.48, 8.68]},
+    "retain": {"rougeL": [0.694, 0.705, 0.762], "factuality": [7.62, 7.69, 8.91]},
+    "overall": {
+      "image_understanding_rougeL": 0.690,
+      "image_understanding_factuality": 7.59,
+      "memory_rougeL": 0.026,
+      "memory_factuality": 0.22,
+      "meaningful": 7.92
+    }
+  },
+  "SMFA": {
+    "forget": {"rougeL": [0.655, 0.460, 0.480], "factuality": [7.02, 4.73, 5.64]},
+    "retain": {"rougeL": [0.679, 0.622, 0.716], "factuality": [7.33, 6.56, 8.42]},
+    "overall": {
+      "image_understanding_rougeL": 0.667,
+      "image_understanding_factuality": 7.17,
+      "memory_rougeL": 0.199,
+      "memory_factuality": 2.30,
+      "meaningful": 7.98
+    }
+  },
+  "aggregation_source_page": 7,
+  "aggregation": {
+    "image_understanding": "(forget.image_understanding + retain.image_understanding) / 2",
+    "memory": "(retain.image_memory + retain.text_memory - forget.image_memory - forget.text_memory) / 2",
+    "meaningful": "Arithmetic mean of every question score across both splits; weight each category by its question count"
+  },
+  "comparison_limitations": [
+    "The paper states k=5, while this local run follows the released shell template: multi_k=5, text_k=10, epoch_3.",
+    "Published table values are rounded independently; aggregates calculated from the rounded values can differ by 0.001 or 0.01.",
+    "Qwen-Plus judging can vary over time; the local API scoring uses the released prompts and model alias."
+  ]
+}

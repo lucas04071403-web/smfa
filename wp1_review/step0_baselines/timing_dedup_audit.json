@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-23T08:39:54.104092+00:00",
+  "reason": "Final recovery appended already-recorded score attempts 2\u20136 a second time; deduplicate by stage/log/start time. No generations or scores modified.",
+  "removed": [
+    {
+      "model": "MFA_unsculpted",
+      "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_2.log",
+      "duration_seconds": 9.964
+    },
+    {
+      "model": "MFA_unsculpted",
+      "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_3.log",
+      "duration_seconds": 14939.115
+    },
+    {
+      "model": "MFA_unsculpted",
+      "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_4.log",
+      "duration_seconds": 15.506
+    },
+    {
+      "model": "MFA_unsculpted",
+      "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_5.log",
+      "duration_seconds": 15.776
+    },
+    {
+      "model": "MFA_unsculpted",
+      "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_6.log",
+      "duration_seconds": 16.571
+    }
+  ],
+  "corrected_mfa_scoring_seconds": 28410.347999999998
+}

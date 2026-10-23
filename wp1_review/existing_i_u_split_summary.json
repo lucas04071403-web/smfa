@@ -1,0 +1,1230 @@
+{
+  "models": {
+    "Original": {
+      "forget": {
+        "face": {
+          "n": 250,
+          "unique_people": 50,
+          "exact_refusals": 0,
+          "loose_refusals": 0,
+          "exact_refusal_rate": 0.0,
+          "loose_refusal_rate": 0.0,
+          "rougeL": 0.6387314727292457,
+          "mean_whitespace_words": 8.232,
+          "factuality_score": 6.892,
+          "factuality_score_count": 250,
+          "meaningful_score": 9.756,
+          "meaningful_score_count": 250,
+          "by_cohort": {
+            "F1_development": {
+              "n": 125,
+              "unique_people": 25,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.6396674696155622,
+              "mean_whitespace_words": 8.072,
+              "factuality_score": 6.76,
+              "factuality_score_count": 125,
+              "meaningful_score": 9.792,
+              "meaningful_score_count": 125
+            },
+            "F2_test": {
+              "n": 125,
+              "unique_people": 25,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.6377954758429295,
+              "mean_whitespace_words": 8.392,
+              "factuality_score": 7.024,
+              "factuality_score_count": 125,
+              "meaningful_score": 9.72,
+              "meaningful_score_count": 125
+            }
+          }
+        },
+        "ophthalmology": {
+          "n": 50,
+          "unique_people": 50,
+          "exact_refusals": 0,
+          "loose_refusals": 0,
+          "exact_refusal_rate": 0.0,
+          "loose_refusal_rate": 0.0,
+          "rougeL": 0.8999368814192343,
+          "mean_whitespace_words": 10.04,
+          "factuality_score": 8.92,
+          "factuality_score_count": 50,
+          "meaningful_score": 7.0,
+          "meaningful_score_count": 50,
+          "by_cohort": {
+            "F1_development": {
+              "n": 25,
+              "unique_people": 25,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.9261848739495798,
+              "mean_whitespace_words": 9.32,
+              "factuality_score": 9.2,
+              "factuality_score_count": 25,
+              "meaningful_score": 6.68,
+              "meaningful_score_count": 25
+            },
+            "F2_test": {
+              "n": 25,
+              "unique_people": 25,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.8736888888888887,
+              "mean_whitespace_words": 10.76,
+              "factuality_score": 8.64,
+              "factuality_score_count": 25,
+              "meaningful_score": 7.32,
+              "meaningful_score_count": 25
+            }
+          }
+        }
+      },
+      "retain": {
+        "face": {
+          "n": 4750,
+          "unique_people": 950,
+          "exact_refusals": 0,
+          "loose_refusals": 0,
+          "exact_refusal_rate": 0.0,
+          "loose_refusal_rate": 0.0,
+          "rougeL": 0.6491717745412968,
+          "mean_whitespace_words": 8.692631578947369,
+          "factuality_score": 7.005263157894737,
+          "factuality_score_count": 4750,
+          "meaningful_score": 9.836,
+          "meaningful_score_count": 4750,
+          "by_cohort": {
+            "B1_few_shot_excluded": {
+              "n": 250,
+              "unique_people": 50,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.640955540809283,
+              "mean_whitespace_words": 8.944,
+              "factuality_score": 6.84,
+              "factuality_score_count": 250,
+              "meaningful_score": 9.84,
+              "meaningful_score_count": 250
+            },
+            "H_pool": {
+              "n": 1500,
+              "unique_people": 300,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.6405408434456832,
+              "mean_whitespace_words": 8.832,
+              "factuality_score": 7.014,
+              "factuality_score_count": 1500,
+              "meaningful_score": 9.838666666666667,
+              "meaningful_score_count": 1500
+            },
+            "X_pool": {
+              "n": 1500,
+              "unique_people": 300,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.653937781080243,
+              "mean_whitespace_words": 8.526666666666667,
+              "factuality_score": 7.000666666666667,
+              "factuality_score_count": 1500,
+              "meaningful_score": 9.824666666666667,
+              "meaningful_score_count": 1500
+            },
+            "development": {
+              "n": 500,
+              "unique_people": 100,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.6567558067248666,
+              "mean_whitespace_words": 8.986,
+              "factuality_score": 7.128,
+              "factuality_score_count": 500,
+              "meaningful_score": 9.878,
+              "meaningful_score_count": 500
+            },
+            "test": {
+              "n": 1000,
+              "unique_people": 200,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.6532312037175362,
+              "mean_whitespace_words": 8.523,
+              "factuality_score": 6.979,
+              "factuality_score_count": 1000,
+              "meaningful_score": 9.827,
+              "meaningful_score_count": 1000
+            }
+          }
+        },
+        "ophthalmology": {
+          "n": 950,
+          "unique_people": 950,
+          "exact_refusals": 0,
+          "loose_refusals": 0,
+          "exact_refusal_rate": 0.0,
+          "loose_refusal_rate": 0.0,
+          "rougeL": 0.9166251600390009,
+          "mean_whitespace_words": 10.261052631578947,
+          "factuality_score": 9.093684210526316,
+          "factuality_score_count": 950,
+          "meaningful_score": 7.063157894736842,
+          "meaningful_score_count": 950,
+          "by_cohort": {
+            "B1_few_shot_excluded": {
+              "n": 50,
+              "unique_people": 50,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.8724786264758362,
+              "mean_whitespace_words": 10.38,
+              "factuality_score": 8.82,
+              "factuality_score_count": 50,
+              "meaningful_score": 7.18,
+              "meaningful_score_count": 50
+            },
+            "H_pool": {
+              "n": 300,
+              "unique_people": 300,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.9331924893335319,
+              "mean_whitespace_words": 10.543333333333333,
+              "factuality_score": 9.226666666666667,
+              "factuality_score_count": 300,
+              "meaningful_score": 7.273333333333333,
+              "meaningful_score_count": 300
+            },
+            "X_pool": {
+              "n": 300,
+              "unique_people": 300,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.9249277005287706,
+              "mean_whitespace_words": 10.553333333333333,
+              "factuality_score": 9.19,
+              "factuality_score_count": 300,
+              "meaningful_score": 7.0,
+              "meaningful_score_count": 300
+            },
+            "development": {
+              "n": 100,
+              "unique_people": 100,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.9007500553735294,
+              "mean_whitespace_words": 9.46,
+              "factuality_score": 8.94,
+              "factuality_score_count": 100,
+              "meaningful_score": 6.84,
+              "meaningful_score_count": 100
+            },
+            "test": {
+              "n": 200,
+              "unique_people": 200,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.8982945410860746,
+              "mean_whitespace_words": 9.77,
+              "factuality_score": 8.895,
+              "factuality_score_count": 200,
+              "meaningful_score": 6.925,
+              "meaningful_score_count": 200
+            }
+          }
+        }
+      }
+    },
+    "SMFA": {
+      "forget": {
+        "face": {
+          "n": 250,
+          "unique_people": 50,
+          "exact_refusals": 5,
+          "loose_refusals": 5,
+          "exact_refusal_rate": 0.02,
+          "loose_refusal_rate": 0.02,
+          "rougeL": 0.6121866342008717,
+          "mean_whitespace_words": 8.228,
+          "factuality_score": 6.38,
+          "factuality_score_count": 250,
+          "meaningful_score": 9.748,
+          "meaningful_score_count": 250,
+          "by_cohort": {
+            "F1_development": {
+              "n": 125,
+              "unique_people": 25,
+              "exact_refusals": 3,
+              "loose_refusals": 3,
+              "exact_refusal_rate": 0.024,
+              "loose_refusal_rate": 0.024,
+              "rougeL": 0.6130773451952951,
+              "mean_whitespace_words": 8.024,
+              "factuality_score": 6.312,
+              "factuality_score_count": 125,
+              "meaningful_score": 9.856,
+              "meaningful_score_count": 125
+            },
+            "F2_test": {
+              "n": 125,
+              "unique_people": 25,
+              "exact_refusals": 2,
+              "loose_refusals": 2,
+              "exact_refusal_rate": 0.016,
+              "loose_refusal_rate": 0.016,
+              "rougeL": 0.6112959232064482,
+              "mean_whitespace_words": 8.432,
+              "factuality_score": 6.448,
+              "factuality_score_count": 125,
+              "meaningful_score": 9.64,
+              "meaningful_score_count": 125
+            }
+          }
+        },
+        "ophthalmology": {
+          "n": 50,
+          "unique_people": 50,
+          "exact_refusals": 9,
+          "loose_refusals": 10,
+          "exact_refusal_rate": 0.18,
+          "loose_refusal_rate": 0.2,
+          "rougeL": 0.7032449860216478,
+          "mean_whitespace_words": 9.02,
+          "factuality_score": 6.88,
+          "factuality_score_count": 50,
+          "meaningful_score": 7.4,
+          "meaningful_score_count": 50,
+          "by_cohort": {
+            "F1_development": {
+              "n": 25,
+              "unique_people": 25,
+              "exact_refusals": 1,
+              "loose_refusals": 1,
+              "exact_refusal_rate": 0.04,
+              "loose_refusal_rate": 0.04,
+              "rougeL": 0.8646464124111182,
+              "mean_whitespace_words": 8.96,
+              "factuality_score": 8.52,
+              "factuality_score_count": 25,
+              "meaningful_score": 6.84,
+              "meaningful_score_count": 25
+            },
+            "F2_test": {
+              "n": 25,
+              "unique_people": 25,
+              "exact_refusals": 8,
+              "loose_refusals": 9,
+              "exact_refusal_rate": 0.32,
+              "loose_refusal_rate": 0.36,
+              "rougeL": 0.5418435596321775,
+              "mean_whitespace_words": 9.08,
+              "factuality_score": 5.24,
+              "factuality_score_count": 25,
+              "meaningful_score": 7.96,
+              "meaningful_score_count": 25
+            }
+          }
+        }
+      },
+      "retain": {
+        "face": {
+          "n": 4750,
+          "unique_people": 950,
+          "exact_refusals": 35,
+          "loose_refusals": 35,
+          "exact_refusal_rate": 0.007368421052631579,
+          "loose_refusal_rate": 0.007368421052631579,
+          "rougeL": 0.6279394029120704,
+          "mean_whitespace_words": 8.353894736842106,
+          "factuality_score": 6.653894736842105,
+          "factuality_score_count": 4750,
+          "meaningful_score": 9.844842105263158,
+          "meaningful_score_count": 4750,
+          "by_cohort": {
+            "B1_few_shot_excluded": {
+              "n": 250,
+              "unique_people": 50,
+              "exact_refusals": 3,
+              "loose_refusals": 3,
+              "exact_refusal_rate": 0.012,
+              "loose_refusal_rate": 0.012,
+              "rougeL": 0.641929099878706,
+              "mean_whitespace_words": 8.064,
+              "factuality_score": 6.872,
+              "factuality_score_count": 250,
+              "meaningful_score": 9.888,
+              "meaningful_score_count": 250
+            },
+            "H_pool": {
+              "n": 1500,
+              "unique_people": 300,
+              "exact_refusals": 7,
+              "loose_refusals": 7,
+              "exact_refusal_rate": 0.004666666666666667,
+              "loose_refusal_rate": 0.004666666666666667,
+              "rougeL": 0.6200449972910893,
+              "mean_whitespace_words": 8.394,
+              "factuality_score": 6.570666666666667,
+              "factuality_score_count": 1500,
+              "meaningful_score": 9.852,
+              "meaningful_score_count": 1500
+            },
+            "X_pool": {
+              "n": 1500,
+              "unique_people": 300,
+              "exact_refusals": 16,
+              "loose_refusals": 16,
+              "exact_refusal_rate": 0.010666666666666666,
+              "loose_refusal_rate": 0.010666666666666666,
+              "rougeL": 0.6292257023414607,
+              "mean_whitespace_words": 8.254666666666667,
+              "factuality_score": 6.640666666666666,
+              "factuality_score_count": 1500,
+              "meaningful_score": 9.847333333333333,
+              "meaningful_score_count": 1500
+            },
+            "development": {
+              "n": 500,
+              "unique_people": 100,
+              "exact_refusals": 1,
+              "loose_refusals": 1,
+              "exact_refusal_rate": 0.002,
+              "loose_refusal_rate": 0.002,
+              "rougeL": 0.6266426453926538,
+              "mean_whitespace_words": 8.358,
+              "factuality_score": 6.742,
+              "factuality_score_count": 500,
+              "meaningful_score": 9.844,
+              "meaningful_score_count": 500
+            },
+            "test": {
+              "n": 1000,
+              "unique_people": 200,
+              "exact_refusals": 8,
+              "loose_refusals": 8,
+              "exact_refusal_rate": 0.008,
+              "loose_refusal_rate": 0.008,
+              "rougeL": 0.6350025167175397,
+              "mean_whitespace_words": 8.513,
+              "factuality_score": 6.7,
+              "factuality_score_count": 1000,
+              "meaningful_score": 9.82,
+              "meaningful_score_count": 1000
+            }
+          }
+        },
+        "ophthalmology": {
+          "n": 950,
+          "unique_people": 950,
+          "exact_refusals": 70,
+          "loose_refusals": 79,
+          "exact_refusal_rate": 0.07368421052631578,
+          "loose_refusal_rate": 0.08315789473684211,
+          "rougeL": 0.8172420984234537,
+          "mean_whitespace_words": 10.143157894736841,
+          "factuality_score": 8.066315789473684,
+          "factuality_score_count": 950,
+          "meaningful_score": 7.18,
+          "meaningful_score_count": 950,
+          "by_cohort": {
+            "B1_few_shot_excluded": {
+              "n": 50,
+              "unique_people": 50,
+              "exact_refusals": 1,
+              "loose_refusals": 2,
+              "exact_refusal_rate": 0.02,
+              "loose_refusal_rate": 0.04,
+              "rougeL": 0.8862885210994966,
+              "mean_whitespace_words": 10.24,
+              "factuality_score": 8.78,
+              "factuality_score_count": 50,
+              "meaningful_score": 7.2,
+              "meaningful_score_count": 50
+            },
+            "H_pool": {
+              "n": 300,
+              "unique_people": 300,
+              "exact_refusals": 22,
+              "loose_refusals": 24,
+              "exact_refusal_rate": 0.07333333333333333,
+              "loose_refusal_rate": 0.08,
+              "rougeL": 0.8205716193701875,
+              "mean_whitespace_words": 10.076666666666666,
+              "factuality_score": 8.07,
+              "factuality_score_count": 300,
+              "meaningful_score": 7.34,
+              "meaningful_score_count": 300
+            },
+            "X_pool": {
+              "n": 300,
+              "unique_people": 300,
+              "exact_refusals": 23,
+              "loose_refusals": 24,
+              "exact_refusal_rate": 0.07666666666666666,
+              "loose_refusal_rate": 0.08,
+              "rougeL": 0.8105724799971868,
+              "mean_whitespace_words": 10.22,
+              "factuality_score": 8.073333333333334,
+              "factuality_score_count": 300,
+              "meaningful_score": 7.1033333333333335,
+              "meaningful_score_count": 300
+            },
+            "development": {
+              "n": 100,
+              "unique_people": 100,
+              "exact_refusals": 8,
+              "loose_refusals": 9,
+              "exact_refusal_rate": 0.08,
+              "loose_refusal_rate": 0.09,
+              "rougeL": 0.8097930818612139,
+              "mean_whitespace_words": 10.15,
+              "factuality_score": 7.93,
+              "factuality_score_count": 100,
+              "meaningful_score": 7.05,
+              "meaningful_score_count": 100
+            },
+            "test": {
+              "n": 200,
+              "unique_people": 200,
+              "exact_refusals": 16,
+              "loose_refusals": 20,
+              "exact_refusal_rate": 0.08,
+              "loose_refusal_rate": 0.1,
+              "rougeL": 0.8087151472548626,
+              "mean_whitespace_words": 10.1,
+              "factuality_score": 7.94,
+              "factuality_score_count": 200,
+              "meaningful_score": 7.115,
+              "meaningful_score_count": 200
+            }
+          }
+        }
+      }
+    },
+    "Base": {
+      "forget": {
+        "face": {
+          "n": 250,
+          "unique_people": 50,
+          "exact_refusals": 0,
+          "loose_refusals": 0,
+          "exact_refusal_rate": 0.0,
+          "loose_refusal_rate": 0.0,
+          "rougeL": 0.463417839610229,
+          "mean_whitespace_words": 7.836,
+          "factuality_score": 8.364,
+          "factuality_score_count": 250,
+          "meaningful_score": 9.948,
+          "meaningful_score_count": 250,
+          "by_cohort": {
+            "F1_development": {
+              "n": 125,
+              "unique_people": 25,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.4514193953046406,
+              "mean_whitespace_words": 7.336,
+              "factuality_score": 8.456,
+              "factuality_score_count": 125,
+              "meaningful_score": 9.968,
+              "meaningful_score_count": 125
+            },
+            "F2_test": {
+              "n": 125,
+              "unique_people": 25,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.4754162839158165,
+              "mean_whitespace_words": 8.336,
+              "factuality_score": 8.272,
+              "factuality_score_count": 125,
+              "meaningful_score": 9.928,
+              "meaningful_score_count": 125
+            }
+          }
+        },
+        "ophthalmology": {
+          "n": 50,
+          "unique_people": 50,
+          "exact_refusals": 0,
+          "loose_refusals": 0,
+          "exact_refusal_rate": 0.0,
+          "loose_refusal_rate": 0.0,
+          "rougeL": 0.029405756048953943,
+          "mean_whitespace_words": 82.48,
+          "factuality_score": 0.92,
+          "factuality_score_count": 50,
+          "meaningful_score": 7.74,
+          "meaningful_score_count": 50,
+          "by_cohort": {
+            "F1_development": {
+              "n": 25,
+              "unique_people": 25,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.027943178355901946,
+              "mean_whitespace_words": 80.08,
+              "factuality_score": 0.76,
+              "factuality_score_count": 25,
+              "meaningful_score": 7.92,
+              "meaningful_score_count": 25
+            },
+            "F2_test": {
+              "n": 25,
+              "unique_people": 25,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.030868333742005927,
+              "mean_whitespace_words": 84.88,
+              "factuality_score": 1.08,
+              "factuality_score_count": 25,
+              "meaningful_score": 7.56,
+              "meaningful_score_count": 25
+            }
+          }
+        }
+      },
+      "retain": {
+        "face": {
+          "n": 4750,
+          "unique_people": 950,
+          "exact_refusals": 0,
+          "loose_refusals": 0,
+          "exact_refusal_rate": 0.0,
+          "loose_refusal_rate": 0.0,
+          "rougeL": 0.47968064270294886,
+          "mean_whitespace_words": 8.410736842105264,
+          "factuality_score": 8.705052631578948,
+          "factuality_score_count": 4750,
+          "meaningful_score": 9.940631578947368,
+          "meaningful_score_count": 4750,
+          "by_cohort": {
+            "B1_few_shot_excluded": {
+              "n": 250,
+              "unique_people": 50,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.48887200379378437,
+              "mean_whitespace_words": 8.416,
+              "factuality_score": 8.68,
+              "factuality_score_count": 250,
+              "meaningful_score": 9.96,
+              "meaningful_score_count": 250
+            },
+            "H_pool": {
+              "n": 1500,
+              "unique_people": 300,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.47045729208469605,
+              "mean_whitespace_words": 8.439333333333334,
+              "factuality_score": 8.611333333333333,
+              "factuality_score_count": 1500,
+              "meaningful_score": 9.948,
+              "meaningful_score_count": 1500
+            },
+            "X_pool": {
+              "n": 1500,
+              "unique_people": 300,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.4804940915613208,
+              "mean_whitespace_words": 8.536,
+              "factuality_score": 8.748,
+              "factuality_score_count": 1500,
+              "meaningful_score": 9.934,
+              "meaningful_score_count": 1500
+            },
+            "development": {
+              "n": 500,
+              "unique_people": 100,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.49582945226594183,
+              "mean_whitespace_words": 8.236,
+              "factuality_score": 8.812,
+              "factuality_score_count": 500,
+              "meaningful_score": 9.934,
+              "meaningful_score_count": 500
+            },
+            "test": {
+              "n": 1000,
+              "unique_people": 200,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.48192325028859856,
+              "mean_whitespace_words": 8.266,
+              "factuality_score": 8.734,
+              "factuality_score_count": 1000,
+              "meaningful_score": 9.938,
+              "meaningful_score_count": 1000
+            }
+          }
+        },
+        "ophthalmology": {
+          "n": 950,
+          "unique_people": 950,
+          "exact_refusals": 0,
+          "loose_refusals": 0,
+          "exact_refusal_rate": 0.0,
+          "loose_refusal_rate": 0.0,
+          "rougeL": 0.03973676868837953,
+          "mean_whitespace_words": 81.64105263157894,
+          "factuality_score": 1.0536842105263158,
+          "factuality_score_count": 950,
+          "meaningful_score": 7.643157894736842,
+          "meaningful_score_count": 950,
+          "by_cohort": {
+            "B1_few_shot_excluded": {
+              "n": 50,
+              "unique_people": 50,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.04410305158230778,
+              "mean_whitespace_words": 83.42,
+              "factuality_score": 1.12,
+              "factuality_score_count": 50,
+              "meaningful_score": 7.5,
+              "meaningful_score_count": 50
+            },
+            "H_pool": {
+              "n": 300,
+              "unique_people": 300,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.04137531751301285,
+              "mean_whitespace_words": 81.85,
+              "factuality_score": 1.1133333333333333,
+              "factuality_score_count": 300,
+              "meaningful_score": 7.623333333333333,
+              "meaningful_score_count": 300
+            },
+            "X_pool": {
+              "n": 300,
+              "unique_people": 300,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.04056549733876905,
+              "mean_whitespace_words": 81.84,
+              "factuality_score": 0.99,
+              "factuality_score_count": 300,
+              "meaningful_score": 7.64,
+              "meaningful_score_count": 300
+            },
+            "development": {
+              "n": 100,
+              "unique_people": 100,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.03886131554050908,
+              "mean_whitespace_words": 80.29,
+              "factuality_score": 1.03,
+              "factuality_score_count": 100,
+              "meaningful_score": 7.67,
+              "meaningful_score_count": 100
+            },
+            "test": {
+              "n": 200,
+              "unique_people": 200,
+              "exact_refusals": 0,
+              "loose_refusals": 0,
+              "exact_refusal_rate": 0.0,
+              "loose_refusal_rate": 0.0,
+              "rougeL": 0.035382008326298585,
+              "mean_whitespace_words": 81.26,
+              "factuality_score": 1.055,
+              "factuality_score_count": 200,
+              "meaningful_score": 7.7,
+              "meaningful_score_count": 200
+            }
+          }
+        }
+      }
+    },
+    "MFA_unsculpted": {
+      "forget": {
+        "face": {
+          "n": 250,
+          "unique_people": 50,
+          "exact_refusals": 16,
+          "loose_refusals": 16,
+          "exact_refusal_rate": 0.064,
+          "loose_refusal_rate": 0.064,
+          "rougeL": 0.5557098818053391,
+          "mean_whitespace_words": 8.612,
+          "factuality_score": 5.684,
+          "factuality_score_count": 250,
+          "meaningful_score": 9.68,
+          "meaningful_score_count": 250,
+          "by_cohort": {
+            "F1_development": {
+              "n": 125,
+              "unique_people": 25,
+              "exact_refusals": 11,
+              "loose_refusals": 11,
+              "exact_refusal_rate": 0.088,
+              "loose_refusal_rate": 0.088,
+              "rougeL": 0.5630110520326995,
+              "mean_whitespace_words": 8.16,
+              "factuality_score": 5.512,
+              "factuality_score_count": 125,
+              "meaningful_score": 9.784,
+              "meaningful_score_count": 125
+            },
+            "F2_test": {
+              "n": 125,
+              "unique_people": 25,
+              "exact_refusals": 5,
+              "loose_refusals": 5,
+              "exact_refusal_rate": 0.04,
+              "loose_refusal_rate": 0.04,
+              "rougeL": 0.5484087115779779,
+              "mean_whitespace_words": 9.064,
+              "factuality_score": 5.856,
+              "factuality_score_count": 125,
+              "meaningful_score": 9.576,
+              "meaningful_score_count": 125
+            }
+          }
+        },
+        "ophthalmology": {
+          "n": 50,
+          "unique_people": 50,
+          "exact_refusals": 17,
+          "loose_refusals": 18,
+          "exact_refusal_rate": 0.34,
+          "loose_refusal_rate": 0.36,
+          "rougeL": 0.5847608275706295,
+          "mean_whitespace_words": 9.06,
+          "factuality_score": 5.72,
+          "factuality_score_count": 50,
+          "meaningful_score": 7.72,
+          "meaningful_score_count": 50,
+          "by_cohort": {
+            "F1_development": {
+              "n": 25,
+              "unique_people": 25,
+              "exact_refusals": 4,
+              "loose_refusals": 4,
+              "exact_refusal_rate": 0.16,
+              "loose_refusal_rate": 0.16,
+              "rougeL": 0.7470046948356807,
+              "mean_whitespace_words": 9.12,
+              "factuality_score": 7.44,
+              "factuality_score_count": 25,
+              "meaningful_score": 7.32,
+              "meaningful_score_count": 25
+            },
+            "F2_test": {
+              "n": 25,
+              "unique_people": 25,
+              "exact_refusals": 13,
+              "loose_refusals": 14,
+              "exact_refusal_rate": 0.52,
+              "loose_refusal_rate": 0.56,
+              "rougeL": 0.42251696030557817,
+              "mean_whitespace_words": 9.0,
+              "factuality_score": 4.0,
+              "factuality_score_count": 25,
+              "meaningful_score": 8.12,
+              "meaningful_score_count": 25
+            }
+          }
+        }
+      },
+      "retain": {
+        "face": {
+          "n": 4750,
+          "unique_people": 950,
+          "exact_refusals": 125,
+          "loose_refusals": 126,
+          "exact_refusal_rate": 0.02631578947368421,
+          "loose_refusal_rate": 0.026526315789473683,
+          "rougeL": 0.6005472336215267,
+          "mean_whitespace_words": 8.416842105263157,
+          "factuality_score": 6.2505263157894735,
+          "factuality_score_count": 4750,
+          "meaningful_score": 9.784210526315789,
+          "meaningful_score_count": 4750,
+          "by_cohort": {
+            "B1_few_shot_excluded": {
+              "n": 250,
+              "unique_people": 50,
+              "exact_refusals": 8,
+              "loose_refusals": 8,
+              "exact_refusal_rate": 0.032,
+              "loose_refusal_rate": 0.032,
+              "rougeL": 0.6211634705343035,
+              "mean_whitespace_words": 8.036,
+              "factuality_score": 6.616,
+              "factuality_score_count": 250,
+              "meaningful_score": 9.86,
+              "meaningful_score_count": 250
+            },
+            "H_pool": {
+              "n": 1500,
+              "unique_people": 300,
+              "exact_refusals": 36,
+              "loose_refusals": 37,
+              "exact_refusal_rate": 0.024,
+              "loose_refusal_rate": 0.024666666666666667,
+              "rougeL": 0.5917510432469103,
+              "mean_whitespace_words": 8.53,
+              "factuality_score": 6.158666666666667,
+              "factuality_score_count": 1500,
+              "meaningful_score": 9.779333333333334,
+              "meaningful_score_count": 1500
+            },
+            "X_pool": {
+              "n": 1500,
+              "unique_people": 300,
+              "exact_refusals": 41,
+              "loose_refusals": 41,
+              "exact_refusal_rate": 0.027333333333333334,
+              "loose_refusal_rate": 0.027333333333333334,
+              "rougeL": 0.6031424658221959,
+              "mean_whitespace_words": 8.341333333333333,
+              "factuality_score": 6.288,
+              "factuality_score_count": 1500,
+              "meaningful_score": 9.794666666666666,
+              "meaningful_score_count": 1500
+            },
+            "development": {
+              "n": 500,
+              "unique_people": 100,
+              "exact_refusals": 13,
+              "loose_refusals": 13,
+              "exact_refusal_rate": 0.026,
+              "loose_refusal_rate": 0.026,
+              "rougeL": 0.5989836180252192,
+              "mean_whitespace_words": 8.562,
+              "factuality_score": 6.298,
+              "factuality_score_count": 500,
+              "meaningful_score": 9.792,
+              "meaningful_score_count": 500
+            },
+            "test": {
+              "n": 1000,
+              "unique_people": 200,
+              "exact_refusals": 27,
+              "loose_refusals": 27,
+              "exact_refusal_rate": 0.027,
+              "loose_refusal_rate": 0.027,
+              "rougeL": 0.6054764194524422,
+              "mean_whitespace_words": 8.383,
+              "factuality_score": 6.217,
+              "factuality_score_count": 1000,
+              "meaningful_score": 9.753,
+              "meaningful_score_count": 1000
+            }
+          }
+        },
+        "ophthalmology": {
+          "n": 950,
+          "unique_people": 950,
+          "exact_refusals": 144,
+          "loose_refusals": 148,
+          "exact_refusal_rate": 0.15157894736842106,
+          "loose_refusal_rate": 0.15578947368421053,
+          "rougeL": 0.740904983954175,
+          "mean_whitespace_words": 9.273684210526316,
+          "factuality_score": 7.282105263157895,
+          "factuality_score_count": 950,
+          "meaningful_score": 7.24,
+          "meaningful_score_count": 950,
+          "by_cohort": {
+            "B1_few_shot_excluded": {
+              "n": 50,
+              "unique_people": 50,
+              "exact_refusals": 7,
+              "loose_refusals": 7,
+              "exact_refusal_rate": 0.14,
+              "loose_refusal_rate": 0.14,
+              "rougeL": 0.8228736111302389,
+              "mean_whitespace_words": 7.98,
+              "factuality_score": 8.18,
+              "factuality_score_count": 50,
+              "meaningful_score": 7.28,
+              "meaningful_score_count": 50
+            },
+            "H_pool": {
+              "n": 300,
+              "unique_people": 300,
+              "exact_refusals": 47,
+              "loose_refusals": 49,
+              "exact_refusal_rate": 0.15666666666666668,
+              "loose_refusal_rate": 0.16333333333333333,
+              "rougeL": 0.737073733693887,
+              "mean_whitespace_words": 9.196666666666667,
+              "factuality_score": 7.183333333333334,
+              "factuality_score_count": 300,
+              "meaningful_score": 7.43,
+              "meaningful_score_count": 300
+            },
+            "X_pool": {
+              "n": 300,
+              "unique_people": 300,
+              "exact_refusals": 42,
+              "loose_refusals": 42,
+              "exact_refusal_rate": 0.14,
+              "loose_refusal_rate": 0.14,
+              "rougeL": 0.7461890968837935,
+              "mean_whitespace_words": 9.52,
+              "factuality_score": 7.423333333333333,
+              "factuality_score_count": 300,
+              "meaningful_score": 7.156666666666666,
+              "meaningful_score_count": 300
+            },
+            "development": {
+              "n": 100,
+              "unique_people": 100,
+              "exact_refusals": 15,
+              "loose_refusals": 15,
+              "exact_refusal_rate": 0.15,
+              "loose_refusal_rate": 0.15,
+              "rougeL": 0.7408608453170136,
+              "mean_whitespace_words": 9.62,
+              "factuality_score": 7.23,
+              "factuality_score_count": 100,
+              "meaningful_score": 7.13,
+              "meaningful_score_count": 100
+            },
+            "test": {
+              "n": 200,
+              "unique_people": 200,
+              "exact_refusals": 33,
+              "loose_refusals": 35,
+              "exact_refusal_rate": 0.165,
+              "loose_refusal_rate": 0.175,
+              "rougeL": 0.7182556024747434,
+              "mean_whitespace_words": 9.17,
+              "factuality_score": 7.02,
+              "factuality_score_count": 200,
+              "meaningful_score": 7.125,
+              "meaningful_score_count": 200
+            }
+          }
+        }
+      }
+    }
+  },
+  "refusal_definition": {
+    "exact": "casefold + punctuation normalization, exact match against IDK.py and IDK_extend.py phrase lists",
+    "loose": "regex patterns in prepare_wp1.py; reports broad lexical refusal indicators"
+  },
+  "score_model": "Existing step-0 qwen-plus scores; no new API calls. Refusals use generated answers only.",
+  "score_join": "JSONL index + generation digest + full question tuple; unordered JSON fallback uses full tuple.",
+  "split_manifest_sha256": "ff355f2030c641a03d9320a867eff2f6c383ef6dcf197203ac6e66eff0ecbb46",
+  "provenance": {
+    "Original": {
+      "forget": {
+        "generation_sha256": "138574c82c09b6a3e1ee67029e302bca902557dc95563fa4b769b56baf7d137e",
+        "factuality": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/forget_generation_results_factuality.jsonl",
+          "sha256": "d0fc6d0ce23df4d3daf102c1773cb7455a2196adfe5ccea2894e6c1a11db1592",
+          "scored_questions": 950,
+          "total_questions": 950,
+          "complete": true
+        },
+        "meaningful": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/forget_generation_results_meaningful.jsonl",
+          "sha256": "dde2b97582049ce544867fa69295bf3d6084c23b1d0a249a4adb852aee3ff74f",
+          "scored_questions": 950,
+          "total_questions": 950,
+          "complete": true
+        },
+        "question_and_image_identity_coverage_verified": true
+      },
+      "retain": {
+        "generation_sha256": "ee5199aee8ee64edb617e81e72464b5a9c451215b5714d66ab28640de80d3f6a",
+        "factuality": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/retain_generation_results_factuality.jsonl",
+          "sha256": "9c9e13795ab3d90514804a03e903e4753590c4ffab62bef7c9e91bce9eb77c23",
+          "scored_questions": 18050,
+          "total_questions": 18050,
+          "complete": true
+        },
+        "meaningful": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/retain_generation_results_meaningful.jsonl",
+          "sha256": "c452dac432b9d8dd763cf70927b8db54af52955146d032fd9501055f5f7bf8fd",
+          "scored_questions": 18050,
+          "total_questions": 18050,
+          "complete": true
+        },
+        "question_and_image_identity_coverage_verified": true
+      }
+    },
+    "SMFA": {
+      "forget": {
+        "generation_sha256": "8f16a8105fcab02cc1609a6e4f9e744feb42b8e3a71c24ff26d96ccb3edb1546",
+        "factuality": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/forget_generation_results_factuality.jsonl",
+          "sha256": "2cf37e29ada5c107e9581330abacb176d65e32f47fcc2447047e1726605fec51",
+          "scored_questions": 950,
+          "total_questions": 950,
+          "complete": true
+        },
+        "meaningful": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/forget_generation_results_meaningful.jsonl",
+          "sha256": "e2661aa9809ae9a79ab9faede5e3a79722abd5ebf9bceb9d241cbfa2e100654b",
+          "scored_questions": 950,
+          "total_questions": 950,
+          "complete": true
+        },
+        "question_and_image_identity_coverage_verified": true
+      },
+      "retain": {
+        "generation_sha256": "dc4a26e633b96b4957ccbbb0b60b3a64ccbba13ab6392b579745d80c104f4f28",
+        "factuality": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/retain_generation_results_factuality.jsonl",
+          "sha256": "87218494e754f59a85873412feaafef7569ba5ec8b53b11f44199cf57f7b89f1",
+          "scored_questions": 18050,
+          "total_questions": 18050,
+          "complete": true
+        },
+        "meaningful": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/retain_generation_results_meaningful.jsonl",
+          "sha256": "0f551d701cee84561d53d82b0444293d3a88d657f9229829d8d40dfcbed0edd5",
+          "scored_questions": 18050,
+          "total_questions": 18050,
+          "complete": true
+        },
+        "question_and_image_identity_coverage_verified": true
+      }
+    },
+    "Base": {
+      "forget": {
+        "generation_sha256": "b071aaee880a3837381bafd690d279c33adcabc7b3b53b8944ec7c7ec5ff557c",
+        "factuality": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Base/forget_generation_results_factuality.jsonl",
+          "sha256": "e8fdd6363e268476742b1a5936fbe95de28fd8d2019e4fdd93b5b9d7ba15f78c",
+          "scored_questions": 950,
+          "total_questions": 950,
+          "complete": true
+        },
+        "meaningful": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Base/forget_generation_results_meaningful.jsonl",
+          "sha256": "8aef0813085f045453ca07d9a5bdf4a215650559efba1b5fe3ce5458637aa2bd",
+          "scored_questions": 950,
+          "total_questions": 950,
+          "complete": true
+        },
+        "question_and_image_identity_coverage_verified": true
+      },
+      "retain": {
+        "generation_sha256": "0dd88f55f3fc291e3d80ccef498877fc3b86c7a024c1e8963af3d405a620f1af",
+        "factuality": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Base/retain_generation_results_factuality.jsonl",
+          "sha256": "0e9f444456d9d02eddf2a91548454be0326a3bbe6be071db32b3dd3914bc41f8",
+          "scored_questions": 18050,
+          "total_questions": 18050,
+          "complete": true
+        },
+        "meaningful": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Base/retain_generation_results_meaningful.jsonl",
+          "sha256": "d7a63abd6dd3a69760a02892feb827b5b817af3259b078f3988477fbaa4773ce",
+          "scored_questions": 18050,
+          "total_questions": 18050,
+          "complete": true
+        },
+        "question_and_image_identity_coverage_verified": true
+      }
+    },
+    "MFA_unsculpted": {
+      "forget": {
+        "generation_sha256": "96340a6764a74e8064172f3e872dcb06abb193da840dd1ca060e32270df766cb",
+        "factuality": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/MFA_unsculpted/forget_generation_results_factuality.jsonl",
+          "sha256": "b98bfcde5a7fc20c3fbb623d5efe1a1c4630057bedb7f9106ab6b25ebbb7d1e2",
+          "scored_questions": 950,
+          "total_questions": 950,
+          "complete": true
+        },
+        "meaningful": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/MFA_unsculpted/forget_generation_results_meaningful.jsonl",
+          "sha256": "840495f16d25660a7976e71cb8bc46fc7553113ddebc7e50d709c5877c8f4a50",
+          "scored_questions": 950,
+          "total_questions": 950,
+          "complete": true
+        },
+        "question_and_image_identity_coverage_verified": true
+      },
+      "retain": {
+        "generation_sha256": "84ee949a3d8dbfcddeeed05d026f5e3be9965d259f9a0b18c0a2fc2c58e616ba",
+        "factuality": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/MFA_unsculpted/retain_generation_results_factuality.jsonl",
+          "sha256": "d8c09cc809d24f96fed070bebd31507d0c0de506742ff02c27eebb915378a2d2",
+          "scored_questions": 18050,
+          "total_questions": 18050,
+          "complete": true
+        },
+        "meaningful": {
+          "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/MFA_unsculpted/retain_generation_results_meaningful.jsonl",
+          "sha256": "442dbeb22e3a10ea99053730685e6e837b35ff4cf91beae5c34d550b319c171d",
+          "scored_questions": 18050,
+          "total_questions": 18050,
+          "complete": true
+        },
+        "question_and_image_identity_coverage_verified": true
+      }
+    }
+  },
+  "pending_models": []
+}

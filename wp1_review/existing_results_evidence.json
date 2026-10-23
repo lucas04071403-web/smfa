@@ -1,0 +1,565 @@
+{
+  "created_at": "2026-10-22T02:04:40.228925+00:00",
+  "scope": "Descriptive reanalysis of existing full results; no WP1 model was run or selected",
+  "api_calls": 0,
+  "new_generation_calls": 0,
+  "groups": {
+    "Original/forget": {
+      "image_understanding/character": {
+        "factuality": 6.892,
+        "rougeL": 0.6387314727292457,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 8.232,
+        "questions": 250,
+        "profiles": 50
+      },
+      "image_understanding/all": {
+        "factuality": 7.23,
+        "rougeL": 0.6822657075109102,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 8.533333333333333,
+        "questions": 300,
+        "profiles": 50
+      },
+      "image_understanding/ophthalmic": {
+        "factuality": 8.92,
+        "rougeL": 0.8999368814192343,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 10.04,
+        "questions": 50,
+        "profiles": 50
+      },
+      "image_memory/character": {
+        "factuality": 7.156666666666666,
+        "rougeL": 0.6314859622979792,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 12.03,
+        "questions": 300,
+        "profiles": 50
+      },
+      "image_memory/all": {
+        "factuality": 7.477142857142857,
+        "rougeL": 0.6819879676839821,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 11.454285714285714,
+        "questions": 350,
+        "profiles": 50
+      },
+      "image_memory/ophthalmic": {
+        "factuality": 9.4,
+        "rougeL": 0.985,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 8.0,
+        "questions": 50,
+        "profiles": 50
+      },
+      "text_memory/none": {
+        "factuality": 8.5,
+        "rougeL": 0.7405021138181024,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 12.6,
+        "questions": 300,
+        "profiles": 50
+      },
+      "text_memory/all": {
+        "factuality": 8.5,
+        "rougeL": 0.7405021138181024,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 12.6,
+        "questions": 300,
+        "profiles": 50
+      }
+    },
+    "SMFA/forget": {
+      "image_understanding/character": {
+        "factuality": 6.38,
+        "rougeL": 0.6121866342008717,
+        "exact_training_refusal_rate": 0.02,
+        "mean_whitespace_words": 8.228,
+        "questions": 250,
+        "profiles": 50
+      },
+      "image_understanding/all": {
+        "factuality": 6.463333333333333,
+        "rougeL": 0.6273630261710006,
+        "exact_training_refusal_rate": 0.04666666666666667,
+        "mean_whitespace_words": 8.36,
+        "questions": 300,
+        "profiles": 50
+      },
+      "image_understanding/ophthalmic": {
+        "factuality": 6.88,
+        "rougeL": 0.7032449860216478,
+        "exact_training_refusal_rate": 0.18,
+        "mean_whitespace_words": 9.02,
+        "questions": 50,
+        "profiles": 50
+      },
+      "image_memory/character": {
+        "factuality": 3.183333333333333,
+        "rougeL": 0.30868432035037013,
+        "exact_training_refusal_rate": 0.3333333333333333,
+        "mean_whitespace_words": 11.24,
+        "questions": 300,
+        "profiles": 50
+      },
+      "image_memory/all": {
+        "factuality": 3.642857142857143,
+        "rougeL": 0.36313698046838455,
+        "exact_training_refusal_rate": 0.32571428571428573,
+        "mean_whitespace_words": 10.78,
+        "questions": 350,
+        "profiles": 50
+      },
+      "image_memory/ophthalmic": {
+        "factuality": 6.4,
+        "rougeL": 0.6898529411764706,
+        "exact_training_refusal_rate": 0.28,
+        "mean_whitespace_words": 8.02,
+        "questions": 50,
+        "profiles": 50
+      },
+      "text_memory/none": {
+        "factuality": 5.65,
+        "rougeL": 0.49194149340975957,
+        "exact_training_refusal_rate": 0.25333333333333335,
+        "mean_whitespace_words": 9.706666666666667,
+        "questions": 300,
+        "profiles": 50
+      },
+      "text_memory/all": {
+        "factuality": 5.65,
+        "rougeL": 0.49194149340975957,
+        "exact_training_refusal_rate": 0.25333333333333335,
+        "mean_whitespace_words": 9.706666666666667,
+        "questions": 300,
+        "profiles": 50
+      }
+    },
+    "Original/retain": {
+      "image_understanding/character": {
+        "factuality": 7.005263157894737,
+        "rougeL": 0.6491717745412968,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 8.692631578947369,
+        "questions": 4750,
+        "profiles": 950
+      },
+      "image_understanding/all": {
+        "factuality": 7.3533333333333335,
+        "rougeL": 0.6937473387909147,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 8.954035087719298,
+        "questions": 5700,
+        "profiles": 950
+      },
+      "image_understanding/ophthalmic": {
+        "factuality": 9.093684210526316,
+        "rougeL": 0.9166251600390009,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 10.261052631578947,
+        "questions": 950,
+        "profiles": 950
+      },
+      "image_memory/character": {
+        "factuality": 7.282631578947369,
+        "rougeL": 0.6609987815606561,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 11.220877192982456,
+        "questions": 5700,
+        "profiles": 950
+      },
+      "image_memory/all": {
+        "factuality": 7.498796992481203,
+        "rougeL": 0.7051970980382807,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 10.761503759398495,
+        "questions": 6650,
+        "profiles": 950
+      },
+      "image_memory/ophthalmic": {
+        "factuality": 8.795789473684211,
+        "rougeL": 0.9703869969040249,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 8.005263157894737,
+        "questions": 950,
+        "profiles": 950
+      },
+      "text_memory/none": {
+        "factuality": 8.77719298245614,
+        "rougeL": 0.7623283628666847,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 11.927894736842106,
+        "questions": 5700,
+        "profiles": 950
+      },
+      "text_memory/all": {
+        "factuality": 8.77719298245614,
+        "rougeL": 0.7623283628666847,
+        "exact_training_refusal_rate": 0.0,
+        "mean_whitespace_words": 11.927894736842106,
+        "questions": 5700,
+        "profiles": 950
+      }
+    },
+    "SMFA/retain": {
+      "image_understanding/character": {
+        "factuality": 6.653894736842105,
+        "rougeL": 0.6279394029120704,
+        "exact_training_refusal_rate": 0.007368421052631579,
+        "mean_whitespace_words": 8.353894736842106,
+        "questions": 4750,
+        "profiles": 950
+      },
+      "image_understanding/all": {
+        "factuality": 6.889298245614035,
+        "rougeL": 0.6594898521639667,
+        "exact_training_refusal_rate": 0.018421052631578946,
+        "mean_whitespace_words": 8.652105263157894,
+        "questions": 5700,
+        "profiles": 950
+      },
+      "image_understanding/ophthalmic": {
+        "factuality": 8.066315789473684,
+        "rougeL": 0.8172420984234537,
+        "exact_training_refusal_rate": 0.07368421052631578,
+        "mean_whitespace_words": 10.143157894736841,
+        "questions": 950,
+        "profiles": 950
+      },
+      "image_memory/character": {
+        "factuality": 5.622456140350877,
+        "rougeL": 0.5265097208386235,
+        "exact_training_refusal_rate": 0.13912280701754387,
+        "mean_whitespace_words": 11.219649122807018,
+        "questions": 5700,
+        "profiles": 950
+      },
+      "image_memory/all": {
+        "factuality": 5.98015037593985,
+        "rougeL": 0.5802353211886253,
+        "exact_training_refusal_rate": 0.12857142857142856,
+        "mean_whitespace_words": 10.75984962406015,
+        "questions": 6650,
+        "profiles": 950
+      },
+      "image_memory/ophthalmic": {
+        "factuality": 8.126315789473685,
+        "rougeL": 0.9025889232886138,
+        "exact_training_refusal_rate": 0.06526315789473684,
+        "mean_whitespace_words": 8.001052631578947,
+        "questions": 950,
+        "profiles": 950
+      },
+      "text_memory/none": {
+        "factuality": 8.26438596491228,
+        "rougeL": 0.7179555660609958,
+        "exact_training_refusal_rate": 0.04263157894736842,
+        "mean_whitespace_words": 11.333684210526316,
+        "questions": 5700,
+        "profiles": 950
+      },
+      "text_memory/all": {
+        "factuality": 8.26438596491228,
+        "rougeL": 0.7179555660609958,
+        "exact_training_refusal_rate": 0.04263157894736842,
+        "mean_whitespace_words": 11.333684210526316,
+        "questions": 5700,
+        "profiles": 950
+      }
+    }
+  },
+  "paired_differences": {
+    "forget/image_understanding/character": {
+      "factuality": {
+        "mean": -0.512,
+        "ci95": [
+          -0.8319999999999999,
+          -0.196
+        ]
+      },
+      "rougeL": {
+        "mean": -0.02654483852837415,
+        "ci95": [
+          -0.048696346156327515,
+          -0.006074221670631647
+        ]
+      }
+    },
+    "forget/image_understanding/all": {
+      "factuality": {
+        "mean": -0.7666666666666666,
+        "ci95": [
+          -1.093333333333333,
+          -0.43991666666666696
+        ]
+      },
+      "rougeL": {
+        "mean": -0.05490268133990952,
+        "ci95": [
+          -0.0810102817918986,
+          -0.031219498770291773
+        ]
+      }
+    },
+    "forget/image_understanding/ophthalmic": {
+      "factuality": {
+        "mean": -2.04,
+        "ci95": [
+          -3.1005000000000003,
+          -1.02
+        ]
+      },
+      "rougeL": {
+        "mean": -0.19669189539758644,
+        "ci95": [
+          -0.29994496838301715,
+          -0.10041912167326802
+        ]
+      }
+    },
+    "forget/image_memory/character": {
+      "factuality": {
+        "mean": -3.9733333333333336,
+        "ci95": [
+          -4.490166666666667,
+          -3.43325
+        ]
+      },
+      "rougeL": {
+        "mean": -0.3228016419476084,
+        "ci95": [
+          -0.3700311189009527,
+          -0.27431734492616566
+        ]
+      }
+    },
+    "forget/image_memory/all": {
+      "factuality": {
+        "mean": -3.834285714285714,
+        "ci95": [
+          -4.2915,
+          -3.388571428571428
+        ]
+      },
+      "rougeL": {
+        "mean": -0.3188509872155972,
+        "ci95": [
+          -0.3616734109624936,
+          -0.2747149220952809
+        ]
+      }
+    },
+    "forget/image_memory/ophthalmic": {
+      "factuality": {
+        "mean": -3.0,
+        "ci95": [
+          -4.4,
+          -1.8
+        ]
+      },
+      "rougeL": {
+        "mean": -0.29514705882352943,
+        "ci95": [
+          -0.4252941176470588,
+          -0.1776433823529412
+        ]
+      }
+    },
+    "forget/text_memory/none": {
+      "factuality": {
+        "mean": -2.85,
+        "ci95": [
+          -3.456833333333334,
+          -2.28325
+        ]
+      },
+      "rougeL": {
+        "mean": -0.24856062040834295,
+        "ci95": [
+          -0.29782036945959117,
+          -0.2026268557465111
+        ]
+      }
+    },
+    "forget/text_memory/all": {
+      "factuality": {
+        "mean": -2.85,
+        "ci95": [
+          -3.456833333333334,
+          -2.28325
+        ]
+      },
+      "rougeL": {
+        "mean": -0.24856062040834295,
+        "ci95": [
+          -0.29782036945959117,
+          -0.2026268557465111
+        ]
+      }
+    },
+    "retain/image_understanding/character": {
+      "factuality": {
+        "mean": -0.35136842105263155,
+        "ci95": [
+          -0.43032631578947395,
+          -0.2707263157894737
+        ]
+      },
+      "rougeL": {
+        "mean": -0.021232371629223794,
+        "ci95": [
+          -0.025682015405757472,
+          -0.016240185634213544
+        ]
+      }
+    },
+    "retain/image_understanding/all": {
+      "factuality": {
+        "mean": -0.46403508771929824,
+        "ci95": [
+          -0.5419342105263159,
+          -0.3861403508771931
+        ]
+      },
+      "rougeL": {
+        "mean": -0.03425748662694428,
+        "ci95": [
+          -0.03920166378097541,
+          -0.028781821211325002
+        ]
+      }
+    },
+    "retain/image_understanding/ophthalmic": {
+      "factuality": {
+        "mean": -1.0273684210526315,
+        "ci95": [
+          -1.2231842105263158,
+          -0.8315789473684211
+        ]
+      },
+      "rougeL": {
+        "mean": -0.09938306161554665,
+        "ci95": [
+          -0.11795261805708618,
+          -0.08019828321649933
+        ]
+      }
+    },
+    "retain/image_memory/character": {
+      "factuality": {
+        "mean": -1.660175438596491,
+        "ci95": [
+          -1.7926359649122814,
+          -1.5317017543859641
+        ]
+      },
+      "rougeL": {
+        "mean": -0.13448906072202735,
+        "ci95": [
+          -0.14507218783901207,
+          -0.12391540602949196
+        ]
+      }
+    },
+    "retain/image_memory/all": {
+      "factuality": {
+        "mean": -1.5186466165413535,
+        "ci95": [
+          -1.634293233082705,
+          -1.4037368421052618
+        ]
+      },
+      "rougeL": {
+        "mean": -0.12496177684965361,
+        "ci95": [
+          -0.13405326102438916,
+          -0.1158181689254921
+        ]
+      }
+    },
+    "retain/image_memory/ophthalmic": {
+      "factuality": {
+        "mean": -0.6694736842105263,
+        "ci95": [
+          -0.8716315789473684,
+          -0.4610526315789474
+        ]
+      },
+      "rougeL": {
+        "mean": -0.06779807361541107,
+        "ci95": [
+          -0.08422904626762985,
+          -0.0515527089783282
+        ]
+      }
+    },
+    "retain/text_memory/none": {
+      "factuality": {
+        "mean": -0.5128070175438597,
+        "ci95": [
+          -0.6124605263157888,
+          -0.41613157894736846
+        ]
+      },
+      "rougeL": {
+        "mean": -0.04437279680569116,
+        "ci95": [
+          -0.052735048195414025,
+          -0.036474733797189025
+        ]
+      }
+    },
+    "retain/text_memory/all": {
+      "factuality": {
+        "mean": -0.5128070175438597,
+        "ci95": [
+          -0.6124605263157888,
+          -0.41613157894736846
+        ]
+      },
+      "rougeL": {
+        "mean": -0.04437279680569116,
+        "ci95": [
+          -0.052735048195414025,
+          -0.036474733797189025
+        ]
+      }
+    }
+  },
+  "refusal_rule": "Exact normalized full-answer match against MFA IDK_extend phrases only; not semantic refusal detection",
+  "bootstrap": {
+    "unit": "profile",
+    "paired": true,
+    "replicates": 2000,
+    "seed": 20261022,
+    "interval": "percentile 95%; descriptive, unadjusted",
+    "uncertainty_excluded": "training-seed and API-judge variability"
+  },
+  "profile_inventory": {
+    "forget": 50,
+    "retain": 950,
+    "few_shot_retain": 50,
+    "few_shot_in_retain": 50,
+    "few_shot_in_forget": 0,
+    "retain_after_few_shot_exclusion": 900
+  },
+  "few_shot_qa_types": {
+    "pure_text": 500,
+    "multimodal": 550,
+    "ophthalmic": 50
+  },
+  "input_sha256": {
+    "S-MLLMUn/data/S-MLLMUn-data/eval_data/forget_5/train-00000-of-00001.parquet": "483193499d2189f0494e5a1c3e2165c14aa304b750b0ea0b2e1a3ba4723f5e97",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/forget_generation_results.json": "138574c82c09b6a3e1ee67029e302bca902557dc95563fa4b769b56baf7d137e",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/forget_generation_results_factuality.jsonl": "d0fc6d0ce23df4d3daf102c1773cb7455a2196adfe5ccea2894e6c1a11db1592",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/forget_generation_results.json": "8f16a8105fcab02cc1609a6e4f9e744feb42b8e3a71c24ff26d96ccb3edb1546",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/forget_generation_results_factuality.jsonl": "2cf37e29ada5c107e9581330abacb176d65e32f47fcc2447047e1726605fec51",
+    "S-MLLMUn/data/S-MLLMUn-data/eval_data/retain_5/train-00000-of-00001.parquet": "b97d3e160dc2eeb8c982962d51c7d802f367c8a337d81af55a1516445f1abfa3",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/retain_generation_results.json": "ee5199aee8ee64edb617e81e72464b5a9c451215b5714d66ab28640de80d3f6a",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/retain_generation_results_factuality.jsonl": "9c9e13795ab3d90514804a03e903e4753590c4ffab62bef7c9e91bce9eb77c23",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/retain_generation_results.json": "dc4a26e633b96b4957ccbbb0b60b3a64ccbba13ab6392b579745d80c104f4f28",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/retain_generation_results_factuality.jsonl": "87218494e754f59a85873412feaafef7569ba5ec8b53b11f44199cf57f7b89f1",
+    "S-MLLMUn/data/S-MLLMUn-data/unlearning_data/retain_few_shot_5/train-00000-of-00001.parquet": "944b314204a7d5077c46bd806a2086cb5fd4d84c69d30406c150d68f41ebf2b2"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "state": "complete",
+  "started_at": "2026-10-23T08:19:28.604634+00:00",
+  "pid": 2767945,
+  "repair": "remove only invalid JSON escaping of apostrophes from score explanations",
+  "scoring_model_prompt_and_rubric": "unchanged official qwen-plus scorer",
+  "prior_attempts": [
+    {
+      "stage": "score",
+      "state": "failed",
+      "gpu": 1,
+      "started_at": "2026-10-23T00:41:24.966586+00:00",
+      "attempt": 2,
+      "command": [
+        "/root/anaconda3/envs/smllmun/bin/python",
+        "-u",
+        "/root/lucas4/reproduce_smfa/score.py",
+        "--input_folder",
+        "eval_result/llava-onevision/split_ratio_5/MFA_unsculpted",
+        "--workers",
+        "4"
+      ],
+      "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_2.log",
+      "recovery": "cached missing scores only",
+      "pid": 2600572,
+      "ended_at": "2026-10-23T00:41:34.930888+00:00",
+      "duration_seconds": 9.964,
+      "exit_code": 1
+    },
+    {
+      "stage": "score",
+      "state": "failed",
+      "gpu": 1,
+      "started_at": "2026-10-23T00:42:04.964168+00:00",
+      "attempt": 3,
+      "command": [
+        "/root/anaconda3/envs/smllmun/bin/python",
+        "-u",
+        "/root/lucas4/reproduce_smfa/score.py",
+        "--input_folder",
+        "eval_result/llava-onevision/split_ratio_5/MFA_unsculpted",
+        "--workers",
+        "4"
+      ],
+      "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_3.log",
+      "recovery": "cached missing scores only",
+      "pid": 2600764,
+      "ended_at": "2026-10-23T04:51:04.080102+00:00",
+      "duration_seconds": 14939.115,
+      "exit_code": 1
+    },
+    {
+      "stage": "score",
+      "state": "failed",
+      "gpu": 1,
+      "started_at": "2026-10-23T04:51:34.113367+00:00",
+      "attempt": 4,
+      "command": [
+        "/root/anaconda3/envs/smllmun/bin/python",
+        "-u",
+        "/root/lucas4/reproduce_smfa/score.py",
+        "--input_folder",
+        "eval_result/llava-onevision/split_ratio_5/MFA_unsculpted",
+        "--workers",
+        "4"
+      ],
+      "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_4.log",
+      "recovery": "cached missing scores only",
+      "pid": 2697553,
+      "ended_at": "2026-10-23T04:51:49.620364+00:00",
+      "duration_seconds": 15.506,
+      "exit_code": 1
+    },
+    {
+      "stage": "score",
+      "state": "failed",
+      "gpu": 1,
+      "started_at": "2026-10-23T04:52:19.653061+00:00",
+      "attempt": 5,
+      "command": [
+        "/root/anaconda3/envs/smllmun/bin/python",
+        "-u",
+        "/root/lucas4/reproduce_smfa/score.py",
+        "--input_folder",
+        "eval_result/llava-onevision/split_ratio_5/MFA_unsculpted",
+        "--workers",
+        "4"
+      ],
+      "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_5.log",
+      "recovery": "cached missing scores only",
+      "pid": 2697775,
+      "ended_at": "2026-10-23T04:52:35.429644+00:00",
+      "duration_seconds": 15.776,
+      "exit_code": 1
+    },
+    {
+      "stage": "score",
+      "state": "failed",
+      "gpu": 1,
+      "started_at": "2026-10-23T04:53:05.462872+00:00",
+      "attempt": 6,
+      "command": [
+        "/root/anaconda3/envs/smllmun/bin/python",
+        "-u",
+        "/root/lucas4/reproduce_smfa/score.py",
+        "--input_folder",
+        "eval_result/llava-onevision/split_ratio_5/MFA_unsculpted",
+        "--workers",
+        "4"
+      ],
+      "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_6.log",
+      "recovery": "cached missing scores only",
+      "pid": 2698033,
+      "ended_at": "2026-10-23T04:53:22.034701+00:00",
+      "duration_seconds": 16.571,
+      "exit_code": 1
+    }
+  ],
+  "stages": [
+    {
+      "attempt": 1,
+      "state": "complete",
+      "started_at": "2026-10-23T08:19:28.642015+00:00",
+      "command": [
+        "/root/anaconda3/envs/smllmun/bin/python",
+        "-u",
+        "/root/lucas4/wp1_review/score_json_recovery_runner.py",
+        "--input_folder",
+        "eval_result/llava-onevision/split_ratio_5/MFA_unsculpted",
+        "--workers",
+        "4"
+      ],
+      "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_json_recovery_1.log",
+      "ended_at": "2026-10-23T08:19:36.442807+00:00",
+      "duration_seconds": 7.8,
+      "exit_code": 0
+    }
+  ],
+  "credential_source": "/root/anaconda3/envs/smllmun/etc/conda/activate.d/smfa_api_key.sh",
+  "audit": {
+    "forget_factuality": {
+      "valid": 950,
+      "expected": 950
+    },
+    "forget_meaningful": {
+      "valid": 950,
+      "expected": 950
+    },
+    "retain_factuality": {
+      "valid": 18050,
+      "expected": 18050
+    },
+    "retain_meaningful": {
+      "valid": 18050,
+      "expected": 18050
+    }
+  },
+  "ended_at": "2026-10-23T08:19:55.693761+00:00",
+  "original_runner_terminal_state": "failed",
+  "postprocess_exit_code": 0
+}

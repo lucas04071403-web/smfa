@@ -1,0 +1,19 @@
+{
+  "state": "passed",
+  "checked_at": "2026-10-23T08:19:40.669714+00:00",
+  "manifest_sha256": "ff355f2030c641a03d9320a867eff2f6c383ef6dcf197203ac6e66eff0ecbb46",
+  "counts": {
+    "F1_development": 25,
+    "F2_test": 25,
+    "B1_few_shot_excluded": 50,
+    "development": 100,
+    "test": 200,
+    "X_pool": 300,
+    "H_pool": 300
+  },
+  "all_groups_disjoint": true,
+  "full_coverage": true,
+  "source_hashes_verified": true,
+  "manifest_unchanged": true,
+  "protocol_note": "Split membership used only parquet identity IDs and the fixed seed, not model scores. A few initial generated records were inspected earlier solely to confirm result schema; they did not affect split construction."
+}

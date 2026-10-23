@@ -1,0 +1,14 @@
+{
+  "state": "passed",
+  "matched_answers": 30,
+  "total_answers": 30,
+  "match_rate": 1.0,
+  "criterion": "at least 27 of the first 30 exact answer strings",
+  "cohort": "F1_development",
+  "in_memory_layers_applied": 274,
+  "split_manifest_sha256": "ff355f2030c641a03d9320a867eff2f6c383ef6dcf197203ac6e66eff0ecbb46",
+  "smfa_generation_sha256": "8f16a8105fcab02cc1609a6e4f9e744feb42b8e3a71c24ff26d96ccb3edb1546",
+  "duration_seconds": 374.466,
+  "publication_note": "Per-question reference and generated answers omitted; original artifact remains local.",
+  "omitted_comparisons_count": 30
+}

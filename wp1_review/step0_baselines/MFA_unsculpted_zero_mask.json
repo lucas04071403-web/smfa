@@ -1,0 +1,21 @@
+{
+  "state": "passed",
+  "checked_at": "2026-10-22T06:50:24.412005+00:00",
+  "multi_k": 1e+20,
+  "text_k": 1e+20,
+  "epoch": 3,
+  "counts": {
+    "multi": {
+      "masked": 0,
+      "total": 6628802560
+    },
+    "text": {
+      "masked": 0,
+      "total": 6628802560
+    }
+  },
+  "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_sculpt_1.log",
+  "log_sha256": "96269186467660cc8b282ba8014cc208801c84d1cb894f317a2d3c73cdb3050b",
+  "checkpoint": "/root/lucas4/S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/MFA_unsculpted/sculpted",
+  "official_script_sha256": "b6b89fb4b1b982593a817ae40aa0a365a409419aa7db3c8040d1bd1c0d8af7ba"
+}

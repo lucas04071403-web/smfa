@@ -1,0 +1,90 @@
+{
+  "Original": {
+    "rouge": {
+      "Forget Set Results": {
+        "generation": {
+          "Average ROUGE-L (image_understanding)": 0.6822657075109102,
+          "Average ROUGE-L (Image_memory)": 0.6819879676839821,
+          "Average ROUGE-L (Text_memory)": 0.7405021138181024
+        }
+      },
+      "Retain Set (shared dataset) Results": {
+        "generation": {
+          "Average ROUGE-L (image_understanding)": 0.6937473387909147,
+          "Average ROUGE-L (Image_memory)": 0.7051970980382807,
+          "Average ROUGE-L (Text_memory)": 0.7623283628666847
+        }
+      }
+    },
+    "forget": {
+      "questions": 950,
+      "factuality": {
+        "Average Image Understanding Score": 7.23,
+        "Average Image Memory Score": 7.477142857142857,
+        "Average Text Memory Score": 8.5
+      },
+      "meaningful": {
+        "Average Image Understanding Score": 9.296666666666667,
+        "Average Image Memory Score": 9.222857142857142,
+        "Average Text Memory Score": 8.46
+      }
+    },
+    "retain": {
+      "questions": 18050,
+      "factuality": {
+        "Average Image Understanding Score": 7.3533333333333335,
+        "Average Image Memory Score": 7.498796992481203,
+        "Average Text Memory Score": 8.77719298245614
+      },
+      "meaningful": {
+        "Average Image Understanding Score": 9.373859649122807,
+        "Average Image Memory Score": 9.222406015037594,
+        "Average Text Memory Score": 8.507719298245615
+      }
+    }
+  },
+  "SMFA": {
+    "rouge": {
+      "Forget Set Results": {
+        "generation": {
+          "Average ROUGE-L (image_understanding)": 0.6273630261710006,
+          "Average ROUGE-L (Image_memory)": 0.36313698046838455,
+          "Average ROUGE-L (Text_memory)": 0.49194149340975957
+        }
+      },
+      "Retain Set (shared dataset) Results": {
+        "generation": {
+          "Average ROUGE-L (image_understanding)": 0.6594898521639667,
+          "Average ROUGE-L (Image_memory)": 0.5802353211886253,
+          "Average ROUGE-L (Text_memory)": 0.7179555660609958
+        }
+      }
+    },
+    "forget": {
+      "questions": 950,
+      "factuality": {
+        "Average Image Understanding Score": 6.463333333333333,
+        "Average Image Memory Score": 3.642857142857143,
+        "Average Text Memory Score": 5.65
+      },
+      "meaningful": {
+        "Average Image Understanding Score": 9.356666666666667,
+        "Average Image Memory Score": 9.397142857142857,
+        "Average Text Memory Score": 8.993333333333334
+      }
+    },
+    "retain": {
+      "questions": 18050,
+      "factuality": {
+        "Average Image Understanding Score": 6.889298245614035,
+        "Average Image Memory Score": 5.98015037593985,
+        "Average Text Memory Score": 8.26438596491228
+      },
+      "meaningful": {
+        "Average Image Understanding Score": 9.400701754385965,
+        "Average Image Memory Score": 9.255187969924812,
+        "Average Text Memory Score": 8.534736842105263
+      }
+    }
+  }
+}

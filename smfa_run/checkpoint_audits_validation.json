@@ -1,0 +1,30 @@
+{
+  "state": "passed",
+  "checked_at": "2026-10-21T10:10:41.867484+00:00",
+  "checks": [
+    "Hand-calculated rank-16 FP16 merge, mask selection, zero vision/text delta and zero retention cases",
+    "All 765 actual runtime tensor names map bijectively to downloaded Original checkpoint names",
+    "All 274 formal epoch-3 rank-16 LoRA layers map to Original weights with exact compatible shapes",
+    "Synthetic saved checkpoints reproduce the frozen audit failure and pass with only adapted-name translation",
+    "Unadapted mutations and nonfinite values remain rejected after name translation"
+  ],
+  "runtime_tensor_names": 765,
+  "formal_epoch_3_adapted_layers": {
+    "language": 196,
+    "vision": 78
+  },
+  "original_adapted_weight_dtypes": {
+    "F32": 274
+  },
+  "formal_sculpted_checkpoint_checked": false,
+  "formal_outputs_modified": false,
+  "gpu_allocations": 0,
+  "api_calls": 0,
+  "sha256": {
+    "smfa_run/audit_final.py": "d26f4f9ed67b85c1980df7434cf32f1c4ea144723d8fc487020cd00fddfbbd44",
+    "smfa_run/audit_sculpt_formula.py": "493b8ef9c7aa11b5aa1fb675ef1ee6bb13f813193d8aca21065f95fe860c0712",
+    "smfa_run/audit_final_names.py": "1303fee56c3e47a9cc44f494625a89026e123f92157671acb16d448d9b2be59a",
+    "smfa_run/checkpoint_names.py": "f2c733f23e1a5b8cd8f25083f62c74a07adb71eda0a599f4b5f2f8ccc269b85e"
+  },
+  "validator_sha256": "3d68bbe1522ab80f73d3aa56547e74cd988b84b7d2aca63dd6b5a646f087d94e"
+}

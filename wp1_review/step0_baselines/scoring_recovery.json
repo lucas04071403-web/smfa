@@ -1,0 +1,170 @@
+{
+  "state": "failed",
+  "started_at": "2026-10-23T00:41:24.873898+00:00",
+  "pid": 2600570,
+  "models": {
+    "MFA_unsculpted": {
+      "state": "failed",
+      "stages": [
+        {
+          "stage": "score",
+          "state": "failed",
+          "gpu": 1,
+          "started_at": "2026-10-23T00:41:24.966586+00:00",
+          "attempt": 2,
+          "command": [
+            "/root/anaconda3/envs/smllmun/bin/python",
+            "-u",
+            "/root/lucas4/reproduce_smfa/score.py",
+            "--input_folder",
+            "eval_result/llava-onevision/split_ratio_5/MFA_unsculpted",
+            "--workers",
+            "4"
+          ],
+          "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_2.log",
+          "recovery": "cached missing scores only",
+          "pid": 2600572,
+          "ended_at": "2026-10-23T00:41:34.930888+00:00",
+          "duration_seconds": 9.964,
+          "exit_code": 1
+        },
+        {
+          "stage": "score",
+          "state": "failed",
+          "gpu": 1,
+          "started_at": "2026-10-23T00:42:04.964168+00:00",
+          "attempt": 3,
+          "command": [
+            "/root/anaconda3/envs/smllmun/bin/python",
+            "-u",
+            "/root/lucas4/reproduce_smfa/score.py",
+            "--input_folder",
+            "eval_result/llava-onevision/split_ratio_5/MFA_unsculpted",
+            "--workers",
+            "4"
+          ],
+          "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_3.log",
+          "recovery": "cached missing scores only",
+          "pid": 2600764,
+          "ended_at": "2026-10-23T04:51:04.080102+00:00",
+          "duration_seconds": 14939.115,
+          "exit_code": 1
+        },
+        {
+          "stage": "score",
+          "state": "failed",
+          "gpu": 1,
+          "started_at": "2026-10-23T04:51:34.113367+00:00",
+          "attempt": 4,
+          "command": [
+            "/root/anaconda3/envs/smllmun/bin/python",
+            "-u",
+            "/root/lucas4/reproduce_smfa/score.py",
+            "--input_folder",
+            "eval_result/llava-onevision/split_ratio_5/MFA_unsculpted",
+            "--workers",
+            "4"
+          ],
+          "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_4.log",
+          "recovery": "cached missing scores only",
+          "pid": 2697553,
+          "ended_at": "2026-10-23T04:51:49.620364+00:00",
+          "duration_seconds": 15.506,
+          "exit_code": 1
+        },
+        {
+          "stage": "score",
+          "state": "failed",
+          "gpu": 1,
+          "started_at": "2026-10-23T04:52:19.653061+00:00",
+          "attempt": 5,
+          "command": [
+            "/root/anaconda3/envs/smllmun/bin/python",
+            "-u",
+            "/root/lucas4/reproduce_smfa/score.py",
+            "--input_folder",
+            "eval_result/llava-onevision/split_ratio_5/MFA_unsculpted",
+            "--workers",
+            "4"
+          ],
+          "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_5.log",
+          "recovery": "cached missing scores only",
+          "pid": 2697775,
+          "ended_at": "2026-10-23T04:52:35.429644+00:00",
+          "duration_seconds": 15.776,
+          "exit_code": 1
+        },
+        {
+          "stage": "score",
+          "state": "failed",
+          "gpu": 1,
+          "started_at": "2026-10-23T04:53:05.462872+00:00",
+          "attempt": 6,
+          "command": [
+            "/root/anaconda3/envs/smllmun/bin/python",
+            "-u",
+            "/root/lucas4/reproduce_smfa/score.py",
+            "--input_folder",
+            "eval_result/llava-onevision/split_ratio_5/MFA_unsculpted",
+            "--workers",
+            "4"
+          ],
+          "log": "/root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_6.log",
+          "recovery": "cached missing scores only",
+          "pid": 2698033,
+          "ended_at": "2026-10-23T04:53:22.034701+00:00",
+          "duration_seconds": 16.571,
+          "exit_code": 1
+        }
+      ]
+    }
+  },
+  "previous_runner_pid": 2275353,
+  "prior_errors": [
+    {
+      "model": "MFA_unsculpted",
+      "error": "MFA_unsculpted/score failed with exit code 1; see /root/lucas4/wp1_review/step0_baselines/MFA_unsculpted_score_1.log"
+    }
+  ],
+  "source_delta_audit": {
+    "wp1_review/memory_construct.py": {
+      "before": "f52ae089a68c1f3cd4dc91df275ee097930eb5cb74e5950e288096d122180ea0",
+      "after": "73d7647e554a6b42f0698b93235618ca45941e75810aca6624a08182dd579f90",
+      "note": "Documented CPU self-check audit correction; unused by scoring recovery"
+    }
+  },
+  "script_sha256": "f0637980e2f427490fb43f5b8c93723724ff6506a6d5864991b6d56d492f2bd0",
+  "timing_policy": "Sum actual subprocess attempts; exclude downtime between retries",
+  "network": {
+    "route": "direct",
+    "proxy_variables_cleared_in_runner_only": [
+      "HTTP_PROXY",
+      "HTTPS_PROXY",
+      "ALL_PROXY",
+      "http_proxy",
+      "https_proxy",
+      "all_proxy"
+    ],
+    "reason": "Inherited socks5h proxy URL is unsupported by the installed experiment HTTP client"
+  },
+  "credential_source": "/root/anaconda3/envs/smllmun/etc/conda/activate.d/smfa_api_key.sh",
+  "base_audit": {
+    "forget_factuality": {
+      "valid": 950,
+      "expected": 950
+    },
+    "forget_meaningful": {
+      "valid": 950,
+      "expected": 950
+    },
+    "retain_factuality": {
+      "valid": 18050,
+      "expected": 18050
+    },
+    "retain_meaningful": {
+      "valid": 18050,
+      "expected": 18050
+    }
+  },
+  "ended_at": "2026-10-23T04:53:40.826852+00:00"
+}

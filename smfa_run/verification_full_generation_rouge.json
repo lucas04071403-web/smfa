@@ -1,0 +1,108 @@
+{
+  "state": "passed",
+  "checked_at": "2026-10-21T20:24:09.771934+00:00",
+  "scope": "All generation and ROUGE-L only; full API judging and final audit remain required",
+  "generated_answers_verified": 38000,
+  "results": {
+    "Original": {
+      "splits": {
+        "forget": {
+          "profiles": 50,
+          "answers": 950,
+          "category_counts": {
+            "image_understanding": 300,
+            "image_memory": 350,
+            "text_memory": 300
+          },
+          "rougeL": {
+            "image_understanding": 0.6822657075109102,
+            "image_memory": 0.6819879676839821,
+            "text_memory": 0.7405021138181024
+          },
+          "assembly_audit_sha256": "01781794fc3e5edcf5c463790a655a16a7a5498b875b1c6cc0b75ed662ebd112"
+        },
+        "retain": {
+          "profiles": 950,
+          "answers": 18050,
+          "category_counts": {
+            "image_understanding": 5700,
+            "image_memory": 6650,
+            "text_memory": 5700
+          },
+          "rougeL": {
+            "image_understanding": 0.6937473387909147,
+            "image_memory": 0.7051970980382807,
+            "text_memory": 0.7623283628666847
+          },
+          "assembly_audit_sha256": "c94d5acb86dae7952b79ae309184c72a3f2b5dfad08ce410388deaff24ef91c9"
+        }
+      },
+      "overall_rougeL": {
+        "image_understanding_rougeL": 0.6880065231509125,
+        "memory_rougeL": 0.022517689701440524
+      }
+    },
+    "SMFA": {
+      "splits": {
+        "forget": {
+          "profiles": 50,
+          "answers": 950,
+          "category_counts": {
+            "image_understanding": 300,
+            "image_memory": 350,
+            "text_memory": 300
+          },
+          "rougeL": {
+            "image_understanding": 0.6273630261710006,
+            "image_memory": 0.36313698046838455,
+            "text_memory": 0.49194149340975957
+          },
+          "assembly_audit_sha256": "065c34f0f260ea799c804be9ad2d66235a0094016b4c08432197d068a689955c"
+        },
+        "retain": {
+          "profiles": 950,
+          "answers": 18050,
+          "category_counts": {
+            "image_understanding": 5700,
+            "image_memory": 6650,
+            "text_memory": 5700
+          },
+          "rougeL": {
+            "image_understanding": 0.6594898521639667,
+            "image_memory": 0.5802353211886253,
+            "text_memory": 0.7179555660609958
+          },
+          "assembly_audit_sha256": "3aa4569902c4e6d4eda4741c6390d378b30c0b2a16ad0e4bf6b24dc195691068"
+        }
+      },
+      "overall_rougeL": {
+        "image_understanding_rougeL": 0.6434264391674837,
+        "memory_rougeL": 0.22155620668573844
+      }
+    }
+  },
+  "sha256": {
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/Original_final_evaluation_results.json": "fdd157869d633970e79fad9b636e5de0945e35a7f23badc8b1e85972010ea796",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/forget_generation_results.json": "138574c82c09b6a3e1ee67029e302bca902557dc95563fa4b769b56baf7d137e",
+    "S-MLLMUn/data/S-MLLMUn-data/eval_data/forget_5/train-00000-of-00001.parquet": "483193499d2189f0494e5a1c3e2165c14aa304b750b0ea0b2e1a3ba4723f5e97",
+    "smfa_run/verification_original_forget_assembly.json": "01781794fc3e5edcf5c463790a655a16a7a5498b875b1c6cc0b75ed662ebd112",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/retain_generation_results.json": "ee5199aee8ee64edb617e81e72464b5a9c451215b5714d66ab28640de80d3f6a",
+    "S-MLLMUn/data/S-MLLMUn-data/eval_data/retain_5/train-00000-of-00001.parquet": "b97d3e160dc2eeb8c982962d51c7d802f367c8a337d81af55a1516445f1abfa3",
+    "smfa_run/verification_original_retain_assembly.json": "c94d5acb86dae7952b79ae309184c72a3f2b5dfad08ce410388deaff24ef91c9",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/SMFA_final_evaluation_results.json": "82294a32edac50e2ec51af40e73aefdb8e71c473d7e920f56cbb14d110a366bc",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/forget_generation_results.json": "8f16a8105fcab02cc1609a6e4f9e744feb42b8e3a71c24ff26d96ccb3edb1546",
+    "smfa_run/verification_smfa_forget_assembly.json": "065c34f0f260ea799c804be9ad2d66235a0094016b4c08432197d068a689955c",
+    "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/retain_generation_results.json": "dc4a26e633b96b4957ccbbb0b60b3a64ccbba13ab6392b579745d80c104f4f28",
+    "smfa_run/verification_smfa_retain_assembly.json": "3aa4569902c4e6d4eda4741c6390d378b30c0b2a16ad0e4bf6b24dc195691068"
+  },
+  "source_sha256": {
+    "reproduce_smfa/evaluate.py": "b8123319b7fbead0a6b198795c69dc2ddee7321b173f43875a928dbcb6bf258a",
+    "reproduce_smfa/run.py": "fdcdb6fc1b50a790033db3398b83f60ded42ceda8e0016416eb453cc02da4930",
+    "reproduce_smfa/score.py": "52ee32957b1f2f0275a46f3ab54bc4be02c61178aeaeaef62e32643ef8e94372",
+    "reproduce_smfa/sculpt.py": "976814e6233c4f80be9ab64212e194dc3223dfdb25e85338b35dad5d0dc61a07",
+    "reproduce_smfa/train.py": "74fba9aef0c5382dfec2bc4ef2d1d0784bab54be0e6d17d8a65e616d3ad1e925"
+  },
+  "api_calls": 0,
+  "gpu_allocations": 0,
+  "formal_inputs_modified": false
+}

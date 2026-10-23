@@ -1,0 +1,111 @@
+{
+  "checked_at": "2026-10-21T02:50:34.769231+00:00",
+  "state": "all_data_validated",
+  "data_root": "/root/lucas4/S-MLLMUn/data/S-MLLMUn-data",
+  "conda_prefix": "/root/anaconda3/envs/smllmun",
+  "checks": [
+    "All 13 expected Parquet files read in full",
+    "Every character_image and ophthalmic_image decoded and converted to RGB",
+    "Every question and answer is a nonempty string",
+    "Every metadata JSON parsed and every evaluation question group is nonempty",
+    "IDs are unique within each file where an ID column exists",
+    "SHA-256 calculated for every file"
+  ],
+  "counts_include_repeated_samples_across_splits": true,
+  "total_profile_occurrences": 4600,
+  "decoded_image_occurrences": 9200,
+  "question_pair_occurrences": 93200,
+  "files": [
+    {
+      "path": "eval_data/forget_10/train-00000-of-00001.parquet",
+      "profiles": 100,
+      "images": 200,
+      "questions": {"image understanding": 600, "image memory": 700, "text memory": 600},
+      "sha256": "7d50c15c176a36e4108819aa75562be1b58a7edd2499da12f93ed87f3d00b8fe"
+    },
+    {
+      "path": "eval_data/forget_15/train-00000-of-00001.parquet",
+      "profiles": 150,
+      "images": 300,
+      "questions": {"image understanding": 900, "image memory": 1050, "text memory": 900},
+      "sha256": "66093406c3a8a7453641951ead8dfcc88eaf42a785cf9a6c964feb2d9d37a9df"
+    },
+    {
+      "path": "eval_data/forget_5/train-00000-of-00001.parquet",
+      "profiles": 50,
+      "images": 100,
+      "questions": {"image understanding": 300, "image memory": 350, "text memory": 300},
+      "sha256": "483193499d2189f0494e5a1c3e2165c14aa304b750b0ea0b2e1a3ba4723f5e97"
+    },
+    {
+      "path": "eval_data/retain_10/train-00000-of-00001.parquet",
+      "profiles": 900,
+      "images": 1800,
+      "questions": {"image understanding": 5400, "image memory": 6300, "text memory": 5400},
+      "sha256": "44cfbb50dc086ec4b981c6d6ce3e45e6b872d76f1f466ce91066f19ab032f4ac"
+    },
+    {
+      "path": "eval_data/retain_15/train-00000-of-00001.parquet",
+      "profiles": 850,
+      "images": 1700,
+      "questions": {"image understanding": 5100, "image memory": 5950, "text memory": 5100},
+      "sha256": "ed9dadd1d195dca85c320262da42ea823aa01d4631e2ba921a76617452e72cc3"
+    },
+    {
+      "path": "eval_data/retain_5/train-00000-of-00001.parquet",
+      "profiles": 950,
+      "images": 1900,
+      "questions": {"image understanding": 5700, "image memory": 6650, "text memory": 5700},
+      "sha256": "b97d3e160dc2eeb8c982962d51c7d802f367c8a337d81af55a1516445f1abfa3"
+    },
+    {
+      "path": "ft_data/ft_data.parquet",
+      "profiles": 1000,
+      "images": 2000,
+      "questions": {"pure_text": 10000, "multimodal": 11000, "ophthalmic": 2000},
+      "sha256": "ce9525ce949e337ede4a3ee55e7b1637cc11b79667aa3672b31845eb065b6f9d"
+    },
+    {
+      "path": "unlearning_data/forget_10/train-00000-of-00001.parquet",
+      "profiles": 100,
+      "images": 200,
+      "questions": {"pure_text": 1000, "multimodal": 1100, "ophthalmic": 100},
+      "sha256": "2a02dc8de639c03958b60f0f0f02d5945be6d129cbee22ba77e84cd2c7b05eb2"
+    },
+    {
+      "path": "unlearning_data/forget_15/train-00000-of-00001.parquet",
+      "profiles": 150,
+      "images": 300,
+      "questions": {"pure_text": 1500, "multimodal": 1650, "ophthalmic": 150},
+      "sha256": "ca512c8c639e66eabfabdcb842e2f2e147342f93fd34d30bc439cefd9b1e5463"
+    },
+    {
+      "path": "unlearning_data/forget_5/train-00000-of-00001.parquet",
+      "profiles": 50,
+      "images": 100,
+      "questions": {"pure_text": 500, "multimodal": 550, "ophthalmic": 50},
+      "sha256": "1f66ff8948dfed5773e4838d1d2f7b6eeb3df86732195baa1ff6cc853fb8d972"
+    },
+    {
+      "path": "unlearning_data/retain_few_shot_10/train-00000-of-00001.parquet",
+      "profiles": 100,
+      "images": 200,
+      "questions": {"pure_text": 1000, "multimodal": 1100, "ophthalmic": 100},
+      "sha256": "dd3d646b494f20328d46af191922892a81c1c33a51fca4a80fbefea2396d6235"
+    },
+    {
+      "path": "unlearning_data/retain_few_shot_15/train-00000-of-00001.parquet",
+      "profiles": 150,
+      "images": 300,
+      "questions": {"pure_text": 1500, "multimodal": 1650, "ophthalmic": 150},
+      "sha256": "5d5c4f8e53bd8ae2220d9c97574e37cfdf7f07b775854660cf4ad26cdd9044ad"
+    },
+    {
+      "path": "unlearning_data/retain_few_shot_5/train-00000-of-00001.parquet",
+      "profiles": 50,
+      "images": 100,
+      "questions": {"pure_text": 500, "multimodal": 550, "ophthalmic": 50},
+      "sha256": "944b314204a7d5077c46bd806a2086cb5fd4d84c69d30406c150d68f41ebf2b2"
+    }
+  ]
+}

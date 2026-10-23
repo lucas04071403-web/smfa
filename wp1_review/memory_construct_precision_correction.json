@@ -1,0 +1,23 @@
+{
+  "state": "passed",
+  "correction": "Unadapted checkpoint tensors are compared after the official FP16 cast, including the FP32 image_newline. All weight construction and answer generation functions are unchanged.",
+  "before_sha256": "f52ae089a68c1f3cd4dc91df275ee097930eb5cb74e5950e288096d122180ea0",
+  "after_sha256": "73d7647e554a6b42f0698b93235618ca45941e75810aca6624a08182dd579f90",
+  "before_snapshot": "/root/lucas4/wp1_review/source_snapshots/memory_construct_f52ae089a68c1f3cd4dc91df275ee097930eb5cb74e5950e288096d122180ea0.py",
+  "unchanged_function_sha256": {
+    "load_lora_matrices": "98f0fe851119264b8ad79ad59beff613299e6a46e8a049acf56ad40eb36547d4",
+    "sculpt_delta": "3397fcd30c6f5d3aa96a72c5d7ae102a23b9fa57fcd66d49a15c69cbb68aab58",
+    "construct_weight": "2acefec0d827d0abc0b373052dc8672f204bce1952542d864907178560f1c53c",
+    "iter_memory_weights": "7fd42daa058e1818c845d2835138412df7a7ee5f234e50cf02c30d9ec997fe85",
+    "apply_memory_weights": "912c784a872fd8c864924e210c3e578743514755b8aa003de0e3521fe2486713",
+    "official_answer": "1f9e9a2a7f72506304cb6c19aea469ef87acd1d718bfbab42a56fc63eb9bd2e8",
+    "prepare_answer_reference": "5d35b829181ff8a743a2127b1825cb4822471d8b36acfb10d5e5ab0e95a19b8a",
+    "verify_first_30_answers": "0bde6e46205d70f1f044fc29223a233c421974e2a94bf08324a8bcfa15f49b74"
+  },
+  "image_newline_probe": {
+    "original_dtype": "float32",
+    "saved_dtype": "float16",
+    "equal_after_official_fp16_load": true,
+    "max_absolute_difference": 0.0
+  }
+}

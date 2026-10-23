@@ -1,0 +1,161 @@
+{
+  "state": "prepared",
+  "cohort": "F1_development",
+  "questions": 30,
+  "order": "source parquet order, filtering to frozen F1 before taking 30 questions",
+  "split_manifest_sha256": "ff355f2030c641a03d9320a867eff2f6c383ef6dcf197203ac6e66eff0ecbb46",
+  "smfa_generation_sha256": "8f16a8105fcab02cc1609a6e4f9e744feb42b8e3a71c24ff26d96ccb3edb1546",
+  "reference": [
+    {
+      "generation_index": 0,
+      "person_id": "0009",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 1,
+      "person_id": "0009",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 2,
+      "person_id": "0009",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 3,
+      "person_id": "0009",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 4,
+      "person_id": "0009",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 5,
+      "person_id": "0009",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 6,
+      "person_id": "0009",
+      "question_type": "image_memory"
+    },
+    {
+      "generation_index": 7,
+      "person_id": "0009",
+      "question_type": "image_memory"
+    },
+    {
+      "generation_index": 8,
+      "person_id": "0009",
+      "question_type": "image_memory"
+    },
+    {
+      "generation_index": 9,
+      "person_id": "0009",
+      "question_type": "image_memory"
+    },
+    {
+      "generation_index": 10,
+      "person_id": "0009",
+      "question_type": "image_memory"
+    },
+    {
+      "generation_index": 11,
+      "person_id": "0009",
+      "question_type": "image_memory"
+    },
+    {
+      "generation_index": 12,
+      "person_id": "0009",
+      "question_type": "image_memory"
+    },
+    {
+      "generation_index": 13,
+      "person_id": "0009",
+      "question_type": "text_memory"
+    },
+    {
+      "generation_index": 14,
+      "person_id": "0009",
+      "question_type": "text_memory"
+    },
+    {
+      "generation_index": 15,
+      "person_id": "0009",
+      "question_type": "text_memory"
+    },
+    {
+      "generation_index": 16,
+      "person_id": "0009",
+      "question_type": "text_memory"
+    },
+    {
+      "generation_index": 17,
+      "person_id": "0009",
+      "question_type": "text_memory"
+    },
+    {
+      "generation_index": 18,
+      "person_id": "0009",
+      "question_type": "text_memory"
+    },
+    {
+      "generation_index": 57,
+      "person_id": "0183",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 58,
+      "person_id": "0183",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 59,
+      "person_id": "0183",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 60,
+      "person_id": "0183",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 61,
+      "person_id": "0183",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 62,
+      "person_id": "0183",
+      "question_type": "image_understanding"
+    },
+    {
+      "generation_index": 63,
+      "person_id": "0183",
+      "question_type": "image_memory"
+    },
+    {
+      "generation_index": 64,
+      "person_id": "0183",
+      "question_type": "image_memory"
+    },
+    {
+      "generation_index": 65,
+      "person_id": "0183",
+      "question_type": "image_memory"
+    },
+    {
+      "generation_index": 66,
+      "person_id": "0183",
+      "question_type": "image_memory"
+    },
+    {
+      "generation_index": 67,
+      "person_id": "0183",
+      "question_type": "image_memory"
+    }
+  ],
+  "publication_note": "Question text omitted; frozen generation indices, person IDs and question types retained."
+}

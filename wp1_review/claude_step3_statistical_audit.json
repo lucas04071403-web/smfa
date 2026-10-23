@@ -1,0 +1,200 @@
+{
+  "purpose": "Existing-baseline-only planning audit; not a new candidate equivalence test",
+  "checked_at": "2026-10-23T09:08:04.309145+00:00",
+  "seed": 20261023,
+  "bootstrap_repeats": 20000,
+  "resampling": "paired by person, jointly resampling Base/Original/MFA/SMFA, recomputing ratio of cohort means",
+  "interval": "percentile 90%, h=(upper-lower)/2; no clipping; conditional on saved judge outputs",
+  "combined_endpoint": "13-question mean score per person, weights 7/13 image and 6/13 text, then cohort normalization",
+  "split_manifest_sha256": "ff355f2030c641a03d9320a867eff2f6c383ef6dcf197203ac6e66eff0ecbb46",
+  "individual_denominator_audit": {
+    "image_memory": {
+      "person_denominator_min": 3.142857142857143,
+      "person_denominator_max": 9.571428571428571,
+      "nonpositive_count": 0,
+      "cohort_ratio_gap_pp": 33.05921052631579,
+      "mean_of_person_ratio_gaps_pp": 33.95732606338172
+    },
+    "text_memory": {
+      "person_denominator_min": 6.166666666666667,
+      "person_denominator_max": 9.833333333333334,
+      "nonpositive_count": 0,
+      "cohort_ratio_gap_pp": 38.61346231358323,
+      "mean_of_person_ratio_gaps_pp": 38.46459924673714
+    },
+    "memory_13_questions": {
+      "person_denominator_min": 5.769230769230769,
+      "person_denominator_max": 8.769230769230768,
+      "nonpositive_count": 0,
+      "cohort_ratio_gap_pp": 35.864034194992875,
+      "mean_of_person_ratio_gaps_pp": 36.3376035662015
+    }
+  },
+  "intervals": {
+    "F1_development": {
+      "image_memory": {
+        "n_people": 25,
+        "difference_pp": 37.5,
+        "ci90_pp": [
+          30.55531650411168,
+          44.40893751081774
+        ],
+        "halfwidth_pp": 6.926810503353032,
+        "max_distance_from_estimate_pp": 6.944683495888321,
+        "first_2000_resamples_halfwidth_pp": 6.757371518754981,
+        "bootstrap_denominator_min": 5.468571428571428,
+        "h_le_2_5pp": false
+      },
+      "text_memory": {
+        "n_people": 25,
+        "difference_pp": 37.10590137429264,
+        "ci90_pp": [
+          27.714702134692487,
+          46.58591927896587
+        ],
+        "halfwidth_pp": 9.435608572136688,
+        "max_distance_from_estimate_pp": 9.480017904673222,
+        "first_2000_resamples_halfwidth_pp": 9.37444895932726,
+        "bootstrap_denominator_min": 7.7200000000000015,
+        "h_le_2_5pp": false
+      },
+      "memory_13_questions": {
+        "n_people": 25,
+        "difference_pp": 37.2972972972973,
+        "ci90_pp": [
+          31.288069821831872,
+          43.31356075030293
+        ],
+        "halfwidth_pp": 6.012745464235531,
+        "max_distance_from_estimate_pp": 6.0162634530056325,
+        "first_2000_resamples_halfwidth_pp": 6.025748748970495,
+        "bootstrap_denominator_min": 6.713846153846156,
+        "h_le_2_5pp": false
+      }
+    },
+    "F2_test": {
+      "image_memory": {
+        "n_people": 25,
+        "difference_pp": 28.955696202531637,
+        "ci90_pp": [
+          23.363603683028085,
+          34.99198065721843
+        ],
+        "halfwidth_pp": 5.814188487095173,
+        "max_distance_from_estimate_pp": 6.0362844546867915,
+        "first_2000_resamples_halfwidth_pp": 5.865972039636825,
+        "bootstrap_denominator_min": 6.211428571428572,
+        "h_le_2_5pp": false
+      },
+      "text_memory": {
+        "n_people": 25,
+        "difference_pp": 40.11254019292604,
+        "ci90_pp": [
+          31.260096930533116,
+          48.9156626506024
+        ],
+        "halfwidth_pp": 8.827782860034642,
+        "max_distance_from_estimate_pp": 8.852443262392928,
+        "first_2000_resamples_halfwidth_pp": 8.842074477115624,
+        "bootstrap_denominator_min": 7.6533333333333315,
+        "h_le_2_5pp": false
+      },
+      "memory_13_questions": {
+        "n_people": 25,
+        "difference_pp": 34.4896331738437,
+        "ci90_pp": [
+          29.752348059548318,
+          39.37354933634001
+        ],
+        "halfwidth_pp": 4.810600638395848,
+        "max_distance_from_estimate_pp": 4.88391616249631,
+        "first_2000_resamples_halfwidth_pp": 4.712314048054392,
+        "bootstrap_denominator_min": 7.116923076923078,
+        "h_le_2_5pp": false
+      }
+    },
+    "all_50": {
+      "image_memory": {
+        "n_people": 50,
+        "difference_pp": 33.05921052631579,
+        "ci90_pp": [
+          28.480650700565185,
+          37.89855025979858
+        ],
+        "halfwidth_pp": 4.708949779616697,
+        "max_distance_from_estimate_pp": 4.839339733482795,
+        "first_2000_resamples_halfwidth_pp": 4.806097790676659,
+        "bootstrap_denominator_min": 6.111428571428572,
+        "h_le_2_5pp": false
+      },
+      "text_memory": {
+        "n_people": 50,
+        "difference_pp": 38.61346231358323,
+        "ci90_pp": [
+          32.13837844977651,
+          45.108013617808375
+        ],
+        "halfwidth_pp": 6.484817584015931,
+        "max_distance_from_estimate_pp": 6.4945513042251495,
+        "first_2000_resamples_halfwidth_pp": 6.203380626834651,
+        "bootstrap_denominator_min": 7.829999999999999,
+        "h_le_2_5pp": false
+      },
+      "memory_13_questions": {
+        "n_people": 50,
+        "difference_pp": 35.864034194992875,
+        "ci90_pp": [
+          32.0041099460484,
+          39.732927434482264
+        ],
+        "halfwidth_pp": 3.8644087442169295,
+        "max_distance_from_estimate_pp": 3.8688932394893847,
+        "first_2000_resamples_halfwidth_pp": 3.758540382845041,
+        "bootstrap_denominator_min": 7.073846153846151,
+        "h_le_2_5pp": false
+      }
+    }
+  },
+  "provenance": {
+    "Base": {
+      "judge": {
+        "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Base/forget_generation_results_factuality.jsonl",
+        "sha256": "e8fdd6363e268476742b1a5936fbe95de28fd8d2019e4fdd93b5b9d7ba15f78c",
+        "scored_questions": 950,
+        "total_questions": 950,
+        "complete": true
+      },
+      "generation_sha256": "b071aaee880a3837381bafd690d279c33adcabc7b3b53b8944ec7c7ec5ff557c"
+    },
+    "Original": {
+      "judge": {
+        "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/forget_generation_results_factuality.jsonl",
+        "sha256": "d0fc6d0ce23df4d3daf102c1773cb7455a2196adfe5ccea2894e6c1a11db1592",
+        "scored_questions": 950,
+        "total_questions": 950,
+        "complete": true
+      },
+      "generation_sha256": "138574c82c09b6a3e1ee67029e302bca902557dc95563fa4b769b56baf7d137e"
+    },
+    "MFA_unsculpted": {
+      "judge": {
+        "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/MFA_unsculpted/forget_generation_results_factuality.jsonl",
+        "sha256": "b98bfcde5a7fc20c3fbb623d5efe1a1c4630057bedb7f9106ab6b25ebbb7d1e2",
+        "scored_questions": 950,
+        "total_questions": 950,
+        "complete": true
+      },
+      "generation_sha256": "96340a6764a74e8064172f3e872dcb06abb193da840dd1ca060e32270df766cb"
+    },
+    "SMFA": {
+      "judge": {
+        "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/forget_generation_results_factuality.jsonl",
+        "sha256": "2cf37e29ada5c107e9581330abacb176d65e32f47fcc2447047e1726605fec51",
+        "scored_questions": 950,
+        "total_questions": 950,
+        "complete": true
+      },
+      "generation_sha256": "8f16a8105fcab02cc1609a6e4f9e744feb42b8e3a71c24ff26d96ccb3edb1546"
+    }
+  }
+}

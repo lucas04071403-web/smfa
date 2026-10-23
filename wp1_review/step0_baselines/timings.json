@@ -1,0 +1,48 @@
+{
+  "state": "complete",
+  "models": {
+    "Base": {
+      "state": "complete",
+      "sculpt": {
+        "state": "not_started",
+        "duration_seconds": null,
+        "attempts": 0,
+        "incomplete_timing": false
+      },
+      "evaluate": {
+        "state": "complete",
+        "duration_seconds": 41623.955,
+        "attempts": 1,
+        "incomplete_timing": false
+      },
+      "score": {
+        "state": "complete",
+        "duration_seconds": 29635.724,
+        "attempts": 1,
+        "incomplete_timing": false
+      }
+    },
+    "MFA_unsculpted": {
+      "state": "complete",
+      "sculpt": {
+        "state": "complete",
+        "duration_seconds": 1643.204,
+        "attempts": 1,
+        "incomplete_timing": false
+      },
+      "evaluate": {
+        "state": "complete",
+        "duration_seconds": 28974.072,
+        "attempts": 1,
+        "incomplete_timing": false
+      },
+      "score": {
+        "state": "complete",
+        "duration_seconds": 28410.348,
+        "attempts": 7,
+        "incomplete_timing": false
+      }
+    }
+  },
+  "scope": "Wall seconds summed over recorded attempts. Evaluation includes loading/ROUGE; scoring includes API waits/retries. Sculpture and SMFA answer check are separate."
+}

@@ -1,0 +1,378 @@
+{
+  "state": "passed",
+  "checked_at": "2026-10-21T22:21:54.459337+00:00",
+  "repo_commit": "01de31254c947419af448fda8668a088c8cf4310",
+  "manifest_sha256": "d6a5dbbd73b4a530f638885d1bf87c450370c24f02c745b26660fa23a42099b7",
+  "adapters": [
+    {
+      "epoch": 1,
+      "adapter": "MFA_multi",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_1/MFA_multi/adapter_model.safetensors",
+      "sha256": "b6058d106a352aeb50dc0e5dd6e7a7e6cfdbdc07171d1d3a67d68b79958679a0",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 1,
+      "adapter": "MFA_text",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_1/MFA_text/adapter_model.safetensors",
+      "sha256": "3d3cfe99e1d12df8627e07e4056f55c800140c0f7ca7be88caa43ca473a2db28",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 1,
+      "adapter": "RA",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_1/RA/adapter_model.safetensors",
+      "sha256": "45eeeccc0ad8342118263964e6d1d5ca59129cce85960b202f3c213524cecd58",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 2,
+      "adapter": "MFA_multi",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_2/MFA_multi/adapter_model.safetensors",
+      "sha256": "b055e399c51bf3b76483122213d2971275b26eebedd015608a5540946b977abe",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 2,
+      "adapter": "MFA_text",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_2/MFA_text/adapter_model.safetensors",
+      "sha256": "38d0cc5cf6d149e4d26bcf0ba5a06bb5409c86a1e8a930c9e0f5508fea0d1517",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 2,
+      "adapter": "RA",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_2/RA/adapter_model.safetensors",
+      "sha256": "88484874138e85973e60df3f873fac3a181207e7505394bd7093c17c47f95b08",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 3,
+      "adapter": "MFA_multi",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_3/MFA_multi/adapter_model.safetensors",
+      "sha256": "a38980240438fc4db1e2525c0f609efbd8c3c5caa715215518c728dcce3ddede",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 3,
+      "adapter": "MFA_text",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_3/MFA_text/adapter_model.safetensors",
+      "sha256": "bc733657083dc20ff5b04544cd9ec9277b0b87a5cd28772126531a0a538d58f9",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 3,
+      "adapter": "RA",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_3/RA/adapter_model.safetensors",
+      "sha256": "0ffca8bdc9b28b1838c881c6888bdb2662a70a0d02ec1b21651dca3cf8ea05e3",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 4,
+      "adapter": "MFA_multi",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_4/MFA_multi/adapter_model.safetensors",
+      "sha256": "365b5ecf7e7a4b56dcb3bc0a78f66decede58a65a3a41bf1318a39a1cebc547f",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 4,
+      "adapter": "MFA_text",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_4/MFA_text/adapter_model.safetensors",
+      "sha256": "190f301c8980b7bc2bf36d32f9c227895807d3787bc73fafdcc41fb80d5de78f",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 4,
+      "adapter": "RA",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_4/RA/adapter_model.safetensors",
+      "sha256": "2773bc68b483d6e021f08da965ad6f8b8a32d0fab3b8e49577ba279a139c3c7f",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 5,
+      "adapter": "MFA_multi",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_5/MFA_multi/adapter_model.safetensors",
+      "sha256": "38957462b8e3447c3329f18069e3878b65df8dfeaf074698c0c82d95ee2aec73",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 5,
+      "adapter": "MFA_text",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_5/MFA_text/adapter_model.safetensors",
+      "sha256": "5379faffeb41f991fd1a08a66889f7d50bccee412099a660e24954cf137bc244",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    },
+    {
+      "epoch": 5,
+      "adapter": "RA",
+      "parameters": 43245568,
+      "tensors": 548,
+      "path": "S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/epoch_5/RA/adapter_model.safetensors",
+      "sha256": "42c502e205a84e8903650e328b2f27a95ac2dbfe9480f9c0515970862781e018",
+      "config_sha256": "88491c2fdd986f63ab1c3b2a156e55ecee8195cfa2d6586e17d3c5decd239b15"
+    }
+  ],
+  "sculpted": {
+    "tensors": 765,
+    "adapted_weights": 274,
+    "changed_weights": 274,
+    "unadapted_weights_match_original_cast": true,
+    "stats": {
+      "multi": {
+        "masked": 423559537,
+        "total": 6628802560,
+        "ratio": 0.06389684006518366
+      },
+      "text": {
+        "masked": 212599596,
+        "total": 6628802560,
+        "ratio": 0.03207209659296294
+      },
+      "layers": 274,
+      "multi_k": 5.0,
+      "text_k": 10.0
+    },
+    "sha256": {
+      "model-00001-of-00004.safetensors": "5d20d16098bffc52fd4d3d742d8d084bf628513d85c59ef378eed143d6fd59d0",
+      "model-00002-of-00004.safetensors": "b0a883852fcf42b22e577e485c83ae072b979dba10c7df2187bc3da2928a0738",
+      "model-00003-of-00004.safetensors": "806bda66c08fd45cda025f2b9fbcbafd40ca78a489030b64758ee6d3d2fdca4b",
+      "model-00004-of-00004.safetensors": "a3b00cfb35d494fc11e587dbc6734e2a5b9f77853b170ad8a53201242b458b46",
+      "model.safetensors.index.json": "cb8c742367f4d3bbba1d097f5f5d191e7ac3efbcf0c8be00317678b4caa03649",
+      "sculpt_stats.json": "397e583ecd4e13bd3e14e53ca8aeeaf302ab8d616f4c98af0ab149157563d058"
+    }
+  },
+  "generated_answers_verified": 38000,
+  "judge_scores_verified": 76000,
+  "results": {
+    "Original": {
+      "splits": {
+        "forget": {
+          "profiles": 50,
+          "questions": 950,
+          "category_counts": {
+            "image_understanding": 300,
+            "image_memory": 350,
+            "text_memory": 300
+          },
+          "rougeL": {
+            "image_understanding": 0.6822657075109102,
+            "image_memory": 0.6819879676839821,
+            "text_memory": 0.7405021138181024
+          },
+          "sha256": {
+            "forget_generation_results.json": "138574c82c09b6a3e1ee67029e302bca902557dc95563fa4b769b56baf7d137e",
+            "forget_generation_results_factuality.jsonl": "d0fc6d0ce23df4d3daf102c1773cb7455a2196adfe5ccea2894e6c1a11db1592",
+            "forget_generation_results_factuality_score.json": "61d118b64364bdfb870e233b6e4cc4bb0f00957a59763e6ba28c957eb0ff541a",
+            "forget_generation_results_meaningful.jsonl": "dde2b97582049ce544867fa69295bf3d6084c23b1d0a249a4adb852aee3ff74f",
+            "forget_generation_results_meaningful_score.json": "026a252828a5ef1a3968d07276c41e66cbf292acf26d6c62e6b5a883782008c6"
+          },
+          "factuality": {
+            "image_understanding": 7.23,
+            "image_memory": 7.477142857142857,
+            "text_memory": 8.5
+          },
+          "question_weighted_factuality": 7.722105263157895,
+          "meaningful": {
+            "image_understanding": 9.296666666666667,
+            "image_memory": 9.222857142857142,
+            "text_memory": 8.46
+          },
+          "question_weighted_meaningful": 9.005263157894737,
+          "data_sha256": "483193499d2189f0494e5a1c3e2165c14aa304b750b0ea0b2e1a3ba4723f5e97"
+        },
+        "retain": {
+          "profiles": 950,
+          "questions": 18050,
+          "category_counts": {
+            "image_understanding": 5700,
+            "image_memory": 6650,
+            "text_memory": 5700
+          },
+          "rougeL": {
+            "image_understanding": 0.6937473387909147,
+            "image_memory": 0.7051970980382807,
+            "text_memory": 0.7623283628666847
+          },
+          "sha256": {
+            "retain_generation_results.json": "ee5199aee8ee64edb617e81e72464b5a9c451215b5714d66ab28640de80d3f6a",
+            "retain_generation_results_factuality.jsonl": "9c9e13795ab3d90514804a03e903e4753590c4ffab62bef7c9e91bce9eb77c23",
+            "retain_generation_results_factuality_score.json": "c595121c0351d4f9c549e0d177261a0e0386ffd3a3057db0b6bb28eaf55e1940",
+            "retain_generation_results_meaningful.jsonl": "c452dac432b9d8dd763cf70927b8db54af52955146d032fd9501055f5f7bf8fd",
+            "retain_generation_results_meaningful_score.json": "293ff0b8e0e88ef28dda35ac752bcebcac204b4655b35364270ea7eda7d4c3d5"
+          },
+          "factuality": {
+            "image_understanding": 7.3533333333333335,
+            "image_memory": 7.498796992481203,
+            "text_memory": 8.77719298245614
+          },
+          "question_weighted_factuality": 7.856565096952909,
+          "meaningful": {
+            "image_understanding": 9.373859649122807,
+            "image_memory": 9.222406015037594,
+            "text_memory": 8.507719298245615
+          },
+          "question_weighted_meaningful": 9.044542936288089,
+          "data_sha256": "b97d3e160dc2eeb8c982962d51c7d802f367c8a337d81af55a1516445f1abfa3"
+        }
+      },
+      "overall": {
+        "image_understanding_rougeL": 0.6880065231509125,
+        "memory_rougeL": 0.022517689701440524,
+        "image_understanding_factuality": 7.291666666666667,
+        "memory_factuality": 0.1494235588972428,
+        "meaningful": 9.04257894736842
+      },
+      "paper_overall": {
+        "image_understanding_rougeL": 0.69,
+        "image_understanding_factuality": 7.59,
+        "memory_rougeL": 0.026,
+        "memory_factuality": 0.22,
+        "meaningful": 7.92
+      },
+      "difference_from_paper": {
+        "image_understanding_rougeL": -0.001993476849087461,
+        "memory_rougeL": -0.0034823102985594746,
+        "image_understanding_factuality": -0.2983333333333329,
+        "memory_factuality": -0.07057644110275721,
+        "meaningful": 1.122578947368421
+      },
+      "rouge_summary_sha256": "fdd157869d633970e79fad9b636e5de0945e35a7f23badc8b1e85972010ea796"
+    },
+    "SMFA": {
+      "splits": {
+        "forget": {
+          "profiles": 50,
+          "questions": 950,
+          "category_counts": {
+            "image_understanding": 300,
+            "image_memory": 350,
+            "text_memory": 300
+          },
+          "rougeL": {
+            "image_understanding": 0.6273630261710006,
+            "image_memory": 0.36313698046838455,
+            "text_memory": 0.49194149340975957
+          },
+          "sha256": {
+            "forget_generation_results.json": "8f16a8105fcab02cc1609a6e4f9e744feb42b8e3a71c24ff26d96ccb3edb1546",
+            "forget_generation_results_factuality.jsonl": "2cf37e29ada5c107e9581330abacb176d65e32f47fcc2447047e1726605fec51",
+            "forget_generation_results_factuality_score.json": "468092502467fcd4a4e4ee59e98493ef4953454740f5f08333bee3b0059a1f15",
+            "forget_generation_results_meaningful.jsonl": "e2661aa9809ae9a79ab9faede5e3a79722abd5ebf9bceb9d241cbfa2e100654b",
+            "forget_generation_results_meaningful_score.json": "d869d36af6ebca65ff77ea0b4ed250a2a95c7c9ce9d884a7e270071dec3ed1ce"
+          },
+          "factuality": {
+            "image_understanding": 6.463333333333333,
+            "image_memory": 3.642857142857143,
+            "text_memory": 5.65
+          },
+          "question_weighted_factuality": 5.167368421052632,
+          "meaningful": {
+            "image_understanding": 9.356666666666667,
+            "image_memory": 9.397142857142857,
+            "text_memory": 8.993333333333334
+          },
+          "question_weighted_meaningful": 9.256842105263157,
+          "data_sha256": "483193499d2189f0494e5a1c3e2165c14aa304b750b0ea0b2e1a3ba4723f5e97"
+        },
+        "retain": {
+          "profiles": 950,
+          "questions": 18050,
+          "category_counts": {
+            "image_understanding": 5700,
+            "image_memory": 6650,
+            "text_memory": 5700
+          },
+          "rougeL": {
+            "image_understanding": 0.6594898521639667,
+            "image_memory": 0.5802353211886253,
+            "text_memory": 0.7179555660609958
+          },
+          "sha256": {
+            "retain_generation_results.json": "dc4a26e633b96b4957ccbbb0b60b3a64ccbba13ab6392b579745d80c104f4f28",
+            "retain_generation_results_factuality.jsonl": "87218494e754f59a85873412feaafef7569ba5ec8b53b11f44199cf57f7b89f1",
+            "retain_generation_results_factuality_score.json": "945903da69c81cc865f238f8d19bfd8f16d4fb13f64d578822a63844374cd763",
+            "retain_generation_results_meaningful.jsonl": "0f551d701cee84561d53d82b0444293d3a88d657f9229829d8d40dfcbed0edd5",
+            "retain_generation_results_meaningful_score.json": "2666230a5f69f9a0c144ca66cd09aa050a744db804ef11c91b5797d8590fbfc4"
+          },
+          "factuality": {
+            "image_understanding": 6.889298245614035,
+            "image_memory": 5.98015037593985,
+            "text_memory": 8.26438596491228
+          },
+          "question_weighted_factuality": 6.988587257617729,
+          "meaningful": {
+            "image_understanding": 9.400701754385965,
+            "image_memory": 9.255187969924812,
+            "text_memory": 8.534736842105263
+          },
+          "question_weighted_meaningful": 9.073628808864266,
+          "data_sha256": "b97d3e160dc2eeb8c982962d51c7d802f367c8a337d81af55a1516445f1abfa3"
+        }
+      },
+      "overall": {
+        "image_understanding_rougeL": 0.6434264391674837,
+        "memory_rougeL": 0.22155620668573844,
+        "image_understanding_factuality": 6.6763157894736835,
+        "memory_factuality": 2.475839598997494,
+        "meaningful": 9.08278947368421
+      },
+      "paper_overall": {
+        "image_understanding_rougeL": 0.667,
+        "image_understanding_factuality": 7.17,
+        "memory_rougeL": 0.199,
+        "memory_factuality": 2.3,
+        "meaningful": 7.98
+      },
+      "difference_from_paper": {
+        "image_understanding_rougeL": -0.023573560832516383,
+        "memory_rougeL": 0.022556206685738434,
+        "image_understanding_factuality": -0.4936842105263164,
+        "memory_factuality": 0.17583959899749413,
+        "meaningful": 1.1027894736842097
+      },
+      "rouge_summary_sha256": "82294a32edac50e2ec51af40e73aefdb8e71c473d7e920f56cbb14d110a366bc"
+    }
+  },
+  "comparison_limitations": [
+    "The paper states k=5, while this local run follows the released shell template: multi_k=5, text_k=10, epoch_3.",
+    "Published table values are rounded independently; aggregates calculated from the rounded values can differ by 0.001 or 0.01.",
+    "Qwen-Plus judging can vary over time; the local API scoring uses the released prompts and model alias."
+  ],
+  "scope": "README default LLaVA-OneVision SMFA, 5% split, five epochs, epoch-3 sculpting; Original comparison",
+  "checkpoint_key_mapping": {
+    "^language_model.model": "model.language_model",
+    "^vision_tower": "model.vision_tower",
+    "^multi_modal_projector": "model.multi_modal_projector",
+    "^image_newline": "model.image_newline",
+    "^language_model.lm_head": "lm_head"
+  },
+  "audit_compatibility_note": "The frozen auditor's adapter runtime names were normalized with the verified Transformers 4.53 LLaVA-OneVision checkpoint conversion mapping."
+}

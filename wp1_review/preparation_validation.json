@@ -1,0 +1,13 @@
+{
+  "state": "passed",
+  "checks": [
+    "Text identities are inherited from source order; wrong image identities are rejected",
+    "Unordered judge tuples align; ambiguous text duplicates require indexed caches",
+    "Zero-mask evidence requires both official log lines and rejects nonzero masks",
+    "Two visible GPUs are insufficient when GPU 1 has only 4214 MiB free",
+    "A sculpt subprocess succeeds with official log evidence only; completed stages are reused",
+    "The actual 30-question selection uses only frozen F1 development identities"
+  ],
+  "api_calls": 0,
+  "gpu_allocations": 0
+}

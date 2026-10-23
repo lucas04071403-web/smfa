@@ -1,0 +1,115 @@
+{
+  "state": "passed",
+  "checked_at": "2026-10-21T15:00:45.402546+00:00",
+  "scope": "Complete Original comparison only; formal SMFA experiment remains pending",
+  "generated_answers_verified": 19000,
+  "judge_scores_verified": 38000,
+  "splits": {
+    "forget": {
+      "profiles": 50,
+      "questions": 950,
+      "category_counts": {
+        "image_understanding": 300,
+        "image_memory": 350,
+        "text_memory": 300
+      },
+      "rougeL": {
+        "image_understanding": 0.6822657075109102,
+        "image_memory": 0.6819879676839821,
+        "text_memory": 0.7405021138181024
+      },
+      "sha256": {
+        "forget_generation_results.json": "138574c82c09b6a3e1ee67029e302bca902557dc95563fa4b769b56baf7d137e",
+        "forget_generation_results_factuality.jsonl": "d0fc6d0ce23df4d3daf102c1773cb7455a2196adfe5ccea2894e6c1a11db1592",
+        "forget_generation_results_factuality_score.json": "61d118b64364bdfb870e233b6e4cc4bb0f00957a59763e6ba28c957eb0ff541a",
+        "forget_generation_results_meaningful.jsonl": "dde2b97582049ce544867fa69295bf3d6084c23b1d0a249a4adb852aee3ff74f",
+        "forget_generation_results_meaningful_score.json": "026a252828a5ef1a3968d07276c41e66cbf292acf26d6c62e6b5a883782008c6"
+      },
+      "factuality": {
+        "image_understanding": 7.23,
+        "image_memory": 7.477142857142857,
+        "text_memory": 8.5
+      },
+      "question_weighted_factuality": 7.722105263157895,
+      "meaningful": {
+        "image_understanding": 9.296666666666667,
+        "image_memory": 9.222857142857142,
+        "text_memory": 8.46
+      },
+      "question_weighted_meaningful": 9.005263157894737,
+      "data_sha256": "483193499d2189f0494e5a1c3e2165c14aa304b750b0ea0b2e1a3ba4723f5e97"
+    },
+    "retain": {
+      "profiles": 950,
+      "questions": 18050,
+      "category_counts": {
+        "image_understanding": 5700,
+        "image_memory": 6650,
+        "text_memory": 5700
+      },
+      "rougeL": {
+        "image_understanding": 0.6937473387909147,
+        "image_memory": 0.7051970980382807,
+        "text_memory": 0.7623283628666847
+      },
+      "sha256": {
+        "retain_generation_results.json": "ee5199aee8ee64edb617e81e72464b5a9c451215b5714d66ab28640de80d3f6a",
+        "retain_generation_results_factuality.jsonl": "9c9e13795ab3d90514804a03e903e4753590c4ffab62bef7c9e91bce9eb77c23",
+        "retain_generation_results_factuality_score.json": "c595121c0351d4f9c549e0d177261a0e0386ffd3a3057db0b6bb28eaf55e1940",
+        "retain_generation_results_meaningful.jsonl": "c452dac432b9d8dd763cf70927b8db54af52955146d032fd9501055f5f7bf8fd",
+        "retain_generation_results_meaningful_score.json": "293ff0b8e0e88ef28dda35ac752bcebcac204b4655b35364270ea7eda7d4c3d5"
+      },
+      "factuality": {
+        "image_understanding": 7.3533333333333335,
+        "image_memory": 7.498796992481203,
+        "text_memory": 8.77719298245614
+      },
+      "question_weighted_factuality": 7.856565096952909,
+      "meaningful": {
+        "image_understanding": 9.373859649122807,
+        "image_memory": 9.222406015037594,
+        "text_memory": 8.507719298245615
+      },
+      "question_weighted_meaningful": 9.044542936288089,
+      "data_sha256": "b97d3e160dc2eeb8c982962d51c7d802f367c8a337d81af55a1516445f1abfa3"
+    }
+  },
+  "overall": {
+    "image_understanding_rougeL": 0.6880065231509125,
+    "memory_rougeL": 0.022517689701440524,
+    "image_understanding_factuality": 7.291666666666667,
+    "memory_factuality": 0.1494235588972428,
+    "meaningful": 9.04257894736842
+  },
+  "paper_overall": {
+    "image_understanding_rougeL": 0.69,
+    "image_understanding_factuality": 7.59,
+    "memory_rougeL": 0.026,
+    "memory_factuality": 0.22,
+    "meaningful": 7.92
+  },
+  "difference_from_paper": {
+    "image_understanding_rougeL": -0.001993476849087461,
+    "memory_rougeL": -0.0034823102985594746,
+    "image_understanding_factuality": -0.2983333333333329,
+    "memory_factuality": -0.07057644110275721,
+    "meaningful": 1.122578947368421
+  },
+  "rouge_summary_sha256": "fdd157869d633970e79fad9b636e5de0945e35a7f23badc8b1e85972010ea796",
+  "controller_status_sha256": "f6307a78d942c6b83fac262f0ee1dbc20083f3c4a699eaa4df204baa952ed903",
+  "paper_reference_sha256": "6c15feb9c8e8b3a6c9ad1d8f4a1dcac364251f55dcbefa180a3abe405b20ac05",
+  "source_sha256": {
+    "reproduce_smfa/evaluate.py": "b8123319b7fbead0a6b198795c69dc2ddee7321b173f43875a928dbcb6bf258a",
+    "reproduce_smfa/run.py": "fdcdb6fc1b50a790033db3398b83f60ded42ceda8e0016416eb453cc02da4930",
+    "reproduce_smfa/score.py": "52ee32957b1f2f0275a46f3ab54bc4be02c61178aeaeaef62e32643ef8e94372",
+    "reproduce_smfa/sculpt.py": "976814e6233c4f80be9ab64212e194dc3223dfdb25e85338b35dad5d0dc61a07",
+    "reproduce_smfa/train.py": "74fba9aef0c5382dfec2bc4ef2d1d0784bab54be0e6d17d8a65e616d3ad1e925"
+  },
+  "split_auditor_sha256": "d26f4f9ed67b85c1980df7434cf32f1c4ea144723d8fc487020cd00fddfbbd44",
+  "auditor_sha256": "b4c309f47eb8d1c17f6e92617e72f21bd7a981d880e136c99ace4adefc629737",
+  "api_calls": 0,
+  "notes": [
+    "This is a full Original baseline audit, not final SMFA results.",
+    "The Qwen-Plus alias and its judging behavior can vary over time."
+  ]
+}
