@@ -1,0 +1,15 @@
+{
+  "state": "complete",
+  "candidate": "C0_k1",
+  "started_at": "2026-10-23T10:47:51.047593+00:00",
+  "gpu": "0",
+  "load_seconds": 9.63731387257576,
+  "completed_questions": 2375,
+  "total_questions": 2375,
+  "updated_at": "2026-10-23T11:53:07.736322+00:00",
+  "new_questions_this_run": 2375,
+  "elapsed_generation_seconds": 3672.52879101038,
+  "finished_at": "2026-10-23T11:53:08.681574+00:00",
+  "generation_seconds": 3673.47404088825,
+  "construction_seconds": 244.1590958982706
+}

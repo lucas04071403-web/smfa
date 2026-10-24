@@ -1,0 +1,115 @@
+{
+  "state": "complete",
+  "at": "2026-10-23T16:19:21.508686+00:00",
+  "people": 25,
+  "judgments": 975,
+  "comparisons": {
+    "C0_k10": {
+      "image_memory": {
+        "estimate_pp": -23.544520547945204,
+        "ci90_pp": [
+          -29.27071174996783,
+          -18.136830207417425
+        ],
+        "halfwidth_pp": 5.566940771275203,
+        "denominator_mean": 6.674285714285715,
+        "denominator_bootstrap_min": 5.468571428571428
+      },
+      "text_memory": {
+        "estimate_pp": -16.97655618431689,
+        "ci90_pp": [
+          -22.583597829073913,
+          -11.547230869559879
+        ],
+        "halfwidth_pp": 5.518183479757017,
+        "denominator_mean": 8.246666666666666,
+        "denominator_bootstrap_min": 7.706666666666667
+      },
+      "combined_memory": {
+        "estimate_pp": -20.16632016632015,
+        "ci90_pp": [
+          -24.5199028817002,
+          -16.02927736107566
+        ],
+        "halfwidth_pp": 4.24531276031227,
+        "denominator_mean": 7.3999999999999995,
+        "denominator_bootstrap_min": 6.744615384615385
+      }
+    },
+    "C2_l10": {
+      "image_memory": {
+        "estimate_pp": 15.924657534246572,
+        "ci90_pp": [
+          9.132339912043324,
+          23.297785069729283
+        ],
+        "halfwidth_pp": 7.082722578842979,
+        "denominator_mean": 6.674285714285715,
+        "denominator_bootstrap_min": 5.468571428571428
+      },
+      "text_memory": {
+        "estimate_pp": 11.156022635408267,
+        "ci90_pp": [
+          6.6666666666666705,
+          15.927132369970764
+        ],
+        "halfwidth_pp": 4.630232851652046,
+        "denominator_mean": 8.246666666666666,
+        "denominator_bootstrap_min": 7.706666666666667
+      },
+      "combined_memory": {
+        "estimate_pp": 13.471933471933493,
+        "ci90_pp": [
+          9.286312491815853,
+          17.889375321423994
+        ],
+        "halfwidth_pp": 4.301531414804071,
+        "denominator_mean": 7.3999999999999995,
+        "denominator_bootstrap_min": 6.744615384615385
+      }
+    }
+  },
+  "planning_h_pp": 4.301531414804071,
+  "margin_pp": 2.0,
+  "delta_pp": 5,
+  "twofold": true,
+  "drift": {
+    "mean_factuality_difference": -0.03076923076923077,
+    "mean_absolute_difference": 0.04923076923076923,
+    "exact_score_agreement": 0.9661538461538461,
+    "person_paired_ci95": [
+      -0.06769230769230768,
+      -1.7763568394002505e-17
+    ],
+    "min_difference": -2,
+    "max_difference": 1,
+    "interpretation": "Fresh minus historical scores of identical SMFA answers. Drift and judging randomness cannot be separated by one repeat."
+  },
+  "historical_denominator_limitation": "Base/Original are historical for A planning; rejudge at confirmation. Current CI conditional on saved judge responses and selected candidate.",
+  "provenance": {
+    "Base": {
+      "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Base/forget_generation_results_factuality.jsonl",
+      "sha256": "e8fdd6363e268476742b1a5936fbe95de28fd8d2019e4fdd93b5b9d7ba15f78c",
+      "scored_questions": 950,
+      "total_questions": 950,
+      "complete": true
+    },
+    "Original": {
+      "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/Original/forget_generation_results_factuality.jsonl",
+      "sha256": "d0fc6d0ce23df4d3daf102c1773cb7455a2196adfe5ccea2894e6c1a11db1592",
+      "scored_questions": 950,
+      "total_questions": 950,
+      "complete": true
+    },
+    "SMFA": {
+      "source": "S-MLLMUn/eval_result/llava-onevision/split_ratio_5/SMFA/forget_generation_results_factuality.jsonl",
+      "sha256": "2cf37e29ada5c107e9581330abacb176d65e32f47fcc2447047e1726605fec51",
+      "scored_questions": 950,
+      "total_questions": 950,
+      "complete": true
+    }
+  },
+  "selection_sha256": "04bf7316b39eb2d763961b60e63959d006e3b29860348157162d80dcb2e99fc0",
+  "scores_sha256": "09bb0e66984ca29299cb25d4efa7449c04a3cae24de48aa73836a0df0bf8bc3f",
+  "B1_target_forget_combined_rouge": 0.4482903966036022
+}

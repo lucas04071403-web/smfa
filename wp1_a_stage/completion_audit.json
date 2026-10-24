@@ -1,0 +1,284 @@
+{
+  "state": "passed",
+  "at": "2026-10-23T16:25:43.731943+00:00",
+  "freeze_sha256": "d51326251f857a5322fdacb82465c9b8a6ba802e88e368fb28b8f0f2b8bb8710",
+  "new_candidates": 10,
+  "generated_questions": 23750,
+  "candidate_scope": {
+    "C0_k1": {
+      "forget": {
+        "questions": 475,
+        "people": 25,
+        "types": {
+          "image_understanding": 150,
+          "image_memory": 175,
+          "text_memory": 150
+        }
+      },
+      "retain": {
+        "questions": 1900,
+        "people": 100,
+        "types": {
+          "image_understanding": 600,
+          "image_memory": 700,
+          "text_memory": 600
+        }
+      }
+    },
+    "C0_k10": {
+      "forget": {
+        "questions": 475,
+        "people": 25,
+        "types": {
+          "image_understanding": 150,
+          "image_memory": 175,
+          "text_memory": 150
+        }
+      },
+      "retain": {
+        "questions": 1900,
+        "people": 100,
+        "types": {
+          "image_understanding": 600,
+          "image_memory": 700,
+          "text_memory": 600
+        }
+      }
+    },
+    "C1_c0p25": {
+      "forget": {
+        "questions": 475,
+        "people": 25,
+        "types": {
+          "image_understanding": 150,
+          "image_memory": 175,
+          "text_memory": 150
+        }
+      },
+      "retain": {
+        "questions": 1900,
+        "people": 100,
+        "types": {
+          "image_understanding": 600,
+          "image_memory": 700,
+          "text_memory": 600
+        }
+      }
+    },
+    "C1_c0p5": {
+      "forget": {
+        "questions": 475,
+        "people": 25,
+        "types": {
+          "image_understanding": 150,
+          "image_memory": 175,
+          "text_memory": 150
+        }
+      },
+      "retain": {
+        "questions": 1900,
+        "people": 100,
+        "types": {
+          "image_understanding": 600,
+          "image_memory": 700,
+          "text_memory": 600
+        }
+      }
+    },
+    "C1_c0p75": {
+      "forget": {
+        "questions": 475,
+        "people": 25,
+        "types": {
+          "image_understanding": 150,
+          "image_memory": 175,
+          "text_memory": 150
+        }
+      },
+      "retain": {
+        "questions": 1900,
+        "people": 100,
+        "types": {
+          "image_understanding": 600,
+          "image_memory": 700,
+          "text_memory": 600
+        }
+      }
+    },
+    "C1_c1p0": {
+      "forget": {
+        "questions": 475,
+        "people": 25,
+        "types": {
+          "image_understanding": 150,
+          "image_memory": 175,
+          "text_memory": 150
+        }
+      },
+      "retain": {
+        "questions": 1900,
+        "people": 100,
+        "types": {
+          "image_understanding": 600,
+          "image_memory": 700,
+          "text_memory": 600
+        }
+      }
+    },
+    "C2_l10": {
+      "forget": {
+        "questions": 475,
+        "people": 25,
+        "types": {
+          "image_understanding": 150,
+          "image_memory": 175,
+          "text_memory": 150
+        }
+      },
+      "retain": {
+        "questions": 1900,
+        "people": 100,
+        "types": {
+          "image_understanding": 600,
+          "image_memory": 700,
+          "text_memory": 600
+        }
+      }
+    },
+    "C2_l100": {
+      "forget": {
+        "questions": 475,
+        "people": 25,
+        "types": {
+          "image_understanding": 150,
+          "image_memory": 175,
+          "text_memory": 150
+        }
+      },
+      "retain": {
+        "questions": 1900,
+        "people": 100,
+        "types": {
+          "image_understanding": 600,
+          "image_memory": 700,
+          "text_memory": 600
+        }
+      }
+    },
+    "C2_l1000": {
+      "forget": {
+        "questions": 475,
+        "people": 25,
+        "types": {
+          "image_understanding": 150,
+          "image_memory": 175,
+          "text_memory": 150
+        }
+      },
+      "retain": {
+        "questions": 1900,
+        "people": 100,
+        "types": {
+          "image_understanding": 600,
+          "image_memory": 700,
+          "text_memory": 600
+        }
+      }
+    },
+    "C3_hard": {
+      "forget": {
+        "questions": 475,
+        "people": 25,
+        "types": {
+          "image_understanding": 150,
+          "image_memory": 175,
+          "text_memory": 150
+        }
+      },
+      "retain": {
+        "questions": 1900,
+        "people": 100,
+        "types": {
+          "image_understanding": 600,
+          "image_memory": 700,
+          "text_memory": 600
+        }
+      }
+    }
+  },
+  "no_F2_or_test_retain_in_new_generations": true,
+  "generation_sha256": {
+    "C0_k1": {
+      "forget": "b8fbb9c5fa9d38da0453c7ef58a742ad7ada9183da2a28c98403920590be3526",
+      "retain": "d7fc881a692c82eb9d7ce3aca7669946f330285582d8193508b014b9c4dcdbbb"
+    },
+    "C0_k10": {
+      "forget": "62b31bb8589f9ccde655653682f6de8b85e8c4a090487593f1ff6fdc6bc03d04",
+      "retain": "090ac3effc863b545d0e77f5c8db192125571c7531ffd378d907aa0e212bdb7b"
+    },
+    "C1_c0p25": {
+      "forget": "366b58ac61d2955e8f7b8a3a0f3e8eec971082076378d3e6e4c5a7c9e651a122",
+      "retain": "bdc5eb3f6d8081332ea7b67bac45ad37c3dbea89b333f63c70e5b9d2f7727cb7"
+    },
+    "C1_c0p5": {
+      "forget": "c99e1d5a488695aa6fae73acdf98313d452fcceab9348064f8ab33832d23475b",
+      "retain": "da4a4814be694273260599a224c74a6b9ae4b691a58ec25d085dcdd5d06530b4"
+    },
+    "C1_c0p75": {
+      "forget": "1f05e265f58b5ec7f557b75fd396281c2dd5a3bbebdc95ed1ad4564889553cd2",
+      "retain": "1e1bd6caa4987bd7cb9b95e10f94e97ffc10b080d85bc26896697c88db6ad871"
+    },
+    "C1_c1p0": {
+      "forget": "448053e96165a6b14f1f4c571f86afad0f0c1e4adad4aca6f8c17718c1e1cb45",
+      "retain": "3cb3b5b02014934bcb6121bfcbcd0e18969b0a03f48cb0d4413865679b8a4c54"
+    },
+    "C2_l10": {
+      "forget": "24c5a2cc8b2811e7da8267e439c14fe3c9004dd895767e159406ab8035c17689",
+      "retain": "145700d878320b17cd4ffb8de22dc40dc5922a5adbb5eb77a216930dfe09f123"
+    },
+    "C2_l100": {
+      "forget": "d6daabaad9700cacb1a69bf1a2b0c27f75c65070fee4ce81a8bb7559a8b379ee",
+      "retain": "5ee393169db06bcdd1f3f3b4405bf3834523ef1c7abd7b4e9a2cb9718f31b1a6"
+    },
+    "C2_l1000": {
+      "forget": "b869b5a0972daee1b9e4bea8eda1b1499f7e6ce4105f6db455303830e593d2db",
+      "retain": "b7854ef0e95f92f0c67f9386d46399847b49a60ff4cbe90d23b1fe298cf06a62"
+    },
+    "C3_hard": {
+      "forget": "19b2237be3cafe4ca86a6bd219d5895b24f036ddace87607a41510545fe4601d",
+      "retain": "9f48ca23ccf7e14a2142c9198be904c58ea70c1f54cf956b7274a56f42d5c40a"
+    }
+  },
+  "scored_models": {
+    "SMFA": 325,
+    "C0_k10": 325,
+    "C2_l10": 325
+  },
+  "factuality_means": {
+    "SMFA": {
+      "image_memory": 3.9085714285714284,
+      "text_memory": 5.98,
+      "combined_memory": 4.864615384615385
+    },
+    "C0_k10": {
+      "image_memory": 2.337142857142857,
+      "text_memory": 4.58,
+      "combined_memory": 3.3723076923076922
+    },
+    "C2_l10": {
+      "image_memory": 4.9714285714285715,
+      "text_memory": 6.9,
+      "combined_memory": 5.861538461538461
+    }
+  },
+  "scoring_api_models": {
+    "qwen-plus": 975
+  },
+  "scoring_window_UTC": [
+    "2026-10-23T16:07:22.095815+00:00",
+    "2026-10-23T16:18:58.991768+00:00"
+  ],
+  "selected_lambda": 10,
+  "margin_pp": 2.0,
+  "code_sha256": "de27c5906954c5298b67ab40ba44366cc7e5412717db0a1430d3868fda900dfc"
+}

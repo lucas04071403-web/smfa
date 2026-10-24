@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-23T11:17:57.295196+00:00",
+  "pilot_indices": [
+    1,
+    22,
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "full_collection_seconds_linear_layer_bound": 5157.540917205812,
+  "full_eigen_seconds": 36.7456883713603,
+  "full_cpu_accumulator_bytes": 12947816448,
+  "full_moment_disk_bytes": 12947816448,
+  "pilot_peak_gpu_bytes": 17203014144,
+  "note": "Layer-linear bound overestimates model forward cost, which is paid once. CPU accumulators keep GPU memory roughly independent of collected layer count; concurrent evaluation may slow both jobs."
+}

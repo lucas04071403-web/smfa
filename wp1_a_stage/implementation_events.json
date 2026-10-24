@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-23T10:56:43.697871+00:00",
+  "events": [
+    {
+      "event": "initial import failure",
+      "reason": "Local statistics.py shadowed Python stdlib statistics during Transformers import",
+      "resolution": "Renamed activation_stats.py; no candidate generation had started"
+    },
+    {
+      "event": "pilot prefix token mismatch",
+      "reason": "Image prefix IDs [151644,872,220]; shared prefix with pure text [151644,872]",
+      "resolution": "Use longest common token prefix; differing token enters text group"
+    },
+    {
+      "event": "pilot FP16 prefix difference",
+      "reason": "Exact causal invariance has sequence-length-dependent FP16 kernel rounding",
+      "resolution": "Record absolute difference and relative Frobenius difference; require relative <=2%; measured initial pilot max 0.1462%."
+    },
+    {
+      "event": "Full statistics stopped at sample95",
+      "reason": "Elementwise relative+absolute duplicate check rejected FP16 near-zero differences",
+      "evidence": "Same tokens through last image; 3 layers x 3 groups full-activation relative L2 max 0.3381%",
+      "resolution": "Use <=1% relative Frobenius probe check; canonical image covariance weighted by exact occurrence count per v3 3.6; checkpoints every16 samples; failed incomplete sums not reused"
+    },
+    {
+      "event": "Eigen trace consistency tolerance",
+      "reason": "FP32 trace sum discrepancy max6.916e-5 exceeded initial2e-5",
+      "resolution": "Bound by d*FP32eps, supplement independent S V - V e residual and actual factor projections",
+      "evidence": "All84 groups/336 actual A factors passed; max relative eigen residual2.181e-6; max hard projection residual7.988e-7"
+    }
+  ]
+}

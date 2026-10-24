@@ -1,0 +1,3239 @@
+{
+  "state": "complete",
+  "at": "2026-10-23T11:41:06.367007+00:00",
+  "samples": 128,
+  "layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "prefix_token_ids": [
+    151644,
+    872
+  ],
+  "image_prefix_token_ids": [
+    151644,
+    872,
+    220
+  ],
+  "nonshared_prefix_policy": "Leading tokens beyond the common prefix enter T",
+  "prefix_activation_max_abs_difference": 0.25,
+  "prefix_activation_max_relative_l2": 0.0018211787100881338,
+  "prefix_tolerance_note": "FP16 sequence-length kernel variation: relative Frobenius difference must stay <=2%; actual differences retained",
+  "visual_duplicate_probe_max_abs_difference": 0.064453125,
+  "visual_duplicate_probe_max_relative_l2": 0.005675573367625475,
+  "duplicate_check": "16 evenly spaced visual tokens, every 113th feature per group; <=1% relative Frobenius difference. Canonical first-image moments weighted by exact multiplicity for S0, per v3 3.6; S0d uses weight1.",
+  "accumulator_location": "CPU; each covariance product computed FP32 on GPU; TF32 disabled",
+  "matrix_bytes": 51380224,
+  "accumulator_bytes": 12947816448,
+  "peak_gpu_allocated_bytes": 17204013568,
+  "peak_cpu_rss_kib": 16458620,
+  "collection_seconds": 1300.2311998885125,
+  "eigendecomposition_and_save_seconds": 78.01035569608212,
+  "groups": {
+    "layer_00_attn": {
+      "r": 97,
+      "eigen_seconds": 0.4939529802650213,
+      "visual_energy_fraction_S0": 0.9918209446490246,
+      "prefix_energy_fraction_S0": 0.0005016511344654033,
+      "visual_energy_fraction_S0d": 0.9860563370980696,
+      "traces": {
+        "V_unique": 91652048.0,
+        "V_repeated": 167345696.0,
+        "T": 1295375.5,
+        "P": 661.2612915039062
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "3989a64a2285351e559b37ff2d485ebecf09d461ea3ae15151a7896338d5563f",
+      "eigen_sha256": "0a9ba93e2a2f691ac4add7afa12e2c0145191c116286ad1509db77d978723cf3"
+    },
+    "layer_00_o": {
+      "r": 14,
+      "eigen_seconds": 0.4131094068288803,
+      "visual_energy_fraction_S0": 0.9864439495250584,
+      "prefix_energy_fraction_S0": 0.0031499409399317127,
+      "visual_energy_fraction_S0d": 0.9811423442389182,
+      "traces": {
+        "V_unique": 14546707.0,
+        "V_repeated": 26441042.0,
+        "T": 278929.5625,
+        "P": 659.6272583007812
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "8927ff1fb3f8bad77f69d33878e09b5413e1494161df348cae696a3172c955ea",
+      "eigen_sha256": "facaab7dd2e48abc75e8c768cd1c4d3d38b64b770ad89498e7bf625b3b642e1d"
+    },
+    "layer_00_mlp": {
+      "r": 93,
+      "eigen_seconds": 0.49885676242411137,
+      "visual_energy_fraction_S0": 0.993895560371763,
+      "prefix_energy_fraction_S0": 0.00041856889254375876,
+      "visual_energy_fraction_S0d": 0.9896552444111999,
+      "traces": {
+        "V_unique": 90908608.0,
+        "V_repeated": 166010432.0,
+        "T": 949711.3125,
+        "P": 546.1998901367188
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "65509453658f937fd22f069288170f27c5cea915235c7578461b6f24655c5bee",
+      "eigen_sha256": "97f76691c175d4c443d8a60336d590922228eba66a808645afe4695b45deaf2e"
+    },
+    "layer_01_attn": {
+      "r": 39,
+      "eigen_seconds": 0.4640865530818701,
+      "visual_energy_fraction_S0": 0.9928748401263515,
+      "prefix_energy_fraction_S0": 0.0010696302539213228,
+      "visual_energy_fraction_S0d": 0.9889816153555603,
+      "traces": {
+        "V_unique": 61377452.0,
+        "V_repeated": 111964936.0,
+        "T": 682872.5625,
+        "P": 942.3478393554688
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "da5e4a8f1e516c54f576f5ba65bcc3102f0d5f408c27b9fd40dd6e79c9299082",
+      "eigen_sha256": "351a30efdd322098d82f064d362d732a0c2eda72a26d89d2273dc0af119ba316"
+    },
+    "layer_01_o": {
+      "r": 37,
+      "eigen_seconds": 0.4841207433491945,
+      "visual_energy_fraction_S0": 0.9915516781609355,
+      "prefix_energy_fraction_S0": 0.0005573617485932206,
+      "visual_energy_fraction_S0d": 0.9856787783073445,
+      "traces": {
+        "V_unique": 7662791.5,
+        "V_repeated": 13982267.0,
+        "T": 111273.5859375,
+        "P": 61.402976989746094
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "5e3d55c659c3946b02384afafc9681535ab22fed86afa3ac78301308c63dc7c4",
+      "eigen_sha256": "82c7e5948703e97f257c7929b96cba7d03cfaa32f245df08d2ac016b202aadb3"
+    },
+    "layer_01_mlp": {
+      "r": 15,
+      "eigen_seconds": 0.48843013495206833,
+      "visual_energy_fraction_S0": 0.980157138114681,
+      "prefix_energy_fraction_S0": 0.001010645640019516,
+      "visual_energy_fraction_S0d": 0.9660117277022168,
+      "traces": {
+        "V_unique": 1502077440.0,
+        "V_repeated": 2749484288.0,
+        "T": 52827124.0,
+        "P": 22148.5078125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "2e1ff7eecaa571dca4b4e0526d63e006a291b97c4ed5901ea2e9b6f0e9333fa5",
+      "eigen_sha256": "6c134d6eea450ee28b78ea57c7be55c4a4c102f9e49b9ae57694842274370cda"
+    },
+    "layer_02_attn": {
+      "r": 96,
+      "eigen_seconds": 0.4974072799086571,
+      "visual_energy_fraction_S0": 0.9944837179768345,
+      "prefix_energy_fraction_S0": 9.781754428420062e-05,
+      "visual_energy_fraction_S0d": 0.9901546803629798,
+      "traces": {
+        "V_unique": 231665072.0,
+        "V_repeated": 422714880.0,
+        "T": 2303170.5,
+        "P": 324.83038330078125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "cccf05fadc029f66172414b767d0e3156d6a1258138ea022816bd67e372f8133",
+      "eigen_sha256": "94178f3d117923e97cc145b5cd2ec0444bb4f4a60a369a68012e3bff784060aa"
+    },
+    "layer_02_o": {
+      "r": 60,
+      "eigen_seconds": 0.4336862973868847,
+      "visual_energy_fraction_S0": 0.9929035064910631,
+      "prefix_energy_fraction_S0": 0.0002148650932943664,
+      "visual_energy_fraction_S0d": 0.9874884864307458,
+      "traces": {
+        "V_unique": 10125694.0,
+        "V_repeated": 18505998.0,
+        "T": 128261.609375,
+        "P": 31.286815643310547
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "9e3e54df74a21e48a30c14d45c1cbad0d7f8411f7564bf9be4099efaa90a701f",
+      "eigen_sha256": "93a0a2dc02f1655d48e6010c6a3316fbb5f59f40e92e30271efe428686ee847d"
+    },
+    "layer_02_mlp": {
+      "r": 27,
+      "eigen_seconds": 0.46869472600519657,
+      "visual_energy_fraction_S0": 0.9877576733100578,
+      "prefix_energy_fraction_S0": 0.0003576868891035744,
+      "visual_energy_fraction_S0d": 0.9784661605994973,
+      "traces": {
+        "V_unique": 1423309440.0,
+        "V_repeated": 2602778880.0,
+        "T": 31316476.0,
+        "P": 7363.42578125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "a952a089b389cc67265adc6cb334e82a1a92103d38d5c411c750ededea642110",
+      "eigen_sha256": "d66a9670529e8a24981494985900c41595f402e9b2831259b1031c7178ed8b78"
+    },
+    "layer_03_attn": {
+      "r": 102,
+      "eigen_seconds": 0.491054929792881,
+      "visual_energy_fraction_S0": 0.9927131138403483,
+      "prefix_energy_fraction_S0": 0.00016788648143765955,
+      "visual_energy_fraction_S0d": 0.9870834509912335,
+      "traces": {
+        "V_unique": 189154432.0,
+        "V_repeated": 345091232.0,
+        "T": 2474737.5,
+        "P": 455.9486389160156
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "5abafd8fc29c558b0388ba38a2d58bfae007eeba938fbb7598dc721ee953bdc5",
+      "eigen_sha256": "b0a02af5a30e14993f8beb731bdb7eb429ad5f434e709a81ae78f2ae32820534"
+    },
+    "layer_03_o": {
+      "r": 163,
+      "eigen_seconds": 0.39490046724677086,
+      "visual_energy_fraction_S0": 0.9910709855607428,
+      "prefix_energy_fraction_S0": 0.00017135666056087616,
+      "visual_energy_fraction_S0d": 0.9842024921364042,
+      "traces": {
+        "V_unique": 20326218.0,
+        "V_repeated": 36915700.0,
+        "T": 326207.78125,
+        "P": 49.865177154541016
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "12a015f8e7ff0f93e0f7e4a7f9a09a703015dba7f1bf7e6b07265e52a81ca9aa",
+      "eigen_sha256": "7deccdcb061dc869ead95204951af5ecddb000b90aba9d22732f57edb099aad7"
+    },
+    "layer_03_mlp": {
+      "r": 37,
+      "eigen_seconds": 0.4552658498287201,
+      "visual_energy_fraction_S0": 0.989815291365122,
+      "prefix_energy_fraction_S0": 0.0008053394328408494,
+      "visual_energy_fraction_S0d": 0.9829559550595195,
+      "traces": {
+        "V_unique": 2581750272.0,
+        "V_repeated": 4721088512.0,
+        "T": 44736460.0,
+        "P": 30009.376953125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "0a6a31337b459d6c8e5bd316d565a86dfdc454f19e1425ac06cc136ea7753829",
+      "eigen_sha256": "bb61f68e8a7aa361c1ac3833438311df3e2dc75103866e6dfc0f063cc200ae4d"
+    },
+    "layer_04_attn": {
+      "r": 81,
+      "eigen_seconds": 0.4633221048861742,
+      "visual_energy_fraction_S0": 0.9919931811815065,
+      "prefix_energy_fraction_S0": 2.0411024836466662e-05,
+      "visual_energy_fraction_S0d": 0.9855127883870956,
+      "traces": {
+        "V_unique": 364230016.0,
+        "V_repeated": 665038528.0,
+        "T": 5354138.5,
+        "P": 106.90375518798828
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "57678bcd9f33e4437dabb8c531a15bac4b3abbf793e3339ffe1447fb258711fd",
+      "eigen_sha256": "537f91be029f48a996096188bee9f550477395300f372e2abf373cbac9eff28e"
+    },
+    "layer_04_o": {
+      "r": 46,
+      "eigen_seconds": 0.45263336412608624,
+      "visual_energy_fraction_S0": 0.9896132053238149,
+      "prefix_energy_fraction_S0": 0.00012877537491466626,
+      "visual_energy_fraction_S0d": 0.981656408954119,
+      "traces": {
+        "V_unique": 7223172.5,
+        "V_repeated": 13020037.0,
+        "T": 134961.609375,
+        "P": 13.236391067504883
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "b0e8cd69ef23567fdaa6e8b5318ea3d1bcb6f981b748b48afcb7a58bb78ce913",
+      "eigen_sha256": "2417daded6679e9871f2a101fb5a49105b7db77d8fd3e7a81002167c3710ca18"
+    },
+    "layer_04_mlp": {
+      "r": 56,
+      "eigen_seconds": 0.4609654787927866,
+      "visual_energy_fraction_S0": 0.9909477079912239,
+      "prefix_energy_fraction_S0": 0.0007885335967844344,
+      "visual_energy_fraction_S0d": 0.9849755649999424,
+      "traces": {
+        "V_unique": 2065416960.0,
+        "V_repeated": 3775112704.0,
+        "T": 31481600.0,
+        "P": 23468.720703125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "95b3f89261eb9e2119dd66df06b46714f5dc04bb474d497eb95cab85394ab923",
+      "eigen_sha256": "16afb35c1e3ba244e8855360325b7aac786b5c1fa1fc1e639cac8ff37912e393"
+    },
+    "layer_05_attn": {
+      "r": 100,
+      "eigen_seconds": 0.4229336865246296,
+      "visual_energy_fraction_S0": 0.9938816266407677,
+      "prefix_energy_fraction_S0": 3.52253568044451e-05,
+      "visual_energy_fraction_S0d": 0.9889533602719839,
+      "traces": {
+        "V_unique": 490676608.0,
+        "V_repeated": 895439744.0,
+        "T": 5480625.0,
+        "P": 247.9403076171875
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "aaf6bce637e6624f77da8a2f8863ba4d102d139c5d099f3035d04c6547f8bd79",
+      "eigen_sha256": "91b733b49264cefe901798ab61458ebd2c09ee3fed2778d7ea2c5e95df7b2d9c"
+    },
+    "layer_05_o": {
+      "r": 71,
+      "eigen_seconds": 0.46142951399087906,
+      "visual_energy_fraction_S0": 0.9923775909174949,
+      "prefix_energy_fraction_S0": 0.00020701426348429771,
+      "visual_energy_fraction_S0d": 0.9865116633956187,
+      "traces": {
+        "V_unique": 11880836.0,
+        "V_repeated": 21734574.0,
+        "T": 162408.390625,
+        "P": 35.42129898071289
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "afe39e5dfc19fc57d3c2bd2a22b462823567d2bb0a84226989481331b7ca6b49",
+      "eigen_sha256": "8a1970ce8fd6e273ab5a1263c933c96204c0b3f63c1b6481fcb4bd0a9abaecba"
+    },
+    "layer_05_mlp": {
+      "r": 56,
+      "eigen_seconds": 0.4613140467554331,
+      "visual_energy_fraction_S0": 0.9898476750877546,
+      "prefix_energy_fraction_S0": 0.0018172437911959593,
+      "visual_energy_fraction_S0d": 0.9848177310423103,
+      "traces": {
+        "V_unique": 2854795520.0,
+        "V_repeated": 5217653760.0,
+        "T": 43935616.0,
+        "P": 74835.921875
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "99fdf20c3d2fa5e7594b10295def998a0c120ee1f7d393f25ebdb639d7b8a1c4",
+      "eigen_sha256": "4dcc9c49e9d6ee623146da9bd0a018fc20922f6ca261a394614d10c09ef79290"
+    },
+    "layer_06_attn": {
+      "r": 84,
+      "eigen_seconds": 0.4217111710458994,
+      "visual_energy_fraction_S0": 0.994329687697875,
+      "prefix_energy_fraction_S0": 3.9716229542047524e-05,
+      "visual_energy_fraction_S0d": 0.9897699368890992,
+      "traces": {
+        "V_unique": 394706912.0,
+        "V_repeated": 720395328.0,
+        "T": 4079386.5,
+        "P": 224.8011474609375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "99d0e5ebb94aeb9efdc04c1d0d8eeba30368a1621c4a2ed9ae8240eeaea3fa76",
+      "eigen_sha256": "3a506ed4dce8650a53345e49889dfd991b122a4ba32625931f42413bdf5b9c13"
+    },
+    "layer_06_o": {
+      "r": 86,
+      "eigen_seconds": 0.4226258918642998,
+      "visual_energy_fraction_S0": 0.9944423067260252,
+      "prefix_energy_fraction_S0": 0.00012567907981372324,
+      "visual_energy_fraction_S0d": 0.9901652551767077,
+      "traces": {
+        "V_unique": 39123980.0,
+        "V_repeated": 71127680.0,
+        "T": 388525.875,
+        "P": 70.22828674316406
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "9dfb3edb9b8e835aae6d917f9c6ef2ec3f73d6e1932ee7910e5f247a4748127c",
+      "eigen_sha256": "914ebd4f76fda6d4c6b614ea3f12b06241f5b8a679a803953b0694189e372d29"
+    },
+    "layer_06_mlp": {
+      "r": 107,
+      "eigen_seconds": 0.424736799672246,
+      "visual_energy_fraction_S0": 0.9921700904985865,
+      "prefix_energy_fraction_S0": 0.0006849665104287993,
+      "visual_energy_fraction_S0d": 0.987033938408655,
+      "traces": {
+        "V_unique": 579682944.0,
+        "V_repeated": 1056644096.0,
+        "T": 7609241.5,
+        "P": 5699.04345703125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "13854ce8d20f1b0edf9fe6d26b11c53cf550b45af3d2349da21a781626bfe3c1",
+      "eigen_sha256": "cee7cd37665d78685b349322e8ff8b20486483338e6d7dacc3ab2ea94c2f0b53"
+    },
+    "layer_07_attn": {
+      "r": 114,
+      "eigen_seconds": 0.2817862816154957,
+      "visual_energy_fraction_S0": 0.9948069502616849,
+      "prefix_energy_fraction_S0": 7.65071157769782e-05,
+      "visual_energy_fraction_S0d": 0.9906978021794017,
+      "traces": {
+        "V_unique": 460495296.0,
+        "V_repeated": 840583872.0,
+        "T": 4323334.5,
+        "P": 505.0496826171875
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "0c98d62f9ccda2ba4beaa056eab89d323cea18127d0573797228eed5984b62fc",
+      "eigen_sha256": "06d5861f6fe227575cde97faaba2dd4f50297c48f8949ad1372e26e66e3add06"
+    },
+    "layer_07_o": {
+      "r": 235,
+      "eigen_seconds": 0.4779150187969208,
+      "visual_energy_fraction_S0": 0.9922564839725094,
+      "prefix_energy_fraction_S0": 7.848589939972496e-05,
+      "visual_energy_fraction_S0d": 0.9860804939224841,
+      "traces": {
+        "V_unique": 33965332.0,
+        "V_repeated": 62061556.0,
+        "T": 479416.0625,
+        "P": 38.35132598876953
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "cef23e332174ae8e2f68ad218767aa5e88efac104eb6bf7ef0c165e963c29599",
+      "eigen_sha256": "9078f8ab33546b1181b0bb7b819b3860614697cfd85247c35e307687e3b5707a"
+    },
+    "layer_07_mlp": {
+      "r": 291,
+      "eigen_seconds": 0.47991163842380047,
+      "visual_energy_fraction_S0": 0.9927996363151762,
+      "prefix_energy_fraction_S0": 0.0009117653461433314,
+      "visual_energy_fraction_S0d": 0.9885735137381096,
+      "traces": {
+        "V_unique": 325267616.0,
+        "V_repeated": 592871616.0,
+        "T": 3755371.5,
+        "P": 4253.751953125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "82e835e46e7c872b9222415c1966c29bbc695947dfdef8fa39b1a06f1a6fa6b9",
+      "eigen_sha256": "e7a08f34b4364abd1ace47a204c82638880f4afdcfa670ab52ae7eb23b4f130a"
+    },
+    "layer_08_attn": {
+      "r": 120,
+      "eigen_seconds": 0.45997059531509876,
+      "visual_energy_fraction_S0": 0.9947160832110895,
+      "prefix_energy_fraction_S0": 3.083960620934409e-05,
+      "visual_energy_fraction_S0d": 0.9904483251840916,
+      "traces": {
+        "V_unique": 569765568.0,
+        "V_repeated": 1040421568.0,
+        "T": 5494447.0,
+        "P": 252.00494384765625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "70a8e4428e8798b442c1ee2cffab395794d1e5e243cd96b337ca1038923944a6",
+      "eigen_sha256": "62ebddc65e1c5f56f2595c4fea054115e12895656152deb6c360e7f88ae82d09"
+    },
+    "layer_08_o": {
+      "r": 163,
+      "eigen_seconds": 0.4725833795964718,
+      "visual_energy_fraction_S0": 0.9947298517513764,
+      "prefix_energy_fraction_S0": 0.0001270298531790864,
+      "visual_energy_fraction_S0d": 0.9907201585464752,
+      "traces": {
+        "V_unique": 52492716.0,
+        "V_repeated": 95078744.0,
+        "T": 491592.0,
+        "P": 94.8580322265625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "5560682aeb48a210ccd0e8a1e6f12120315ed668c536822a5cb1a2c9fa7d0963",
+      "eigen_sha256": "52844fc0629aff561095a5594374a30569348d512a1da0021e9d016fd5697d88"
+    },
+    "layer_08_mlp": {
+      "r": 392,
+      "eigen_seconds": 0.45281958766281605,
+      "visual_energy_fraction_S0": 0.9927679049896815,
+      "prefix_energy_fraction_S0": 0.0008398266339907579,
+      "visual_energy_fraction_S0d": 0.988383965618334,
+      "traces": {
+        "V_unique": 330967456.0,
+        "V_repeated": 603482496.0,
+        "T": 3885724.0,
+        "P": 3988.380859375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "c1fe751a8500d05a315de3a993d9c4c81e223b967ed590f2e396268f15208797",
+      "eigen_sha256": "4e7606f75a3f598948080023d1bf74bff9b863c78cdb892c6987e6c353c9035a"
+    },
+    "layer_09_attn": {
+      "r": 148,
+      "eigen_seconds": 0.3406248092651367,
+      "visual_energy_fraction_S0": 0.9952356567839931,
+      "prefix_energy_fraction_S0": 5.362338717784187e-05,
+      "visual_energy_fraction_S0d": 0.99142299001047,
+      "traces": {
+        "V_unique": 600431616.0,
+        "V_repeated": 1097338240.0,
+        "T": 5193999.0,
+        "P": 461.9115905761719
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "296ab17f5f3f59a37c7b11e8738dbf66f461c503bfddffe591fb43145e6f0e32",
+      "eigen_sha256": "1d82baf6232e4438435ef617dfc98cc9f5f513aa3818acb2841f681893f0d5fd"
+    },
+    "layer_09_o": {
+      "r": 227,
+      "eigen_seconds": 0.44184670969843864,
+      "visual_energy_fraction_S0": 0.993022982606638,
+      "prefix_energy_fraction_S0": 6.960653167072986e-05,
+      "visual_energy_fraction_S0d": 0.9874333395896759,
+      "traces": {
+        "V_unique": 68467728.0,
+        "V_repeated": 125258680.0,
+        "T": 871292.1875,
+        "P": 68.5943832397461
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "990f5973842022c2f37ca9a7cd773e972714e008d17cf3c9de2d9c05ab6cc27a",
+      "eigen_sha256": "853c6189430e1123d6f7078e895779360db3c25c3a7a066d6d126d84969c0280"
+    },
+    "layer_09_mlp": {
+      "r": 352,
+      "eigen_seconds": 0.4348364304751158,
+      "visual_energy_fraction_S0": 0.9924580255466406,
+      "prefix_energy_fraction_S0": 0.0007650535411552555,
+      "visual_energy_fraction_S0d": 0.9877036324328875,
+      "traces": {
+        "V_unique": 876870784.0,
+        "V_repeated": 1597285888.0,
+        "T": 10906940.0,
+        "P": 9619.4970703125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "9796540fe5f6e79d2510b0e1d5972cfc71f6b7be0d9f95af648c809c3b8ac924",
+      "eigen_sha256": "0ed2e0c6dc328a20320e02e1d30c96cc22cd74d0833d1d28c2e49f5c806b15f9"
+    },
+    "layer_10_attn": {
+      "r": 123,
+      "eigen_seconds": 0.41794642992317677,
+      "visual_energy_fraction_S0": 0.9953443180636456,
+      "prefix_energy_fraction_S0": 4.5887384440812365e-05,
+      "visual_energy_fraction_S0d": 0.9916106726338515,
+      "traces": {
+        "V_unique": 538574208.0,
+        "V_repeated": 983760768.0,
+        "T": 4556147.0,
+        "P": 354.3231201171875
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "54bae93decffdf872b13877cf845fb49d5ac7629061cdcfeebae9f3d5e8d43c4",
+      "eigen_sha256": "9d104949e074b9ec049d8bdeddb86504d1575fea5b178c1fef47326d764e6fbb"
+    },
+    "layer_10_o": {
+      "r": 146,
+      "eigen_seconds": 0.4140193499624729,
+      "visual_energy_fraction_S0": 0.9949008783745071,
+      "prefix_energy_fraction_S0": 6.47366652751314e-05,
+      "visual_energy_fraction_S0d": 0.9907232786204284,
+      "traces": {
+        "V_unique": 55298304.0,
+        "V_repeated": 102316040.0,
+        "T": 517738.34375,
+        "P": 52.0120849609375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "94950feb70344f6ac5c8a863f821bea53f2249b76aa6d1a4baf0422aa3115124",
+      "eigen_sha256": "0f8be78f9db37e9faeace6225bcee40a153d1c4f8b74ca5c62868e60a1b7fd9e"
+    },
+    "layer_10_mlp": {
+      "r": 462,
+      "eigen_seconds": 0.4443596377968788,
+      "visual_energy_fraction_S0": 0.9929712752124443,
+      "prefix_energy_fraction_S0": 0.0005323725868903146,
+      "visual_energy_fraction_S0d": 0.9881853282216633,
+      "traces": {
+        "V_unique": 348199040.0,
+        "V_repeated": 635916352.0,
+        "T": 4160378.75,
+        "P": 2663.60009765625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "7e64bab4a7184ec2be46b5697939ab0bf17f90d3783be60faedc9f32a6c79883",
+      "eigen_sha256": "eb67bd92b96f3507198de1397e4b4b0a47bd4df35fcede61d7b38c4fd8aa9e71"
+    },
+    "layer_11_attn": {
+      "r": 134,
+      "eigen_seconds": 0.41644555144011974,
+      "visual_energy_fraction_S0": 0.9953111674663835,
+      "prefix_energy_fraction_S0": 7.750629252070217e-05,
+      "visual_energy_fraction_S0d": 0.991610479992241,
+      "traces": {
+        "V_unique": 565031488.0,
+        "V_repeated": 1031679168.0,
+        "T": 4779821.0,
+        "P": 627.6431274414062
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "3a031838f278ae1a2375d60bdb51ab412332ea4c1c5904ee4dbf65b57377fb78",
+      "eigen_sha256": "cb8a4c850b2e3e0d41dca36cb3ea1800e2258d27797a8f1b641bf3e9854a45f6"
+    },
+    "layer_11_o": {
+      "r": 210,
+      "eigen_seconds": 0.4209394361823797,
+      "visual_energy_fraction_S0": 0.9953151158206032,
+      "prefix_energy_fraction_S0": 0.00015827537057122606,
+      "visual_energy_fraction_S0d": 0.9916583303404047,
+      "traces": {
+        "V_unique": 61325540.0,
+        "V_repeated": 113396936.0,
+        "T": 515719.65625,
+        "P": 140.8782958984375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "054c2147ab5848e0cab149e61308cac4175e17e704be27b5149ee50352e68b59",
+      "eigen_sha256": "551d59246bec97f775832d1c4958fbcb59ebe714096ffdfed75636f399d55dfc"
+    },
+    "layer_11_mlp": {
+      "r": 537,
+      "eigen_seconds": 0.4458050336688757,
+      "visual_energy_fraction_S0": 0.9929273133135661,
+      "prefix_energy_fraction_S0": 0.0005776079912162998,
+      "visual_energy_fraction_S0d": 0.9881800860835411,
+      "traces": {
+        "V_unique": 310091072.0,
+        "V_repeated": 566629120.0,
+        "T": 3706515.75,
+        "P": 2575.16259765625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "04d7e1da3da05af04ab2b5c51461e99f9db02f5104447be9997d99926a93719e",
+      "eigen_sha256": "5e35efacbeaa21029f32a9ff839996c9368d38dcd893f582449883cb314e3f8d"
+    },
+    "layer_12_attn": {
+      "r": 165,
+      "eigen_seconds": 0.47210065461695194,
+      "visual_energy_fraction_S0": 0.9956052464369469,
+      "prefix_energy_fraction_S0": 7.948636677301473e-05,
+      "visual_energy_fraction_S0d": 0.9921506018549939,
+      "traces": {
+        "V_unique": 622305408.0,
+        "V_repeated": 1135741056.0,
+        "T": 4922660.0,
+        "P": 708.3939208984375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "f1029b1f097c4a47f12bc1d1ddd570107bd668eb502ef98470d22ddb4be7c2cf",
+      "eigen_sha256": "4b6807c6bfd68256a4ddaf162ca40a2bf61e7979635a9009df0e1ecfb462a77e"
+    },
+    "layer_12_o": {
+      "r": 234,
+      "eigen_seconds": 0.47766353748738766,
+      "visual_energy_fraction_S0": 0.9937966833233954,
+      "prefix_energy_fraction_S0": 0.00017835915253850933,
+      "visual_energy_fraction_S0d": 0.9890514784370318,
+      "traces": {
+        "V_unique": 50017144.0,
+        "V_repeated": 91305848.0,
+        "T": 553547.6875,
+        "P": 128.02255249023438
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "79fa084c08eb5c3bcfc0108de6dee40cd46e9183043fc40c5687472b8f19b71e",
+      "eigen_sha256": "6ee1a7a01f522c7229e08aa93c0add6f371f5a0a288a19611e61957ba433effc"
+    },
+    "layer_12_mlp": {
+      "r": 579,
+      "eigen_seconds": 0.4673420116305351,
+      "visual_energy_fraction_S0": 0.9933858531311588,
+      "prefix_energy_fraction_S0": 0.0005127182518746014,
+      "visual_energy_fraction_S0d": 0.9888910172331417,
+      "traces": {
+        "V_unique": 301362432.0,
+        "V_repeated": 550828480.0,
+        "T": 3383217.75,
+        "P": 2221.095458984375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "8a1838b84c5c6249359150ad82d776e5df8f36152f287e23a48a9d15de2fa2e4",
+      "eigen_sha256": "d11cf26f271f6d0e28595f907b5ed42cb4ce754942ecaeca8f15173b908b48da"
+    },
+    "layer_13_attn": {
+      "r": 204,
+      "eigen_seconds": 0.429263137280941,
+      "visual_energy_fraction_S0": 0.9956877167896195,
+      "prefix_energy_fraction_S0": 0.00018686141018556116,
+      "visual_energy_fraction_S0d": 0.9924862814450788,
+      "traces": {
+        "V_unique": 623681088.0,
+        "V_repeated": 1139184640.0,
+        "T": 4719971.0,
+        "P": 1670.2467041015625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "f3fd51d1726a6335b1cb9ac0a3b779369d93beb798d10cc1fbf13c79da90fa29",
+      "eigen_sha256": "764b21e4c4ed46e6e418a56836d8e5a5b7f11e958dc7b9e88eabdf41f14d7d4d"
+    },
+    "layer_13_o": {
+      "r": 315,
+      "eigen_seconds": 0.4462344441562891,
+      "visual_energy_fraction_S0": 0.9940231583819221,
+      "prefix_energy_fraction_S0": 7.883460037812551e-05,
+      "visual_energy_fraction_S0d": 0.9892852726682704,
+      "traces": {
+        "V_unique": 86253864.0,
+        "V_repeated": 157428736.0,
+        "T": 934098.75,
+        "P": 97.54261779785156
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "c15a9ac124771ffad0fee3feb394e5cb2abc0b844d316aa7f89e0b154ae00e9b",
+      "eigen_sha256": "16fca8b50733c837115ea055a417c82f06ac3cfd64b9bb954e1f46c3a12149b3"
+    },
+    "layer_13_mlp": {
+      "r": 646,
+      "eigen_seconds": 0.46262914314866066,
+      "visual_energy_fraction_S0": 0.9932878685409399,
+      "prefix_energy_fraction_S0": 0.0004009676703053527,
+      "visual_energy_fraction_S0d": 0.9885059281033206,
+      "traces": {
+        "V_unique": 297575648.0,
+        "V_repeated": 544304832.0,
+        "T": 3458410.25,
+        "P": 1716.5894775390625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "a3885c449ac9729985f8be392c95139a8e45fefb11004229bb7d9c7d7a11d5c1",
+      "eigen_sha256": "7486e24bdfbd28f064408cda5af3cd08f9104a18191a2883ae195bbbe6424b21"
+    },
+    "layer_14_attn": {
+      "r": 205,
+      "eigen_seconds": 0.47211432829499245,
+      "visual_energy_fraction_S0": 0.9954284647967871,
+      "prefix_energy_fraction_S0": 7.894581915600107e-05,
+      "visual_energy_fraction_S0d": 0.9918193224099993,
+      "traces": {
+        "V_unique": 772151616.0,
+        "V_repeated": 1410954496.0,
+        "T": 6367950.5,
+        "P": 874.2227783203125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "233b27858764f31e95cee745c3709b9f871ca858638e41ea7ac6d2b86fa3855d",
+      "eigen_sha256": "5fc3fdd78ee64ff5eccded444b5cb4aabc8172edcc6b736a5916110c461c55c3"
+    },
+    "layer_14_o": {
+      "r": 226,
+      "eigen_seconds": 0.48178013414144516,
+      "visual_energy_fraction_S0": 0.9960660849226608,
+      "prefix_energy_fraction_S0": 0.00012062745248011759,
+      "visual_energy_fraction_S0d": 0.992986648857573,
+      "traces": {
+        "V_unique": 95992424.0,
+        "V_repeated": 177051824.0,
+        "T": 677816.0,
+        "P": 167.51296997070312
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "48b6e513d9fb85f9bbffc0540879cf8b244bfadd1127f0b02e29694f4805b0b6",
+      "eigen_sha256": "031fbe5657c64c29d4ce349a0e1bfef592d5b9d25f3ed93a97473738f8b6fa52"
+    },
+    "layer_14_mlp": {
+      "r": 668,
+      "eigen_seconds": 0.39193771965801716,
+      "visual_energy_fraction_S0": 0.9935609530560893,
+      "prefix_energy_fraction_S0": 0.00037471351449141224,
+      "visual_energy_fraction_S0d": 0.9889417032324969,
+      "traces": {
+        "V_unique": 313813184.0,
+        "V_repeated": 574633024.0,
+        "T": 3507350.25,
+        "P": 1693.111083984375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "53725be8b94fb9ed19b5804745c5f889f312eacf137334926d9a862ab2e0d351",
+      "eigen_sha256": "32bd87b0232dd94b629e9e5e6cde1e36f15a18abefbeb2ed4a90ad48ea53ec50"
+    },
+    "layer_15_attn": {
+      "r": 170,
+      "eigen_seconds": 0.4848188143223524,
+      "visual_energy_fraction_S0": 0.9953869011751776,
+      "prefix_energy_fraction_S0": 0.00031153583376554466,
+      "visual_energy_fraction_S0d": 0.9921597004290735,
+      "traces": {
+        "V_unique": 646845632.0,
+        "V_repeated": 1182147584.0,
+        "T": 5108649.0,
+        "P": 2890.5322265625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "b651eceaa6c0126d8f5a2e82eb48d83dee6eae5e34f0b1d9d280d58d5d6569cf",
+      "eigen_sha256": "af0a61068a663fa63c3b55de5cd1ed7763aba61c3f2e33e40e839a52509e49c3"
+    },
+    "layer_15_o": {
+      "r": 319,
+      "eigen_seconds": 0.447831591591239,
+      "visual_energy_fraction_S0": 0.9949993599927683,
+      "prefix_energy_fraction_S0": 0.00022342732285263414,
+      "visual_energy_fraction_S0d": 0.9912404795241805,
+      "traces": {
+        "V_unique": 70144192.0,
+        "V_repeated": 129057304.0,
+        "T": 619632.75,
+        "P": 226.40504455566406
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "cac3d39a7d5633aaac1f0c1953f13283e55fec22a65fa7dfe17e99ff3c566a25",
+      "eigen_sha256": "0375016b906bf5cf19591864b38a2ece594ad6ae5c8ea43504bfbf15871dfb15"
+    },
+    "layer_15_mlp": {
+      "r": 720,
+      "eigen_seconds": 0.4959861394017935,
+      "visual_energy_fraction_S0": 0.993512830964428,
+      "prefix_energy_fraction_S0": 0.0003484938935627378,
+      "visual_energy_fraction_S0d": 0.9888026087512214,
+      "traces": {
+        "V_unique": 303938784.0,
+        "V_repeated": 556800512.0,
+        "T": 3440335.5,
+        "P": 1525.8482666015625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "6859fe19c7bf1f73394b402fda9235d355f9945f04cc69e785fb7aa8dddfd1b2",
+      "eigen_sha256": "d4e71228aedd12a9c257c7c1e92ebbcb8b581aed9bbcac4da2b02a0a5d4a7d83"
+    },
+    "layer_16_attn": {
+      "r": 220,
+      "eigen_seconds": 0.4711045119911432,
+      "visual_energy_fraction_S0": 0.9958458685677595,
+      "prefix_energy_fraction_S0": 0.00012803710123270533,
+      "visual_energy_fraction_S0d": 0.99265899055296,
+      "traces": {
+        "V_unique": 823624768.0,
+        "V_repeated": 1506209536.0,
+        "T": 6089438.0,
+        "P": 1512.9310302734375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "617b4bce0002a5bf49a3102d3977328814baf2e3b777cdd85d1557177688bdc1",
+      "eigen_sha256": "170825086cfd94733f1aaaf5cf762290d2406cfc4f3ef10559a6d401f40c4b8b"
+    },
+    "layer_16_o": {
+      "r": 238,
+      "eigen_seconds": 0.4483648706227541,
+      "visual_energy_fraction_S0": 0.9960585165666492,
+      "prefix_energy_fraction_S0": 8.894356419722153e-05,
+      "visual_energy_fraction_S0d": 0.9928998061894386,
+      "traces": {
+        "V_unique": 88701160.0,
+        "V_repeated": 163965872.0,
+        "T": 634184.6875,
+        "P": 114.38607788085938
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "3678f1cc3af8304f768991a430bf8ec5c20a72b77d15d536192b4ba0bee87724",
+      "eigen_sha256": "e87537cec3496a17089b83f14e3aec3bf30683511f7eec78b2881718752fab27"
+    },
+    "layer_16_mlp": {
+      "r": 801,
+      "eigen_seconds": 0.5052366033196449,
+      "visual_energy_fraction_S0": 0.9937245328634161,
+      "prefix_energy_fraction_S0": 0.0002741271280310968,
+      "visual_energy_fraction_S0d": 0.9890449494354064,
+      "traces": {
+        "V_unique": 315523584.0,
+        "V_repeated": 578486208.0,
+        "T": 3493616.5,
+        "P": 1246.7203369140625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "2bbcf1e215f04d59570a3d4cb8446a3c2b40b16d6059001162d86887fe7111c4",
+      "eigen_sha256": "fb26f88bf07c1ef0ae6db106bd957db457c7250b35d3a2d46edf94ecd629fe50"
+    },
+    "layer_17_attn": {
+      "r": 308,
+      "eigen_seconds": 0.49249133095145226,
+      "visual_energy_fraction_S0": 0.9956677440737282,
+      "prefix_energy_fraction_S0": 0.0001367868743782223,
+      "visual_energy_fraction_S0d": 0.9923535457952999,
+      "traces": {
+        "V_unique": 813201600.0,
+        "V_repeated": 1486672128.0,
+        "T": 6264426.0,
+        "P": 1595.64111328125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "4a83244a9120b61fa0db9dfc08b667090f8ec30bc7bfe288c86d004b0151ec25",
+      "eigen_sha256": "027c1adbffbb9ce72cf841761150e280aeadfc4b80bc29eea0d3cffb59d5d0c7"
+    },
+    "layer_17_o": {
+      "r": 359,
+      "eigen_seconds": 0.45927710086107254,
+      "visual_energy_fraction_S0": 0.9928336476136084,
+      "prefix_energy_fraction_S0": 0.00028974685342297656,
+      "visual_energy_fraction_S0d": 0.9874324037995418,
+      "traces": {
+        "V_unique": 53139092.0,
+        "V_repeated": 97615416.0,
+        "T": 676107.9375,
+        "P": 222.56182861328125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "32d509d7708875535f0f6471f9acd97a3f09b9560434050a860721581fc8617f",
+      "eigen_sha256": "30f9d2040778e35f1d21377a26d694e8bceb16b769e885f185d8346d7c6b801c"
+    },
+    "layer_17_mlp": {
+      "r": 857,
+      "eigen_seconds": 0.47330685518682003,
+      "visual_energy_fraction_S0": 0.9937169697683627,
+      "prefix_energy_fraction_S0": 0.00024985074383892093,
+      "visual_energy_fraction_S0d": 0.9889909983599439,
+      "traces": {
+        "V_unique": 354970368.0,
+        "V_repeated": 650614400.0,
+        "T": 3950092.0,
+        "P": 1278.0023193359375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "378caa683826da4099f4da161b8e0bcaabfd43a79ea1b968165146c7a12418cc",
+      "eigen_sha256": "018d7703498f4bdefbf0de1b92fe3866f4ee548d93964c9cc0327cd5e72f43e2"
+    },
+    "layer_18_attn": {
+      "r": 351,
+      "eigen_seconds": 0.45727964118123055,
+      "visual_energy_fraction_S0": 0.9957669936889759,
+      "prefix_energy_fraction_S0": 0.00016064118796397066,
+      "visual_energy_fraction_S0d": 0.9925751372236384,
+      "traces": {
+        "V_unique": 705576896.0,
+        "V_repeated": 1290168960.0,
+        "T": 5276374.0,
+        "P": 1626.05712890625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "80f112703cc68975417adbb0ed4ba840cd8210a6cdc42b5cb6b06ebe5d9b63bb",
+      "eigen_sha256": "a006e5c44c86b1417f5fd907574456228253947ba319b88b37a56a624719d122"
+    },
+    "layer_18_o": {
+      "r": 362,
+      "eigen_seconds": 0.48060651309788227,
+      "visual_energy_fraction_S0": 0.9928964271729852,
+      "prefix_energy_fraction_S0": 9.369651859762595e-05,
+      "visual_energy_fraction_S0d": 0.9870997916134345,
+      "traces": {
+        "V_unique": 85785520.0,
+        "V_repeated": 158780768.0,
+        "T": 1120996.625,
+        "P": 117.05970764160156
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "32ff4accd1a17c4fc281ff2926a84efc06cd2fd05f4f7c96fa94a00b56df8d04",
+      "eigen_sha256": "8a9c674da7910fb5cad18bb419615783596e58e789b78a25c602dbe05c192974"
+    },
+    "layer_18_mlp": {
+      "r": 859,
+      "eigen_seconds": 0.5134799517691135,
+      "visual_energy_fraction_S0": 0.9936218522792588,
+      "prefix_energy_fraction_S0": 0.0002110379155627087,
+      "visual_energy_fraction_S0d": 0.9887501039859804,
+      "traces": {
+        "V_unique": 393936576.0,
+        "V_repeated": 721957504.0,
+        "T": 4480971.5,
+        "P": 1197.9564208984375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "56e84939a02690739327c6943e77796971c1ab49220514a9981d458a496e7ad2",
+      "eigen_sha256": "7f32b5dc31a10cd16f18ec9ba76efd22514810fa594252d8f5e119402d0aa2eb"
+    },
+    "layer_19_attn": {
+      "r": 319,
+      "eigen_seconds": 0.44715986400842667,
+      "visual_energy_fraction_S0": 0.9954769733379716,
+      "prefix_energy_fraction_S0": 0.00011996716184279662,
+      "visual_energy_fraction_S0d": 0.9919705782632824,
+      "traces": {
+        "V_unique": 841608640.0,
+        "V_repeated": 1539855232.0,
+        "T": 6810880.0,
+        "P": 1449.776611328125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "4b412f5f637526ae9f398d10b3712b8807c898c55293bcf6a8274783e957af6c",
+      "eigen_sha256": "2405af22194c556a1172043cedb3b30a054759e28d7e9fd01a2c0f14c1f1feb2"
+    },
+    "layer_19_o": {
+      "r": 294,
+      "eigen_seconds": 0.4860158320516348,
+      "visual_energy_fraction_S0": 0.9917916378050348,
+      "prefix_energy_fraction_S0": 9.916173840770664e-05,
+      "visual_energy_fraction_S0d": 0.9849163407973812,
+      "traces": {
+        "V_unique": 107155936.0,
+        "V_repeated": 200689440.0,
+        "T": 1640900.0,
+        "P": 156.76107788085938
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "998562962ae91e198c9dde4fe291919c471a036c574f445aa28efbffdb370cbd",
+      "eigen_sha256": "fe5988893e825d1458c0787402cd02d4f4f2cb059a7d58fecfaf7017afabac2b"
+    },
+    "layer_19_mlp": {
+      "r": 828,
+      "eigen_seconds": 0.5157838184386492,
+      "visual_energy_fraction_S0": 0.9932093269629817,
+      "prefix_energy_fraction_S0": 0.0001900730781800553,
+      "visual_energy_fraction_S0d": 0.9879480149531447,
+      "traces": {
+        "V_unique": 460920224.0,
+        "V_repeated": 845882304.0,
+        "T": 5621504.5,
+        "P": 1264.677490234375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "336edc1c9d0e0dc29659c7a80fa0496ab2127b21b230c444426da954dc87b6ec",
+      "eigen_sha256": "112c6f91c4a3211aa35db840532b0719a8dce6148719738edbfb2ce6325fb8d3"
+    },
+    "layer_20_attn": {
+      "r": 350,
+      "eigen_seconds": 0.3072288613766432,
+      "visual_energy_fraction_S0": 0.9951431614198367,
+      "prefix_energy_fraction_S0": 0.00010862548475150356,
+      "visual_energy_fraction_S0d": 0.9913454918015212,
+      "traces": {
+        "V_unique": 839192512.0,
+        "V_repeated": 1535170816.0,
+        "T": 7324894.0,
+        "P": 1309.1605224609375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "f93eaccedd3ec4d2d0485c51559f9c5203882d8f5f706c385aa6855fc4eae810",
+      "eigen_sha256": "3c278f519a29361be63d071764f7126f6a7d989ab9dc9cea2748bc8362a714a2"
+    },
+    "layer_20_o": {
+      "r": 245,
+      "eigen_seconds": 0.4875073470175266,
+      "visual_energy_fraction_S0": 0.9891513332338607,
+      "prefix_energy_fraction_S0": 0.0001594242995706131,
+      "visual_energy_fraction_S0d": 0.9801083169847853,
+      "traces": {
+        "V_unique": 58875892.0,
+        "V_repeated": 110560544.0,
+        "T": 1194770.125,
+        "P": 139.2136993408203
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "c3b127dbd743672c7ec0f60d5f143576daeb297a5c3507c1a62d1502d413a9a5",
+      "eigen_sha256": "78eb2ecdfb3b97f52e3be548590e2cfb977dc46e3d64c718f66d0e1fb5eee0f2"
+    },
+    "layer_20_mlp": {
+      "r": 857,
+      "eigen_seconds": 0.5104561783373356,
+      "visual_energy_fraction_S0": 0.9929405503513123,
+      "prefix_energy_fraction_S0": 0.00017133507210180865,
+      "visual_energy_fraction_S0d": 0.9874201983933429,
+      "traces": {
+        "V_unique": 555625856.0,
+        "V_repeated": 1020217408.0,
+        "T": 7077336.5,
+        "P": 1375.326416015625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "d6f5fe57e185099895990af129c22d03b2bd6c1160dfec82c99aef3babd94232",
+      "eigen_sha256": "9e89addd1ba72690dbdbfe0a6fd7ec689d9cad5b457f371643c07453da8d7a23"
+    },
+    "layer_21_attn": {
+      "r": 312,
+      "eigen_seconds": 0.40293014608323574,
+      "visual_energy_fraction_S0": 0.9950498272472653,
+      "prefix_energy_fraction_S0": 6.221737500430779e-05,
+      "visual_energy_fraction_S0d": 0.9911015958208657,
+      "traces": {
+        "V_unique": 981000192.0,
+        "V_repeated": 1792823168.0,
+        "T": 8806835.0,
+        "P": 875.7786254882812
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "9c77c8581a36e3094550d8cada0c76cc1805e57c58f55311c975d4bf04b480c8",
+      "eigen_sha256": "d3203c1a5189599a0a7c39ae06b0feecee2936ec3f9d4af440ad81d544ce7455"
+    },
+    "layer_21_o": {
+      "r": 334,
+      "eigen_seconds": 0.5010281633585691,
+      "visual_energy_fraction_S0": 0.9929803797569212,
+      "prefix_energy_fraction_S0": 3.705385550544242e-05,
+      "visual_energy_fraction_S0d": 0.9873463246543388,
+      "traces": {
+        "V_unique": 172279600.0,
+        "V_repeated": 313970336.0,
+        "T": 2207816.75,
+        "P": 91.53166961669922
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "1a424b7247f25a1604b99308e56e0ac1477b15e77a08bcd45fe679a5b24e59b2",
+      "eigen_sha256": "2900821c9dc51e14a7b6799c5c27cb8f8cabc4248ec6c66953d7521670fb500f"
+    },
+    "layer_21_mlp": {
+      "r": 832,
+      "eigen_seconds": 0.5075260065495968,
+      "visual_energy_fraction_S0": 0.9927569655038917,
+      "prefix_energy_fraction_S0": 0.00013802342263251495,
+      "visual_energy_fraction_S0d": 0.9870426012628507,
+      "traces": {
+        "V_unique": 750127104.0,
+        "V_repeated": 1375716864.0,
+        "T": 9845797.0,
+        "P": 1494.26953125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "7b82f7593736fa7ce625e5fe5e84eb83bc18d62543fdd1985cc9780586846f26",
+      "eigen_sha256": "2f160d56d13a730d061f5747c83f7eedf36d12de1078ec67c34fce45015032f7"
+    },
+    "layer_22_attn": {
+      "r": 280,
+      "eigen_seconds": 0.43011489510536194,
+      "visual_energy_fraction_S0": 0.9948978926971455,
+      "prefix_energy_fraction_S0": 3.902939094893543e-05,
+      "visual_energy_fraction_S0d": 0.9907945149701703,
+      "traces": {
+        "V_unique": 1400089088.0,
+        "V_repeated": 2555974400.0,
+        "T": 13007463.0,
+        "P": 783.3571166992188
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "edf9101182ce1a67b673e7aee55056553db4659979e08d4bebde0660ca11cb37",
+      "eigen_sha256": "27977b30dbd0eabf6d67886456d8af9a6ff277706f2a294077339fa8649a3ace"
+    },
+    "layer_22_o": {
+      "r": 306,
+      "eigen_seconds": 0.4548457134515047,
+      "visual_energy_fraction_S0": 0.9892793463671459,
+      "prefix_energy_fraction_S0": 3.060564840745902e-05,
+      "visual_energy_fraction_S0d": 0.9799595016916612,
+      "traces": {
+        "V_unique": 125755984.0,
+        "V_repeated": 237989952.0,
+        "T": 2571694.25,
+        "P": 57.521644592285156
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "b3c43bb6d65f4389d4b3e3d7c378e791f01983f0c9bfd57026668172327493ae",
+      "eigen_sha256": "8e07f7288266cc2921f1047d38baa862dff543060430df2e8ab615208f1fd719"
+    },
+    "layer_22_mlp": {
+      "r": 816,
+      "eigen_seconds": 0.4688641596585512,
+      "visual_energy_fraction_S0": 0.9925603445653949,
+      "prefix_energy_fraction_S0": 0.00017607182171708695,
+      "visual_energy_fraction_S0d": 0.9867517270102213,
+      "traces": {
+        "V_unique": 1010664192.0,
+        "V_repeated": 1853881600.0,
+        "T": 13566756.0,
+        "P": 2569.24169921875
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "74ff63706ce53e0f2889518dd8cb9fdaba23bccf35970b925a73ca3cd69d5624",
+      "eigen_sha256": "a6ca4ab58a550a3ada274d83cee69f788619bb387a83cfa38724b57666602aa2"
+    },
+    "layer_23_attn": {
+      "r": 245,
+      "eigen_seconds": 0.47214087657630444,
+      "visual_energy_fraction_S0": 0.9942937922812699,
+      "prefix_energy_fraction_S0": 4.15271239025092e-05,
+      "visual_energy_fraction_S0d": 0.9897311895581654,
+      "traces": {
+        "V_unique": 1424958720.0,
+        "V_repeated": 2594893824.0,
+        "T": 14783603.0,
+        "P": 846.6945190429688
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "1bd73682719ed270d86cbf633b485500a0883314f90b0af2f05e7b003e340b3a",
+      "eigen_sha256": "2310ce73747cc7c9cb5c815aeb8b9b974529f5a0924f36ae3c34caf08000f902"
+    },
+    "layer_23_o": {
+      "r": 398,
+      "eigen_seconds": 0.4996883999556303,
+      "visual_energy_fraction_S0": 0.990838652011995,
+      "prefix_energy_fraction_S0": 7.227058741099305e-05,
+      "visual_energy_fraction_S0d": 0.9835826197308691,
+      "traces": {
+        "V_unique": 301528288.0,
+        "V_repeated": 548627072.0,
+        "T": 5032619.5,
+        "P": 312.6265869140625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "efcfd1a1401dbd32337797654ed9758e93adc136a14b079e6605bfbea6203779",
+      "eigen_sha256": "cbd54484baa4fb10c5922892347a5bc42d4292ba8b2eb9f3d93bfa278e9066a3"
+    },
+    "layer_23_mlp": {
+      "r": 871,
+      "eigen_seconds": 0.44419894739985466,
+      "visual_energy_fraction_S0": 0.9925400714432859,
+      "prefix_energy_fraction_S0": 0.00019658014990132447,
+      "visual_energy_fraction_S0d": 0.9867326028022532,
+      "traces": {
+        "V_unique": 1431022848.0,
+        "V_repeated": 2628767488.0,
+        "T": 19237162.0,
+        "P": 4067.55859375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "1a89bddc9100e7f2cbca6c02caa60e4737665b679f2a027f863b86b616672932",
+      "eigen_sha256": "989ebbc98ab758563ee8c9b5f6bd8a812b7440aaf76e870a1e7b5b9742977a35"
+    },
+    "layer_24_attn": {
+      "r": 319,
+      "eigen_seconds": 0.47684725001454353,
+      "visual_energy_fraction_S0": 0.9944216558177515,
+      "prefix_energy_fraction_S0": 3.128134616976302e-05,
+      "visual_energy_fraction_S0d": 0.9899402854285454,
+      "traces": {
+        "V_unique": 1514157696.0,
+        "V_repeated": 2758265856.0,
+        "T": 15386103.0,
+        "P": 677.861572265625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "41bff4483182dcb6334db6fa28cd3e8b60a95344ab3e7695dfd563bd80a7e115",
+      "eigen_sha256": "1f3210251f4b168cdea6b51b5c7f80ca6f9e47716cf0a9376e560834a7812dcc"
+    },
+    "layer_24_o": {
+      "r": 440,
+      "eigen_seconds": 0.5011401474475861,
+      "visual_energy_fraction_S0": 0.9908531019005744,
+      "prefix_energy_fraction_S0": 6.97683181624968e-05,
+      "visual_energy_fraction_S0d": 0.9832642639174484,
+      "traces": {
+        "V_unique": 237250128.0,
+        "V_repeated": 440773696.0,
+        "T": 4037894.25,
+        "P": 242.4681396484375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "279fffc19051460ef7a18ef78f33ebfaf896108d0c0e200827039f535107ac2f",
+      "eigen_sha256": "9b845d37e1876ea2c893feffbdeea73a38eba3a9e2ee54bba5b445cb526314ee"
+    },
+    "layer_24_mlp": {
+      "r": 957,
+      "eigen_seconds": 0.43134026788175106,
+      "visual_energy_fraction_S0": 0.9926531287996762,
+      "prefix_energy_fraction_S0": 0.00020012943941752435,
+      "visual_energy_fraction_S0d": 0.9869335837211632,
+      "traces": {
+        "V_unique": 1633588352.0,
+        "V_repeated": 3003347712.0,
+        "T": 21623012.0,
+        "P": 4730.5224609375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "93c282e5b294c8cf92a55498ef44511eeea7022583735e714ae0de1705dac4e8",
+      "eigen_sha256": "55a61c505f525ab0d77ed92b54896846be1f104375f4300c17f78bb41bb0c21a"
+    },
+    "layer_25_attn": {
+      "r": 243,
+      "eigen_seconds": 0.4276571162045002,
+      "visual_energy_fraction_S0": 0.9947950862104281,
+      "prefix_energy_fraction_S0": 3.665040902860125e-05,
+      "visual_energy_fraction_S0d": 0.9906348833587237,
+      "traces": {
+        "V_unique": 1783802880.0,
+        "V_repeated": 3245722368.0,
+        "T": 16862516.0,
+        "P": 934.2144775390625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "b231f47102863d2d8ef72e1b063e2303cf9004eb7fee568fdd0cc200805109f0",
+      "eigen_sha256": "c03ea575a4e74bb09083f750977053ccf088c0f3eb274fd3197d6ad504febb03"
+    },
+    "layer_25_o": {
+      "r": 422,
+      "eigen_seconds": 0.41952516697347164,
+      "visual_energy_fraction_S0": 0.9935076567637586,
+      "prefix_energy_fraction_S0": 6.321062601305261e-05,
+      "visual_energy_fraction_S0d": 0.9882416154680487,
+      "traces": {
+        "V_unique": 457687040.0,
+        "V_repeated": 841469952.0,
+        "T": 5445274.5,
+        "P": 418.2611389160156
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "ba5624b8a80e0047644915881f554b12e20916e9942399e3dec4d0bd5ed380b4",
+      "eigen_sha256": "07135f8361dc15918d75b1f8b7177889940616d6e5e4a58863f90bb372999206"
+    },
+    "layer_25_mlp": {
+      "r": 1055,
+      "eigen_seconds": 0.45358438789844513,
+      "visual_energy_fraction_S0": 0.9928546443651025,
+      "prefix_energy_fraction_S0": 0.00025456447268441335,
+      "visual_energy_fraction_S0d": 0.9873848461934799,
+      "traces": {
+        "V_unique": 2059742720.0,
+        "V_repeated": 3790620672.0,
+        "T": 26308358.0,
+        "P": 7592.98388671875
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "41222abe6e18ca447697b83ba462d97720e3d3f1cf205030abcdc62b257bf34a",
+      "eigen_sha256": "a2145c269c064dea7311d81228973e8ccd8222f42615d9ce6a8af57601ea8342"
+    },
+    "layer_26_attn": {
+      "r": 174,
+      "eigen_seconds": 0.41159007884562016,
+      "visual_energy_fraction_S0": 0.9945234070591177,
+      "prefix_energy_fraction_S0": 2.386055786470597e-05,
+      "visual_energy_fraction_S0d": 0.990120243091083,
+      "traces": {
+        "V_unique": 2287858432.0,
+        "V_repeated": 4163642624.0,
+        "T": 22828250.0,
+        "P": 780.4212036132812
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "af1e9b822ddea98657796e3c769c9746790a377fe6ada50e68bfe2b1291f0da9",
+      "eigen_sha256": "f4361acb3d2ffba8dbb7a85487044c18fe431dc5bb2ffe51917b9152c5528118"
+    },
+    "layer_26_o": {
+      "r": 495,
+      "eigen_seconds": 0.45818972773849964,
+      "visual_energy_fraction_S0": 0.9934135964602279,
+      "prefix_energy_fraction_S0": 5.0689860610702455e-05,
+      "visual_energy_fraction_S0d": 0.9881011287627323,
+      "traces": {
+        "V_unique": 755066816.0,
+        "V_repeated": 1381976064.0,
+        "T": 9092084.0,
+        "P": 550.9111328125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "e1d357ea068d8ef1143325b0a3c88957f5a7cbb41f8e56c4b7ba68a04eafa5e9",
+      "eigen_sha256": "396c54beb1124babfd53e5f20e4a743c363b0aacbf0b10cb7eb18c5bafa4cc27"
+    },
+    "layer_26_mlp": {
+      "r": 1147,
+      "eigen_seconds": 0.456878375262022,
+      "visual_energy_fraction_S0": 0.9918341508509372,
+      "prefix_energy_fraction_S0": 0.0010857147673349634,
+      "visual_energy_fraction_S0d": 0.9870116923006556,
+      "traces": {
+        "V_unique": 2106694656.0,
+        "V_repeated": 3878907648.0,
+        "T": 27689294.0,
+        "P": 33172.34375
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "54d2ceca8e4dcc443663eb7e6329dc4a2d30fd76d0d697a612c33a8734e3ee60",
+      "eigen_sha256": "c311ecb218cb100209db54c19210edab445cb5b7a5db83edeb2b671b8dba58b7"
+    },
+    "layer_27_attn": {
+      "r": 137,
+      "eigen_seconds": 0.401910861954093,
+      "visual_energy_fraction_S0": 0.9929408885132646,
+      "prefix_energy_fraction_S0": 0.0012026424532895078,
+      "visual_energy_fraction_S0d": 0.9893566719993493,
+      "traces": {
+        "V_unique": 2572155648.0,
+        "V_repeated": 4683959808.0,
+        "T": 27626484.0,
+        "P": 44321.69140625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "c7f8a5ed43ece7c203b97fb93f6decd723c3303729c0b6eb6a09e89e4f51b4cd",
+      "eigen_sha256": "a95b2faaa6b31b110fda459a1b9b1852b3c3048823ce0d46ef252ca3c652f34b"
+    },
+    "layer_27_o": {
+      "r": 270,
+      "eigen_seconds": 0.46973872371017933,
+      "visual_energy_fraction_S0": 0.9821401080698002,
+      "prefix_energy_fraction_S0": 0.010930380567134546,
+      "visual_energy_fraction_S0d": 0.9871312611894145,
+      "traces": {
+        "V_unique": 1612025600.0,
+        "V_repeated": 2942284544.0,
+        "T": 20759354.0,
+        "P": 255821.203125
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "7d9c42c5f21632958c75d86072cd534d750f3e47c06f2e4af14146d38c361783",
+      "eigen_sha256": "2727916733097869a82601007ce1b473b8534a22f155c4c25fc5409775229396"
+    },
+    "layer_27_mlp": {
+      "r": 922,
+      "eigen_seconds": 0.4958484508097172,
+      "visual_energy_fraction_S0": 0.9900764019287945,
+      "prefix_energy_fraction_S0": 0.0001804893199793789,
+      "visual_energy_fraction_S0d": 0.9821825579047332,
+      "traces": {
+        "V_unique": 3431333120.0,
+        "V_repeated": 6324472832.0,
+        "T": 62237648.0,
+        "P": 9007.3525390625
+      },
+      "counts": {
+        "n_prefix": 128,
+        "n_v_unique": 267754,
+        "n_v_repeated": 488884,
+        "n_t": 3852
+      },
+      "moments_sha256": "d1d302b4270b13b46f6a7bfc496a7bd8942e6b3c138c3a6cc8998cf56072aa51",
+      "eigen_sha256": "e6841ede0d9591cbba2a4a29c606e087245ee8fe0929c89be5c73c2e0ed0bbe4"
+    }
+  },
+  "sample_records": [
+    {
+      "index": 0,
+      "person_id": "0355",
+      "type": "pure_text",
+      "sequence_length": 52,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 50,
+      "first_image": false,
+      "forward_and_moments_seconds": 4.882777441293001
+    },
+    {
+      "index": 1,
+      "person_id": "0412",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": true,
+      "forward_and_moments_seconds": 13.68214375898242
+    },
+    {
+      "index": 2,
+      "person_id": "0143",
+      "type": "multimodal",
+      "sequence_length": 7435,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 62,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.919402511790395
+    },
+    {
+      "index": 3,
+      "person_id": "0972",
+      "type": "pure_text",
+      "sequence_length": 32,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 30,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.7022122181952
+    },
+    {
+      "index": 4,
+      "person_id": "0412",
+      "type": "multimodal",
+      "sequence_length": 7394,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 21,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.263085367158055
+    },
+    {
+      "index": 5,
+      "person_id": "0415",
+      "type": "multimodal",
+      "sequence_length": 7396,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 23,
+      "first_image": true,
+      "forward_and_moments_seconds": 13.91806297749281
+    },
+    {
+      "index": 6,
+      "person_id": "0370",
+      "type": "multimodal",
+      "sequence_length": 7403,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 30,
+      "first_image": true,
+      "forward_and_moments_seconds": 13.515727389603853
+    },
+    {
+      "index": 7,
+      "person_id": "0067",
+      "type": "multimodal",
+      "sequence_length": 7410,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 37,
+      "first_image": true,
+      "forward_and_moments_seconds": 13.33334400318563
+    },
+    {
+      "index": 8,
+      "person_id": "0663",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": true,
+      "forward_and_moments_seconds": 12.899142723530531
+    },
+    {
+      "index": 9,
+      "person_id": "0601",
+      "type": "multimodal",
+      "sequence_length": 7398,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 25,
+      "first_image": true,
+      "forward_and_moments_seconds": 13.626571103930473
+    },
+    {
+      "index": 10,
+      "person_id": "0363",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": true,
+      "forward_and_moments_seconds": 15.202987167984247
+    },
+    {
+      "index": 11,
+      "person_id": "0068",
+      "type": "multimodal",
+      "sequence_length": 7396,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 23,
+      "first_image": true,
+      "forward_and_moments_seconds": 17.487729793414474
+    },
+    {
+      "index": 12,
+      "person_id": "0370",
+      "type": "pure_text",
+      "sequence_length": 42,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 40,
+      "first_image": false,
+      "forward_and_moments_seconds": 7.392678348347545
+    },
+    {
+      "index": 13,
+      "person_id": "0976",
+      "type": "pure_text",
+      "sequence_length": 32,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 30,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.0212385803461075
+    },
+    {
+      "index": 14,
+      "person_id": "0583",
+      "type": "pure_text",
+      "sequence_length": 75,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 73,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.320307804271579
+    },
+    {
+      "index": 15,
+      "person_id": "0156",
+      "type": "pure_text",
+      "sequence_length": 39,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 37,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.522330079227686
+    },
+    {
+      "index": 16,
+      "person_id": "0047",
+      "type": "pure_text",
+      "sequence_length": 50,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 48,
+      "first_image": false,
+      "forward_and_moments_seconds": 7.272201117128134
+    },
+    {
+      "index": 17,
+      "person_id": "0814",
+      "type": "pure_text",
+      "sequence_length": 35,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 33,
+      "first_image": false,
+      "forward_and_moments_seconds": 7.081469144672155
+    },
+    {
+      "index": 18,
+      "person_id": "0248",
+      "type": "multimodal",
+      "sequence_length": 7393,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 20,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.98060224018991
+    },
+    {
+      "index": 19,
+      "person_id": "0976",
+      "type": "multimodal",
+      "sequence_length": 7393,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 20,
+      "first_image": true,
+      "forward_and_moments_seconds": 15.07044392824173
+    },
+    {
+      "index": 20,
+      "person_id": "0135",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.829312194138765
+    },
+    {
+      "index": 21,
+      "person_id": "0067",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.19540011510253
+    },
+    {
+      "index": 22,
+      "person_id": "0564",
+      "type": "ophthalmic",
+      "sequence_length": 2629,
+      "prefix_tokens": 2,
+      "visual_tokens": 2599,
+      "text_tokens": 28,
+      "first_image": true,
+      "forward_and_moments_seconds": 12.713918536901474
+    },
+    {
+      "index": 23,
+      "person_id": "0067",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.2035989202559
+    },
+    {
+      "index": 24,
+      "person_id": "0412",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.095686750486493
+    },
+    {
+      "index": 25,
+      "person_id": "0663",
+      "type": "pure_text",
+      "sequence_length": 27,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 25,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.824107393622398
+    },
+    {
+      "index": 26,
+      "person_id": "0355",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.552655013278127
+    },
+    {
+      "index": 27,
+      "person_id": "0143",
+      "type": "pure_text",
+      "sequence_length": 36,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 34,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.218257911503315
+    },
+    {
+      "index": 28,
+      "person_id": "0370",
+      "type": "pure_text",
+      "sequence_length": 36,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 34,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.120766950771213
+    },
+    {
+      "index": 29,
+      "person_id": "0497",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.645352529361844
+    },
+    {
+      "index": 30,
+      "person_id": "0190",
+      "type": "multimodal",
+      "sequence_length": 7401,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 28,
+      "first_image": true,
+      "forward_and_moments_seconds": 15.108682932332158
+    },
+    {
+      "index": 31,
+      "person_id": "0601",
+      "type": "pure_text",
+      "sequence_length": 27,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 25,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.719403240829706
+    },
+    {
+      "index": 32,
+      "person_id": "0414",
+      "type": "pure_text",
+      "sequence_length": 30,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 28,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.141745708882809
+    },
+    {
+      "index": 33,
+      "person_id": "0497",
+      "type": "pure_text",
+      "sequence_length": 29,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 27,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.891180323436856
+    },
+    {
+      "index": 34,
+      "person_id": "0912",
+      "type": "pure_text",
+      "sequence_length": 28,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 26,
+      "first_image": false,
+      "forward_and_moments_seconds": 4.903523420915008
+    },
+    {
+      "index": 35,
+      "person_id": "0042",
+      "type": "multimodal",
+      "sequence_length": 7429,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 56,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.1233433727175
+    },
+    {
+      "index": 36,
+      "person_id": "0047",
+      "type": "pure_text",
+      "sequence_length": 28,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 26,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.093408340588212
+    },
+    {
+      "index": 37,
+      "person_id": "0414",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.859626986086369
+    },
+    {
+      "index": 38,
+      "person_id": "0047",
+      "type": "pure_text",
+      "sequence_length": 28,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 26,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.636718669906259
+    },
+    {
+      "index": 39,
+      "person_id": "0758",
+      "type": "pure_text",
+      "sequence_length": 27,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 25,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.9933303110301495
+    },
+    {
+      "index": 40,
+      "person_id": "0497",
+      "type": "multimodal",
+      "sequence_length": 7398,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 25,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.81827181763947
+    },
+    {
+      "index": 41,
+      "person_id": "0047",
+      "type": "multimodal",
+      "sequence_length": 7419,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 46,
+      "first_image": true,
+      "forward_and_moments_seconds": 16.23219669610262
+    },
+    {
+      "index": 42,
+      "person_id": "0414",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.546337315812707
+    },
+    {
+      "index": 43,
+      "person_id": "0831",
+      "type": "pure_text",
+      "sequence_length": 68,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 66,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.573028940707445
+    },
+    {
+      "index": 44,
+      "person_id": "0370",
+      "type": "pure_text",
+      "sequence_length": 30,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 28,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.772726368159056
+    },
+    {
+      "index": 45,
+      "person_id": "0473",
+      "type": "pure_text",
+      "sequence_length": 28,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 26,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.257595855742693
+    },
+    {
+      "index": 46,
+      "person_id": "0473",
+      "type": "pure_text",
+      "sequence_length": 34,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 32,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.153007535263896
+    },
+    {
+      "index": 47,
+      "person_id": "0279",
+      "type": "pure_text",
+      "sequence_length": 27,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 25,
+      "first_image": false,
+      "forward_and_moments_seconds": 4.649863405153155
+    },
+    {
+      "index": 48,
+      "person_id": "0135",
+      "type": "pure_text",
+      "sequence_length": 32,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 30,
+      "first_image": false,
+      "forward_and_moments_seconds": 7.772528026252985
+    },
+    {
+      "index": 49,
+      "person_id": "0583",
+      "type": "ophthalmic",
+      "sequence_length": 3070,
+      "prefix_tokens": 2,
+      "visual_tokens": 3039,
+      "text_tokens": 29,
+      "first_image": true,
+      "forward_and_moments_seconds": 12.494795508682728
+    },
+    {
+      "index": 50,
+      "person_id": "0583",
+      "type": "pure_text",
+      "sequence_length": 37,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 35,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.107477443292737
+    },
+    {
+      "index": 51,
+      "person_id": "0583",
+      "type": "pure_text",
+      "sequence_length": 59,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 57,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.214073441922665
+    },
+    {
+      "index": 52,
+      "person_id": "0976",
+      "type": "pure_text",
+      "sequence_length": 32,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 30,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.969098810106516
+    },
+    {
+      "index": 53,
+      "person_id": "0306",
+      "type": "pure_text",
+      "sequence_length": 28,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 26,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.931129891425371
+    },
+    {
+      "index": 54,
+      "person_id": "0370",
+      "type": "pure_text",
+      "sequence_length": 34,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 32,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.970773980021477
+    },
+    {
+      "index": 55,
+      "person_id": "0414",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.022021802142262
+    },
+    {
+      "index": 56,
+      "person_id": "0473",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.789107704535127
+    },
+    {
+      "index": 57,
+      "person_id": "0758",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": true,
+      "forward_and_moments_seconds": 13.887838257476687
+    },
+    {
+      "index": 58,
+      "person_id": "0382",
+      "type": "multimodal",
+      "sequence_length": 7399,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 26,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.791395699605346
+    },
+    {
+      "index": 59,
+      "person_id": "0993",
+      "type": "multimodal",
+      "sequence_length": 7403,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 30,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.418940205127
+    },
+    {
+      "index": 60,
+      "person_id": "0242",
+      "type": "pure_text",
+      "sequence_length": 26,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 24,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.824999256059527
+    },
+    {
+      "index": 61,
+      "person_id": "0143",
+      "type": "pure_text",
+      "sequence_length": 28,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 26,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.346029762178659
+    },
+    {
+      "index": 62,
+      "person_id": "0068",
+      "type": "pure_text",
+      "sequence_length": 25,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 23,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.964164847508073
+    },
+    {
+      "index": 63,
+      "person_id": "0814",
+      "type": "pure_text",
+      "sequence_length": 37,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 35,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.861507108435035
+    },
+    {
+      "index": 64,
+      "person_id": "0942",
+      "type": "multimodal",
+      "sequence_length": 7428,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 55,
+      "first_image": true,
+      "forward_and_moments_seconds": 16.031966214999557
+    },
+    {
+      "index": 65,
+      "person_id": "0292",
+      "type": "multimodal",
+      "sequence_length": 7398,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 25,
+      "first_image": true,
+      "forward_and_moments_seconds": 13.949012475088239
+    },
+    {
+      "index": 66,
+      "person_id": "0047",
+      "type": "pure_text",
+      "sequence_length": 26,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 24,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.8838628474622965
+    },
+    {
+      "index": 67,
+      "person_id": "0306",
+      "type": "multimodal",
+      "sequence_length": 7396,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 23,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.73658069781959
+    },
+    {
+      "index": 68,
+      "person_id": "0382",
+      "type": "multimodal",
+      "sequence_length": 7393,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 20,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.866369295865297
+    },
+    {
+      "index": 69,
+      "person_id": "0382",
+      "type": "ophthalmic",
+      "sequence_length": 2740,
+      "prefix_tokens": 2,
+      "visual_tokens": 2709,
+      "text_tokens": 29,
+      "first_image": true,
+      "forward_and_moments_seconds": 12.250590313225985
+    },
+    {
+      "index": 70,
+      "person_id": "0190",
+      "type": "pure_text",
+      "sequence_length": 28,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 26,
+      "first_image": false,
+      "forward_and_moments_seconds": 4.950997285544872
+    },
+    {
+      "index": 71,
+      "person_id": "0065",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.042706249281764
+    },
+    {
+      "index": 72,
+      "person_id": "0993",
+      "type": "pure_text",
+      "sequence_length": 58,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 56,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.567341335117817
+    },
+    {
+      "index": 73,
+      "person_id": "0412",
+      "type": "ophthalmic",
+      "sequence_length": 2739,
+      "prefix_tokens": 2,
+      "visual_tokens": 2709,
+      "text_tokens": 28,
+      "first_image": true,
+      "forward_and_moments_seconds": 10.988320268690586
+    },
+    {
+      "index": 74,
+      "person_id": "0831",
+      "type": "pure_text",
+      "sequence_length": 24,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 22,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.047906951978803
+    },
+    {
+      "index": 75,
+      "person_id": "0071",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.535134414210916
+    },
+    {
+      "index": 76,
+      "person_id": "0976",
+      "type": "ophthalmic",
+      "sequence_length": 2739,
+      "prefix_tokens": 2,
+      "visual_tokens": 2709,
+      "text_tokens": 28,
+      "first_image": true,
+      "forward_and_moments_seconds": 11.351184269413352
+    },
+    {
+      "index": 77,
+      "person_id": "0831",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": true,
+      "forward_and_moments_seconds": 13.245070872828364
+    },
+    {
+      "index": 78,
+      "person_id": "0156",
+      "type": "pure_text",
+      "sequence_length": 36,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 34,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.338712360709906
+    },
+    {
+      "index": 79,
+      "person_id": "0583",
+      "type": "pure_text",
+      "sequence_length": 33,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 31,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.396840108558536
+    },
+    {
+      "index": 80,
+      "person_id": "0993",
+      "type": "multimodal",
+      "sequence_length": 7401,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 28,
+      "first_image": false,
+      "forward_and_moments_seconds": 10.794839335605502
+    },
+    {
+      "index": 81,
+      "person_id": "0292",
+      "type": "pure_text",
+      "sequence_length": 37,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 35,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.268592288717628
+    },
+    {
+      "index": 82,
+      "person_id": "0306",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.109094720333815
+    },
+    {
+      "index": 83,
+      "person_id": "0758",
+      "type": "multimodal",
+      "sequence_length": 7398,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 25,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.785783546045423
+    },
+    {
+      "index": 84,
+      "person_id": "0382",
+      "type": "pure_text",
+      "sequence_length": 28,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 26,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.529563879594207
+    },
+    {
+      "index": 85,
+      "person_id": "0355",
+      "type": "pure_text",
+      "sequence_length": 32,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 30,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.082233089953661
+    },
+    {
+      "index": 86,
+      "person_id": "0564",
+      "type": "pure_text",
+      "sequence_length": 30,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 28,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.632874922826886
+    },
+    {
+      "index": 87,
+      "person_id": "0338",
+      "type": "multimodal",
+      "sequence_length": 7408,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 35,
+      "first_image": true,
+      "forward_and_moments_seconds": 15.514103235676885
+    },
+    {
+      "index": 88,
+      "person_id": "0382",
+      "type": "pure_text",
+      "sequence_length": 30,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 28,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.609474152326584
+    },
+    {
+      "index": 89,
+      "person_id": "0190",
+      "type": "pure_text",
+      "sequence_length": 31,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 29,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.056992672383785
+    },
+    {
+      "index": 90,
+      "person_id": "0312",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": true,
+      "forward_and_moments_seconds": 15.498646423220634
+    },
+    {
+      "index": 91,
+      "person_id": "0292",
+      "type": "pure_text",
+      "sequence_length": 27,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 25,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.0326745249331
+    },
+    {
+      "index": 92,
+      "person_id": "0156",
+      "type": "pure_text",
+      "sequence_length": 33,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 31,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.91957194916904
+    },
+    {
+      "index": 93,
+      "person_id": "0758",
+      "type": "multimodal",
+      "sequence_length": 7412,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 39,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.243276346474886
+    },
+    {
+      "index": 94,
+      "person_id": "0047",
+      "type": "multimodal",
+      "sequence_length": 7442,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 69,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.306677039712667
+    },
+    {
+      "index": 95,
+      "person_id": "0067",
+      "type": "pure_text",
+      "sequence_length": 41,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 39,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.0437640734016895
+    },
+    {
+      "index": 96,
+      "person_id": "0370",
+      "type": "multimodal",
+      "sequence_length": 7394,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 21,
+      "first_image": false,
+      "forward_and_moments_seconds": 10.115018649026752
+    },
+    {
+      "index": 97,
+      "person_id": "0242",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": true,
+      "forward_and_moments_seconds": 15.325868174433708
+    },
+    {
+      "index": 98,
+      "person_id": "0242",
+      "type": "multimodal",
+      "sequence_length": 7393,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 20,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.92887425236404
+    },
+    {
+      "index": 99,
+      "person_id": "0119",
+      "type": "pure_text",
+      "sequence_length": 27,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 25,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.904751978814602
+    },
+    {
+      "index": 100,
+      "person_id": "0496",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.798350736498833
+    },
+    {
+      "index": 101,
+      "person_id": "0135",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.8232884388417
+    },
+    {
+      "index": 102,
+      "person_id": "0382",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.959119794890285
+    },
+    {
+      "index": 103,
+      "person_id": "0242",
+      "type": "multimodal",
+      "sequence_length": 7400,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 27,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.586893394589424
+    },
+    {
+      "index": 104,
+      "person_id": "0363",
+      "type": "multimodal",
+      "sequence_length": 7403,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 30,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.266634900122881
+    },
+    {
+      "index": 105,
+      "person_id": "0583",
+      "type": "multimodal",
+      "sequence_length": 7393,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 20,
+      "first_image": true,
+      "forward_and_moments_seconds": 14.069096982479095
+    },
+    {
+      "index": 106,
+      "person_id": "0067",
+      "type": "multimodal",
+      "sequence_length": 7401,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 28,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.483654150739312
+    },
+    {
+      "index": 107,
+      "person_id": "0355",
+      "type": "multimodal",
+      "sequence_length": 7393,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 20,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.631420876830816
+    },
+    {
+      "index": 108,
+      "person_id": "0496",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.125030227005482
+    },
+    {
+      "index": 109,
+      "person_id": "0496",
+      "type": "pure_text",
+      "sequence_length": 28,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 26,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.752038285136223
+    },
+    {
+      "index": 110,
+      "person_id": "0188",
+      "type": "pure_text",
+      "sequence_length": 36,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 34,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.969262324273586
+    },
+    {
+      "index": 111,
+      "person_id": "0306",
+      "type": "pure_text",
+      "sequence_length": 27,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 25,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.924685275182128
+    },
+    {
+      "index": 112,
+      "person_id": "0640",
+      "type": "multimodal",
+      "sequence_length": 7395,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 22,
+      "first_image": true,
+      "forward_and_moments_seconds": 18.821473140269518
+    },
+    {
+      "index": 113,
+      "person_id": "0363",
+      "type": "pure_text",
+      "sequence_length": 40,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 38,
+      "first_image": false,
+      "forward_and_moments_seconds": 6.739893946796656
+    },
+    {
+      "index": 114,
+      "person_id": "0248",
+      "type": "multimodal",
+      "sequence_length": 7393,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 20,
+      "first_image": false,
+      "forward_and_moments_seconds": 10.10867096669972
+    },
+    {
+      "index": 115,
+      "person_id": "0143",
+      "type": "pure_text",
+      "sequence_length": 26,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 24,
+      "first_image": false,
+      "forward_and_moments_seconds": 7.578568482771516
+    },
+    {
+      "index": 116,
+      "person_id": "0583",
+      "type": "multimodal",
+      "sequence_length": 7441,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 68,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.981140544638038
+    },
+    {
+      "index": 117,
+      "person_id": "0904",
+      "type": "pure_text",
+      "sequence_length": 36,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 34,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.926021080464125
+    },
+    {
+      "index": 118,
+      "person_id": "0819",
+      "type": "pure_text",
+      "sequence_length": 28,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 26,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.903220972046256
+    },
+    {
+      "index": 119,
+      "person_id": "0412",
+      "type": "multimodal",
+      "sequence_length": 7393,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 20,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.085674284026027
+    },
+    {
+      "index": 120,
+      "person_id": "0496",
+      "type": "multimodal",
+      "sequence_length": 7394,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 21,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.377160418778658
+    },
+    {
+      "index": 121,
+      "person_id": "0306",
+      "type": "pure_text",
+      "sequence_length": 33,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 31,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.819095833227038
+    },
+    {
+      "index": 122,
+      "person_id": "0065",
+      "type": "multimodal",
+      "sequence_length": 7419,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 46,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.81037282757461
+    },
+    {
+      "index": 123,
+      "person_id": "0640",
+      "type": "multimodal",
+      "sequence_length": 7396,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 23,
+      "first_image": false,
+      "forward_and_moments_seconds": 9.183028221130371
+    },
+    {
+      "index": 124,
+      "person_id": "0473",
+      "type": "ophthalmic",
+      "sequence_length": 3405,
+      "prefix_tokens": 2,
+      "visual_tokens": 3375,
+      "text_tokens": 28,
+      "first_image": true,
+      "forward_and_moments_seconds": 12.405312199145555
+    },
+    {
+      "index": 125,
+      "person_id": "0415",
+      "type": "pure_text",
+      "sequence_length": 32,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 30,
+      "first_image": false,
+      "forward_and_moments_seconds": 5.728046210482717
+    },
+    {
+      "index": 126,
+      "person_id": "0415",
+      "type": "multimodal",
+      "sequence_length": 7400,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 27,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.71999085880816
+    },
+    {
+      "index": 127,
+      "person_id": "0758",
+      "type": "multimodal",
+      "sequence_length": 7428,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 55,
+      "first_image": false,
+      "forward_and_moments_seconds": 8.448954982683063
+    }
+  ],
+  "source_selection_sha256": "57573b890de5934d6d9fd90046ee115915d0ba7cec4a4f3a333034cedd841079",
+  "code_sha256": "65c6bbe09985b243974e7494ee0562f3ee61380ee08042e8875fbe1d31e24ab0",
+  "prefix_checks_count": 10668,
+  "visual_checks_count": 2520,
+  "publication_note": "Detailed activation checks remain local; aggregate maxima, counts and all group statistics retained."
+}

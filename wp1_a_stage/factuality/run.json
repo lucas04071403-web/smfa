@@ -1,0 +1,8 @@
+{
+  "selection_sha256": "04bf7316b39eb2d763961b60e63959d006e3b29860348157162d80dcb2e99fc0",
+  "official_scorer_sha256": "02afc0e0364b5a90790f453e5d50b6dd323ff18695b5b254fbceb46e7191a80a",
+  "runner_sha256": "2ad522f5161a00da595955fe342315a592bceb4708a40942e3ddf50d933197ef",
+  "model": "qwen-plus",
+  "settings": "official defaults; 4 workers; interleaved models, fixed shuffled question order; timeout120, transport retries2, official attempts3; only invalid apostrophe JSON escape repaired",
+  "started_at": "2026-10-23T16:07:22.094775+00:00"
+}

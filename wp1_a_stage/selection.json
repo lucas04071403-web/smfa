@@ -1,0 +1,267 @@
+{
+  "at": "2026-10-23T16:07:20.264683+00:00",
+  "state": "selected",
+  "comparisons": [
+    {
+      "name": "C2_l10",
+      "lambda_rel": 10,
+      "forget_combined_rouge": 0.5467042011761933,
+      "retain_image_rouge": 0.6451824806987978,
+      "c1_interpolated_rouge": 0.6225570872344778,
+      "uplift": 0.02262539346432002
+    },
+    {
+      "name": "C2_l100",
+      "lambda_rel": 100,
+      "forget_combined_rouge": 0.6186242730347327,
+      "retain_image_rouge": 0.6815444355389982,
+      "c1_interpolated_rouge": 0.6702362508147182,
+      "uplift": 0.01130818472428008
+    },
+    {
+      "name": "C2_l1000",
+      "lambda_rel": 1000,
+      "forget_combined_rouge": 0.653731355936037,
+      "retain_image_rouge": 0.6976003864051035,
+      "c1_interpolated_rouge": 0.687570278972551,
+      "uplift": 0.010030107432552504
+    }
+  ],
+  "c1_curve": [
+    [
+      0.2943736509398911,
+      0.437920821593475
+    ],
+    [
+      0.5978387565948302,
+      0.6599734577408174
+    ],
+    [
+      0.6587398425733185,
+      0.6900432058358519
+    ],
+    [
+      0.6863886193726638,
+      0.7044234832880892
+    ]
+  ],
+  "smfa_target": 0.4564997951596263,
+  "selected_lambda": 10,
+  "selected_candidate": "C2_l10",
+  "factuality_candidates": [
+    "SMFA",
+    "C0_k10",
+    "C2_l10"
+  ],
+  "c0_c3_vs_c1": {
+    "C0_k1": {
+      "c1_interpolated_rouge": 0.6801742422398362,
+      "uplift": 0.010092282538234132,
+      "note": "Matched combined-memory ROUGE; descriptive development comparison"
+    },
+    "SMFA": {
+      "c1_interpolated_rouge": 0.5565523777148945,
+      "uplift": 0.016110611351548565,
+      "note": "Matched combined-memory ROUGE; descriptive development comparison"
+    },
+    "C0_k10": {
+      "c1_interpolated_rouge": 0.4575228786293523,
+      "uplift": 0.017044892218965657,
+      "note": "Matched combined-memory ROUGE; descriptive development comparison"
+    },
+    "C3_hard": {
+      "c1_interpolated_rouge": null,
+      "uplift": null,
+      "note": "Outside observed C1 range"
+    }
+  },
+  "development_summary": {
+    "C0_k1": {
+      "forget_combined": 0.6387519597822827,
+      "forget_image": 0.6079038708409661,
+      "forget_text": 0.6747413968804855,
+      "retain_image": 0.6902665247780704,
+      "retain_text": 0.7611052639099034,
+      "retain_eye_refusal": 0.01,
+      "retain_eye_rouge": 0.8779412252981955,
+      "answer_words": 10.48157894736842
+    },
+    "C0_k10": {
+      "forget_combined": 0.32116252592311584,
+      "forget_image": 0.25712652497195904,
+      "forget_text": 0.39587119369946544,
+      "retain_image": 0.47456777084831797,
+      "retain_text": 0.68168553713594,
+      "retain_eye_refusal": 0.14,
+      "retain_eye_rouge": 0.7805723837785521,
+      "answer_words": 9.94
+    },
+    "C1_c0p25": {
+      "forget_combined": 0.6863886193726638,
+      "forget_image": 0.6360392191687294,
+      "forget_text": 0.7451295862772542,
+      "retain_image": 0.7044234832880892,
+      "retain_text": 0.7631401285251771,
+      "retain_eye_refusal": 0.0,
+      "retain_eye_rouge": 0.8987832958186897,
+      "answer_words": 10.361578947368422
+    },
+    "C1_c0p5": {
+      "forget_combined": 0.6587398425733185,
+      "forget_image": 0.6054132444280821,
+      "forget_text": 0.7209542070760943,
+      "retain_image": 0.6900432058358519,
+      "retain_text": 0.7631468690492467,
+      "retain_eye_refusal": 0.0,
+      "retain_eye_rouge": 0.8966495961849901,
+      "answer_words": 10.41157894736842
+    },
+    "C1_c0p75": {
+      "forget_combined": 0.5978387565948302,
+      "forget_image": 0.5602584966035811,
+      "forget_text": 0.6416823932512874,
+      "retain_image": 0.6599734577408174,
+      "retain_text": 0.7425637921473409,
+      "retain_eye_refusal": 0.03,
+      "retain_eye_rouge": 0.8780958475576566,
+      "answer_words": 10.256315789473684
+    },
+    "C1_c1p0": {
+      "forget_combined": 0.2943736509398911,
+      "forget_image": 0.23611214154155175,
+      "forget_text": 0.36234541190462033,
+      "retain_image": 0.437920821593475,
+      "retain_text": 0.6653066979552805,
+      "retain_eye_refusal": 0.14,
+      "retain_eye_rouge": 0.7647067303893138,
+      "answer_words": 9.958947368421052
+    },
+    "C2_l10": {
+      "forget_combined": 0.5467042011761933,
+      "forget_image": 0.5054908043992037,
+      "forget_text": 0.5947864974160144,
+      "retain_image": 0.6451824806987978,
+      "retain_text": 0.736449757583944,
+      "retain_eye_refusal": 0.03,
+      "retain_eye_rouge": 0.877433378074533,
+      "answer_words": 10.160526315789474
+    },
+    "C2_l100": {
+      "forget_combined": 0.6186242730347327,
+      "forget_image": 0.5842444127806727,
+      "forget_text": 0.6587341099978025,
+      "retain_image": 0.6815444355389982,
+      "retain_text": 0.7553059895462308,
+      "retain_eye_refusal": 0.01,
+      "retain_eye_rouge": 0.877411872698189,
+      "answer_words": 10.382631578947368
+    },
+    "C2_l1000": {
+      "forget_combined": 0.653731355936037,
+      "forget_image": 0.6252226362174674,
+      "forget_text": 0.6869915289410351,
+      "retain_image": 0.6976003864051035,
+      "retain_text": 0.7661737688088135,
+      "retain_eye_refusal": 0.0,
+      "retain_eye_rouge": 0.8970586870940811,
+      "answer_words": 10.323157894736843
+    },
+    "C3_hard": {
+      "forget_combined": 0.6925190145372048,
+      "forget_image": 0.6580970435255776,
+      "forget_text": 0.7326779807174367,
+      "retain_image": 0.7060901768023807,
+      "retain_text": 0.7616631780640387,
+      "retain_eye_refusal": 0.0,
+      "retain_eye_rouge": 0.8971166291520231,
+      "answer_words": 10.360526315789473
+    },
+    "SMFA": {
+      "forget_combined": 0.4564997951596263,
+      "forget_image": 0.40463799600178807,
+      "forget_text": 0.5170052275104378,
+      "retain_image": 0.5726629890664431,
+      "retain_text": 0.7070038630304676,
+      "retain_eye_refusal": 0.09,
+      "retain_eye_rouge": 0.8097930818612139,
+      "answer_words": 10.053157894736842
+    },
+    "Original": {
+      "forget_combined": 0.707111708674214,
+      "forget_image": 0.6755945712020958,
+      "forget_text": 0.7438817023916852,
+      "retain_image": 0.7155040617621913,
+      "retain_text": 0.7580929988454934,
+      "retain_eye_refusal": 0.0,
+      "retain_eye_rouge": 0.9007500553735294,
+      "answer_words": 10.487894736842104
+    },
+    "Base": {
+      "forget_combined": 0.29664178087300797,
+      "forget_image": 0.23150123256872038,
+      "forget_text": 0.37263908722801015,
+      "retain_image": 0.23889687632743958,
+      "retain_text": 0.3995460586458621,
+      "retain_eye_refusal": 0.0,
+      "retain_eye_rouge": 0.03886131554050908,
+      "answer_words": 25.309473684210527
+    },
+    "MFA_unsculpted": {
+      "forget_combined": 0.20771408032401617,
+      "forget_image": 0.1632343024749697,
+      "forget_text": 0.25960715448123717,
+      "retain_image": 0.3218506658899496,
+      "retain_text": 0.6302472130694575,
+      "retain_eye_refusal": 0.15,
+      "retain_eye_rouge": 0.7408608453170136,
+      "answer_words": 9.892105263157895
+    }
+  },
+  "text_monitor_at_observed_points": {
+    "C0_k1": {
+      "difference_from_smfa_pp": 42.48870224677853,
+      "above_5pp": true
+    },
+    "C0_k10": {
+      "difference_from_smfa_pp": -32.62934503291499,
+      "above_5pp": false
+    },
+    "C1_c0p25": {
+      "difference_from_smfa_pp": 61.448861054445494,
+      "above_5pp": true
+    },
+    "C1_c0p5": {
+      "difference_from_smfa_pp": 54.93684486511297,
+      "above_5pp": true
+    },
+    "C1_c0p75": {
+      "difference_from_smfa_pp": 33.583742988633304,
+      "above_5pp": true
+    },
+    "C1_c1p0": {
+      "difference_from_smfa_pp": -41.66003828456772,
+      "above_5pp": false
+    },
+    "C2_l10": {
+      "difference_from_smfa_pp": 20.95160057831295,
+      "above_5pp": true
+    },
+    "C2_l100": {
+      "difference_from_smfa_pp": 38.17688937054779,
+      "above_5pp": true
+    },
+    "C2_l1000": {
+      "difference_from_smfa_pp": 45.788466756612266,
+      "above_5pp": true
+    },
+    "C3_hard": {
+      "difference_from_smfa_pp": 58.094826509050485,
+      "above_5pp": true
+    },
+    "SMFA": {
+      "difference_from_smfa_pp": 0.0,
+      "above_5pp": false
+    }
+  },
+  "text_monitor_note": "Observed-point diagnostics only. B-stage strength interpolation must separately check text residual at its matched target."
+}

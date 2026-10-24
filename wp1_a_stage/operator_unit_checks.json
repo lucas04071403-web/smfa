@@ -1,0 +1,19 @@
+{
+  "state": "passed",
+  "at": "2026-10-23T11:16:19.501420+00:00",
+  "dimension": 3584,
+  "hard_protected_max_abs": 1.7285346984863281e-06,
+  "orthogonal_complement_change_max_abs": 6.794929504394531e-06,
+  "lambda0_exact": true,
+  "r0_update_exact": true,
+  "lambda_large_equals_hard": true,
+  "fixed_modules_guard": {
+    "MFA": 168,
+    "SMFA": 106
+  },
+  "finite": true,
+  "code_sha256": {
+    "candidates.py": "d5ab429eff7c22066f2e97fb29a55fe29951287c224d7f6aa0a330053ca6433f",
+    "activation_stats.py": "65c6bbe09985b243974e7494ee0562f3ee61380ee08042e8875fbe1d31e24ab0"
+  }
+}

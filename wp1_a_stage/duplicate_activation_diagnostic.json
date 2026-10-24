@@ -1,0 +1,110 @@
+{
+  "at": "2026-10-23T11:14:32.863753+00:00",
+  "pair_indices": [
+    41,
+    94
+  ],
+  "image_sha256": "98470ca79468b5d33c26a52603f355adc86f63e687d24c1aa52d6b6f8a64bb5f",
+  "tokens_through_last_image_equal": true,
+  "groups": {
+    "layer_0_attn": {
+      "shape": [
+        7371,
+        3584
+      ],
+      "max_abs": 0.0,
+      "reference_max_abs": 2.904296875,
+      "relative_l2": 0.0,
+      "rms": 0.0,
+      "exact_fraction": 1.0
+    },
+    "layer_0_o": {
+      "shape": [
+        7371,
+        3584
+      ],
+      "max_abs": 0.0,
+      "reference_max_abs": 2.8515625,
+      "relative_l2": 0.0,
+      "rms": 0.0,
+      "exact_fraction": 1.0
+    },
+    "layer_0_mlp": {
+      "shape": [
+        7371,
+        3584
+      ],
+      "max_abs": 0.0,
+      "reference_max_abs": 10.7421875,
+      "relative_l2": 0.0,
+      "rms": 0.0,
+      "exact_fraction": 1.0
+    },
+    "layer_26_attn": {
+      "shape": [
+        7371,
+        3584
+      ],
+      "max_abs": 0.34375,
+      "reference_max_abs": 63.40625,
+      "relative_l2": 0.0025350600481033325,
+      "rms": 0.003864864120259881,
+      "exact_fraction": 0.08731172978878021
+    },
+    "layer_26_o": {
+      "shape": [
+        7371,
+        3584
+      ],
+      "max_abs": 0.30859375,
+      "reference_max_abs": 17.65625,
+      "relative_l2": 0.0038908638525754213,
+      "rms": 0.0035588534083217382,
+      "exact_fraction": 0.06499052792787552
+    },
+    "layer_26_mlp": {
+      "shape": [
+        7371,
+        3584
+      ],
+      "max_abs": 0.234375,
+      "reference_max_abs": 37.8125,
+      "relative_l2": 0.0033907797187566757,
+      "rms": 0.005097359884530306,
+      "exact_fraction": 0.08431018143892288
+    },
+    "layer_27_attn": {
+      "shape": [
+        7371,
+        3584
+      ],
+      "max_abs": 0.3740234375,
+      "reference_max_abs": 59.59375,
+      "relative_l2": 0.0027021272107958794,
+      "rms": 0.004404224921017885,
+      "exact_fraction": 0.07779453694820404
+    },
+    "layer_27_o": {
+      "shape": [
+        7371,
+        3584
+      ],
+      "max_abs": 0.68359375,
+      "reference_max_abs": 17.84375,
+      "relative_l2": 0.003380737267434597,
+      "rms": 0.004409618675708771,
+      "exact_fraction": 0.07578277587890625
+    },
+    "layer_27_mlp": {
+      "shape": [
+        7371,
+        3584
+      ],
+      "max_abs": 0.4375,
+      "reference_max_abs": 103.9375,
+      "relative_l2": 0.0031835080590099096,
+      "rms": 0.006332245655357838,
+      "exact_fraction": 0.0709698274731636
+    }
+  }
+}

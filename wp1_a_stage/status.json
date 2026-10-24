@@ -1,0 +1,10 @@
+{
+  "state": "complete",
+  "started_at": "2026-10-23T11:44:33.703314+00:00",
+  "finished_at": "2026-10-23T16:19:24.573662+00:00",
+  "selection_state": "selected",
+  "selected_lambda": 10,
+  "planning_h_pp": 4.301531414804071,
+  "margin_pp": 2.0,
+  "report": "SMFA_WP1_A阶段_实验记录与结果.md"
+}

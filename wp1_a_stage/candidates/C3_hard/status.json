@@ -1,0 +1,15 @@
+{
+  "state": "complete",
+  "candidate": "C3_hard",
+  "started_at": "2026-10-23T15:04:57.991870+00:00",
+  "gpu": "1",
+  "load_seconds": 8.806101573631167,
+  "completed_questions": 2375,
+  "total_questions": 2375,
+  "updated_at": "2026-10-23T16:07:19.126778+00:00",
+  "new_questions_this_run": 2375,
+  "elapsed_generation_seconds": 3609.3754807151854,
+  "finished_at": "2026-10-23T16:07:19.896563+00:00",
+  "generation_seconds": 3610.1452631242573,
+  "construction_seconds": 131.75711104273796
+}

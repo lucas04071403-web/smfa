@@ -1,0 +1,16 @@
+{
+  "config": {
+    "name": "C2_l100",
+    "family": "C2",
+    "lambda_rel": 100,
+    "alpha": 1
+  },
+  "code_sha256": {
+    "evaluate.py": "2c136c1a6076040b4891b50ef4281ae7239fac72bca636b1902902b3febca074",
+    "candidates.py": "d5ab429eff7c22066f2e97fb29a55fe29951287c224d7f6aa0a330053ca6433f",
+    "common.py": "69792af5db1f39756c329dee71d4b1b685cd391733287239c892c65f665f5a4a",
+    "memory_construct.py": "73d7647e554a6b42f0698b93235618ca45941e75810aca6624a08182dd579f90"
+  },
+  "freeze_sha256": "d51326251f857a5322fdacb82465c9b8a6ba802e88e368fb28b8f0f2b8bb8710",
+  "eigen_sha256": "1c30b0c7bd0865a2a349d5848e7ba0ee0bc5bc64b20cb35abf18f36d2567150e"
+}

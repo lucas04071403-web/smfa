@@ -1,0 +1,17 @@
+{
+  "state": "passed",
+  "at": "2026-10-23T10:54:11.568780+00:00",
+  "known_effect_2pp": {
+    "estimate_pp": 2.000000000000002,
+    "ci90_pp": [
+      1.9999999999999798,
+      2.000000000000024
+    ],
+    "halfwidth_pp": 2.2093438190040615e-14,
+    "denominator_mean": 7.999999999999999,
+    "denominator_bootstrap_min": 7.999999999999996
+  },
+  "no_extrapolation": true,
+  "duplicate_x_best_y": true,
+  "matplotlib": "3.9.2"
+}

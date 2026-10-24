@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-10-23T10:42:01.654667+00:00",
+  "seed": 20261023,
+  "split_sha256": "ff355f2030c641a03d9320a867eff2f6c383ef6dcf197203ac6e66eff0ecbb46",
+  "design_sha256": "0797a1c18467ddbaa579541f9455784bcd169ac0291032b66859a49802c71479",
+  "delta_combined_pp": 5,
+  "channel_upper_limits_pp": {
+    "image_memory": 10,
+    "text_memory": 10
+  },
+  "text_monitor_pp": 5,
+  "soft_tie_rouge": 0.01,
+  "stop_improvement_rouge": 0.01,
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 20261023,
+  "tau": 0.9,
+  "initial_margin_pp": 0,
+  "margin_rule": "After A only: h=max(central90 combined-memory halfwidths of two prescribed pairs). m=min(5,ceil(2*max(0,h-2.5))/2) pp; apply as normalized ROUGE-residual buffer. If h>=10, emphasize tradeoff and report noninferiority feasibility as poor. Never change delta. Buffer is heuristic, not a factuality-to-ROUGE conversion.",
+  "interpolation": "Piecewise linear in observed combined forget-memory ROUGE; sort by x; same x retain best retain-image-memory y. Nonmonotonic segments retained. No extrapolation. Outside C1 range add c=0 if above max forgetting residual, then c=1.25,1.5,2,3 if below min, in sequence until bracketed; if still outside report unidentifiable and do not force a winner. Lambda ties within 1e-8 choose smaller lambda.",
+  "lambda_selection": "Max C2 retain-image-memory ROUGE minus interpolated C1 at same F1 combined-memory ROUGE. All 3 must be bracketed or explicitly mark selection incomplete.",
+  "close_pair": "C0 k10/20 vs fresh SMFA; C2 whose F1 combined-memory ROUGE is closest to SMFA vs fresh SMFA (distance ties smaller lambda).",
+  "judgment": "Only after all A generations: interleave 975 judgments across three models, same qwen-plus settings/prompt as step0. Base/Original historical scores for A planning only; rejudge them in confirmation.",
+  "folds": "Default twofold. A only F1+retain-dev. Fold2 independently repeats selection; reuse retain-dev and add F2 475/candidate; new lambda/operator requires subsequent new full development candidates.",
+  "stop_rule": "At matched target and satisfying text monitor, C4a/C4/C5 all improve retain-image-memory ROUGE by <=0.01 over best eligible C0/C1/S0: stop parameter expansion; descriptive development rule, not statistical proof of dominance.",
+  "checks": "C1 c1 six classes exactly saved MFA; down/vision exactly saved SMFA. Operator tests then 2layer/10sample pilot before full B1 statistics or C2/C3 generation. No new candidate results inspected before this freeze."
+}

@@ -1,0 +1,277 @@
+{
+  "state": "complete",
+  "at": "2026-10-23T11:17:57.289883+00:00",
+  "samples": 10,
+  "layers": [
+    0,
+    27
+  ],
+  "prefix_token_ids": [
+    151644,
+    872
+  ],
+  "image_prefix_token_ids": [
+    151644,
+    872,
+    220
+  ],
+  "nonshared_prefix_policy": "Leading tokens beyond the common prefix enter T",
+  "prefix_activation_max_abs_difference": 0.125,
+  "prefix_activation_max_relative_l2": 0.0014615117106586695,
+  "prefix_tolerance_note": "FP16 sequence-length kernel variation: relative Frobenius difference must stay <=2%; actual differences retained",
+  "visual_duplicate_probe_max_abs_difference": 0.0,
+  "visual_duplicate_probe_max_relative_l2": 0.0,
+  "duplicate_check": "16 evenly spaced visual tokens, every 113th feature per group; <=1% relative Frobenius difference. Canonical first-image moments weighted by exact multiplicity for S0, per v3 3.6; S0d uses weight1.",
+  "accumulator_location": "CPU; each covariance product computed FP32 on GPU; TF32 disabled",
+  "matrix_bytes": 51380224,
+  "accumulator_bytes": 924844032,
+  "peak_gpu_allocated_bytes": 17203014144,
+  "peak_cpu_rss_kib": 5843992,
+  "collection_seconds": 28.780920296907425,
+  "eigendecomposition_and_save_seconds": 5.965833744034171,
+  "groups": {
+    "layer_00_attn": {
+      "r": 87,
+      "eigen_seconds": 0.48657617159187794,
+      "visual_energy_fraction_S0": 0.9937370340743172,
+      "prefix_energy_fraction_S0": 0.000354262551016227,
+      "visual_energy_fraction_S0d": 0.9931244310970315,
+      "traces": {
+        "V_unique": 16026222.0,
+        "V_repeated": 18548950.0,
+        "T": 110290.9921875,
+        "P": 661.2612915039062
+      },
+      "counts": {
+        "n_prefix": 10,
+        "n_v_unique": 46825,
+        "n_v_repeated": 54196,
+        "n_t": 329
+      },
+      "moments_sha256": "f6264c6f93815b36353b060709de939df623c7fe62109c88a194f8dd3f3bfbe9",
+      "eigen_sha256": "078a9e265a72b6f87f1313f98e3521021fad7fc3511a0c5e5846cc24962ffd9a"
+    },
+    "layer_00_o": {
+      "r": 11,
+      "eigen_seconds": 0.40207953192293644,
+      "visual_energy_fraction_S0": 0.9902282401978916,
+      "prefix_energy_fraction_S0": 0.0022110138461891122,
+      "visual_energy_fraction_S0d": 0.9910042852120402,
+      "traces": {
+        "V_unique": 2557463.0,
+        "V_repeated": 2954079.0,
+        "T": 22555.447265625,
+        "P": 659.5963745117188
+      },
+      "counts": {
+        "n_prefix": 10,
+        "n_v_unique": 46825,
+        "n_v_repeated": 54196,
+        "n_t": 329
+      },
+      "moments_sha256": "a2aed429b38addab84c8cc8ca9ba3b5ff468c8d1450ab110bd03b13a8ee0bb8c",
+      "eigen_sha256": "3b0c9a340dba5e0dd381177e4f35c9d8f74b17d3773d22caab1d0e949a357869"
+    },
+    "layer_00_mlp": {
+      "r": 84,
+      "eigen_seconds": 0.4028890039771795,
+      "visual_energy_fraction_S0": 0.9954795226521832,
+      "prefix_energy_fraction_S0": 0.00029531704521472917,
+      "visual_energy_fraction_S0d": 0.995076622883694,
+      "traces": {
+        "V_unique": 15904017.0,
+        "V_repeated": 18411010.0,
+        "T": 78142.7109375,
+        "P": 546.177490234375
+      },
+      "counts": {
+        "n_prefix": 10,
+        "n_v_unique": 46825,
+        "n_v_repeated": 54196,
+        "n_t": 329
+      },
+      "moments_sha256": "65b1962cc31545483085c607244b516abdc8414dc1260178365a6e1866ace477",
+      "eigen_sha256": "8751a2e37243eb99ca1909af9a202b4996439ce0fa19820326d48ad521b0e09c"
+    },
+    "layer_27_attn": {
+      "r": 122,
+      "eigen_seconds": 0.4654064420610666,
+      "visual_energy_fraction_S0": 0.9948446732683002,
+      "prefix_energy_fraction_S0": 0.0008328394654363271,
+      "visual_energy_fraction_S0d": 0.9948754828992351,
+      "traces": {
+        "V_unique": 455860288.0,
+        "V_repeated": 530211712.0,
+        "T": 2303709.75,
+        "P": 44386.953125
+      },
+      "counts": {
+        "n_prefix": 10,
+        "n_v_unique": 46825,
+        "n_v_repeated": 54196,
+        "n_t": 329
+      },
+      "moments_sha256": "209ceac6dbad4e589ab3be11177063776ff3150d7ce40addaad36c36028b7368",
+      "eigen_sha256": "1026645db04478cdadfe41b5e5181e2d32ef4d598fe7261a50909098eba99d64"
+    },
+    "layer_27_o": {
+      "r": 171,
+      "eigen_seconds": 0.48271339386701584,
+      "visual_energy_fraction_S0": 0.9869665762959805,
+      "prefix_energy_fraction_S0": 0.007685002749832449,
+      "visual_energy_fraction_S0d": 0.9929075722538485,
+      "traces": {
+        "V_unique": 285376128.0,
+        "V_repeated": 328907136.0,
+        "T": 1782364.125,
+        "P": 256103.125
+      },
+      "counts": {
+        "n_prefix": 10,
+        "n_v_unique": 46825,
+        "n_v_repeated": 54196,
+        "n_t": 329
+      },
+      "moments_sha256": "337270a07c954af1721e2d716ca7b22c1779753136d128e3eaec886138b18726",
+      "eigen_sha256": "d20bb5ad311d7ea5c2a5b383a00047d3c21aafc7da3f2697130668748b618acb"
+    },
+    "layer_27_mlp": {
+      "r": 686,
+      "eigen_seconds": 0.3850274831056595,
+      "visual_energy_fraction_S0": 0.9919004356557765,
+      "prefix_energy_fraction_S0": 0.00012874718556016922,
+      "visual_energy_fraction_S0d": 0.9906898907477041,
+      "traces": {
+        "V_unique": 594538176.0,
+        "V_repeated": 694162432.0,
+        "T": 5578223.0,
+        "P": 9010.1240234375
+      },
+      "counts": {
+        "n_prefix": 10,
+        "n_v_unique": 46825,
+        "n_v_repeated": 54196,
+        "n_t": 329
+      },
+      "moments_sha256": "40f2b40ee97e36c37cd3a52f0d60ed94788111e4c5d23540dc53492157bc9626",
+      "eigen_sha256": "992d8fee72d8a5764ce8142adb1f2d788447b35c33640c6248ec8a743403cf40"
+    }
+  },
+  "sample_records": [
+    {
+      "index": 0,
+      "person_id": "0412",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": true,
+      "forward_and_moments_seconds": 4.152054136618972
+    },
+    {
+      "index": 1,
+      "person_id": "0564",
+      "type": "ophthalmic",
+      "sequence_length": 2629,
+      "prefix_tokens": 2,
+      "visual_tokens": 2599,
+      "text_tokens": 28,
+      "first_image": true,
+      "forward_and_moments_seconds": 1.7960522565990686
+    },
+    {
+      "index": 2,
+      "person_id": "0355",
+      "type": "pure_text",
+      "sequence_length": 52,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 50,
+      "first_image": false,
+      "forward_and_moments_seconds": 0.4638302195817232
+    },
+    {
+      "index": 3,
+      "person_id": "0143",
+      "type": "multimodal",
+      "sequence_length": 7435,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 62,
+      "first_image": true,
+      "forward_and_moments_seconds": 3.623764833435416
+    },
+    {
+      "index": 4,
+      "person_id": "0972",
+      "type": "pure_text",
+      "sequence_length": 32,
+      "prefix_tokens": 2,
+      "visual_tokens": 0,
+      "text_tokens": 30,
+      "first_image": false,
+      "forward_and_moments_seconds": 0.4828269202262163
+    },
+    {
+      "index": 5,
+      "person_id": "0412",
+      "type": "multimodal",
+      "sequence_length": 7394,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 21,
+      "first_image": false,
+      "forward_and_moments_seconds": 3.2914501801133156
+    },
+    {
+      "index": 6,
+      "person_id": "0415",
+      "type": "multimodal",
+      "sequence_length": 7396,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 23,
+      "first_image": true,
+      "forward_and_moments_seconds": 3.842408934608102
+    },
+    {
+      "index": 7,
+      "person_id": "0370",
+      "type": "multimodal",
+      "sequence_length": 7403,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 30,
+      "first_image": true,
+      "forward_and_moments_seconds": 3.8048276342451572
+    },
+    {
+      "index": 8,
+      "person_id": "0067",
+      "type": "multimodal",
+      "sequence_length": 7410,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 37,
+      "first_image": true,
+      "forward_and_moments_seconds": 3.752832805737853
+    },
+    {
+      "index": 9,
+      "person_id": "0663",
+      "type": "multimodal",
+      "sequence_length": 7397,
+      "prefix_tokens": 2,
+      "visual_tokens": 7371,
+      "text_tokens": 24,
+      "first_image": true,
+      "forward_and_moments_seconds": 3.525273723527789
+    }
+  ],
+  "source_selection_sha256": "57573b890de5934d6d9fd90046ee115915d0ba7cec4a4f3a333034cedd841079",
+  "code_sha256": "65c6bbe09985b243974e7494ee0562f3ee61380ee08042e8875fbe1d31e24ab0",
+  "prefix_checks_count": 54,
+  "visual_checks_count": 6,
+  "publication_note": "Detailed activation checks remain local; aggregate maxima, counts and all group statistics retained."
+}

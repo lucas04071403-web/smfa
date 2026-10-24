@@ -1,0 +1,11 @@
+{
+  "state": "passed",
+  "at": "2026-10-23T10:46:27.602488+00:00",
+  "seconds": 154.2803674377501,
+  "counts": {
+    "MFA": 168,
+    "SMFA": 106
+  },
+  "all_elementwise_equal": true,
+  "code_sha256": "d5ab429eff7c22066f2e97fb29a55fe29951287c224d7f6aa0a330053ca6433f"
+}

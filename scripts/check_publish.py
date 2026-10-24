@@ -18,6 +18,7 @@ SECRET_PATTERNS = [
     rb"-----BEGIN (?:[A-Z]+ )?PRIVATE KEY-----",
     rb"https?://[^\s/:]+:[^\s/@]+@",
 ]
+ALLOWED_FIGURES = {'wp1_a_stage/A_tradeoff.png'}
 
 
 def git(*args):
@@ -37,7 +38,7 @@ def main():
         if mode not in {"100644", "100755"} or stage != "0":
             errors.append(f"Unsupported index entry (symlink/submodule/conflict): {name}")
             continue
-        if DENIED_DIRS.intersection(path.parts) or path.suffix.lower() in DENIED_SUFFIXES:
+        if DENIED_DIRS.intersection(path.parts) or (path.suffix.lower() in DENIED_SUFFIXES and name not in ALLOWED_FIGURES):
             errors.append(f"Excluded dataset/model/runtime path: {name}")
         if path.name.startswith((".env", "id_rsa", "id_ed25519")) or path.suffix in {".pem", ".key"}:
             errors.append(f"Credential filename: {name}")
