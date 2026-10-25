@@ -1,0 +1,85 @@
+{
+  "at": "2026-10-24T11:33:04.716572+00:00",
+  "config": {
+    "family": "C2",
+    "lambda_rel": 10,
+    "name": "C2_target0",
+    "alpha": 1.0834881082222254
+  },
+  "aim_target": 0.4482903966036022,
+  "source_configs": [
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_l10",
+      "alpha": 1
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_a1p25",
+      "alpha": 1.25
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_a1p5",
+      "alpha": 1.5
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_a2p0",
+      "alpha": 2.0
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_a3p0",
+      "alpha": 3.0
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_bracket1",
+      "alpha": 1.125
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_bracket2",
+      "alpha": 1.0625
+    }
+  ],
+  "source_bracket": [
+    {
+      "name": "C2_bracket1",
+      "forget_combined": 0.37969298801268714,
+      "forget_image": 0.3330746136980192,
+      "forget_text": 0.43408109137980005,
+      "retain_image": 0.5670468138281426,
+      "retain_text": 0.7001381038896084,
+      "retain_face": 0.6235612326722171,
+      "retain_eye": 0.8293023153106912,
+      "retain_eye_refusal": 0.07,
+      "refusal_loose": 0.0868421052631579,
+      "answer_words": 10.147894736842105,
+      "parameter": 1.125
+    },
+    {
+      "name": "C2_bracket2",
+      "forget_combined": 0.48297274360377357,
+      "forget_image": 0.4413068923451417,
+      "forget_text": 0.5315829034055105,
+      "retain_image": 0.6076694742294062,
+      "retain_text": 0.7131571654311615,
+      "retain_face": 0.6272851509945674,
+      "retain_eye": 0.8549918157010112,
+      "retain_eye_refusal": 0.05,
+      "refusal_loose": 0.06368421052631579,
+      "answer_words": 10.205263157894738,
+      "parameter": 1.0625
+    }
+  ],
+  "predicted_text_monitor_pp": -4.892860001930952
+}

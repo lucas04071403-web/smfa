@@ -18,7 +18,9 @@ SECRET_PATTERNS = [
     rb"-----BEGIN (?:[A-Z]+ )?PRIVATE KEY-----",
     rb"https?://[^\s/:]+:[^\s/@]+@",
 ]
-ALLOWED_FIGURES = {'wp1_a_stage/A_tradeoff.png'}
+ALLOWED_FIGURES = {'wp1_a_stage/A_tradeoff.png',
+                   'wp1_supplement/figures/c1_enrichment.png',
+                   'wp1_supplement/figures/supplement_tradeoffs.png'}
 
 
 def git(*args):

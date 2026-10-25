@@ -1,0 +1,82 @@
+{
+  "at": "2026-10-24T13:27:52.674348+00:00",
+  "config": {
+    "family": "C3",
+    "name": "C3_target0",
+    "alpha": 3.2409603698016594
+  },
+  "aim_target": 0.4482903966036022,
+  "source_configs": [
+    {
+      "family": "C3",
+      "name": "C3_hard",
+      "alpha": 1
+    },
+    {
+      "family": "C3",
+      "name": "C3_a1p5",
+      "alpha": 1.5
+    },
+    {
+      "family": "C3",
+      "name": "C3_a2p0",
+      "alpha": 2.0
+    },
+    {
+      "family": "C3",
+      "name": "C3_a3p0",
+      "alpha": 3.0
+    },
+    {
+      "family": "C3",
+      "name": "C3_a5",
+      "alpha": 5
+    },
+    {
+      "family": "C3",
+      "name": "C3_a8",
+      "alpha": 8
+    },
+    {
+      "family": "C3",
+      "name": "C3_bracket1",
+      "alpha": 4.0
+    },
+    {
+      "family": "C3",
+      "name": "C3_bracket2",
+      "alpha": 3.5
+    }
+  ],
+  "source_bracket": [
+    {
+      "name": "C3_bracket2",
+      "forget_combined": 0.36717023691779094,
+      "forget_image": 0.45817090291278484,
+      "forget_text": 0.26100279325696457,
+      "retain_image": 0.6483850658696915,
+      "retain_text": 0.6660436038793994,
+      "retain_face": 0.6238166738826993,
+      "retain_eye": 0.8327056637760206,
+      "retain_eye_refusal": 0.03,
+      "refusal_loose": 0.049473684210526316,
+      "answer_words": 10.16,
+      "parameter": 3.5
+    },
+    {
+      "name": "C3_a3p0",
+      "forget_combined": 0.5237489033243549,
+      "forget_image": 0.5463750457868408,
+      "forget_text": 0.4973517371181213,
+      "retain_image": 0.6828872359733125,
+      "retain_text": 0.7200148433449138,
+      "retain_face": 0.6390956870118873,
+      "retain_eye": 0.8808330611865979,
+      "retain_eye_refusal": 0.01,
+      "refusal_loose": 0.017894736842105262,
+      "answer_words": 10.198947368421052,
+      "parameter": 3.0
+    }
+  ],
+  "predicted_text_monitor_pp": -35.975112437850335
+}

@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-24T04:59:19.737548+00:00",
+  "attempts": [
+    {
+      "config": {
+        "family": "C0",
+        "name": "C0_target0",
+        "k_multi": 5.303294081605771,
+        "k_text": 10.606588163211542
+      },
+      "summary": {
+        "name": "C0_target0",
+        "forget_combined": 0.44616545013414016,
+        "forget_image": 0.3904427491094597,
+        "forget_text": 0.5111752679962676,
+        "retain_image": 0.5632663716421548,
+        "retain_text": 0.703369956599127,
+        "retain_face": 0.6262913184532056,
+        "retain_eye": 0.8092930818612138,
+        "retain_eye_refusal": 0.1,
+        "refusal_loose": 0.07684210526315789,
+        "answer_words": 10.042631578947368
+      },
+      "text_monitor_difference_pp": -1.5703907030176298,
+      "eligible": true,
+      "aim_target": 0.4482903966036022,
+      "in_hit_range": true
+    }
+  ]
+}

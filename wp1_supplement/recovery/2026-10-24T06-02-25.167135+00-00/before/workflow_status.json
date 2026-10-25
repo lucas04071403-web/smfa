@@ -1,0 +1,53 @@
+{
+  "state": "running",
+  "phase": "B1 soft and hard strength grids",
+  "at": "2026-10-24T05:37:42.585606+00:00",
+  "complete": 2,
+  "total": 9,
+  "progress": {
+    "C2_a1p25": {
+      "state": "generating",
+      "completed": 1520
+    },
+    "C2_a1p5": {
+      "state": "generating",
+      "completed": 1501
+    }
+  },
+  "parallel_phases": {
+    "B1 actual matching C0": {
+      "complete": 0,
+      "total": 1,
+      "progress": {
+        "C0_target0": {
+          "state": "generating",
+          "completed": 2356
+        }
+      }
+    },
+    "B1 actual matching C1": {
+      "complete": 0,
+      "total": 1,
+      "progress": {
+        "C1_target0": {
+          "state": "generating",
+          "completed": 2356
+        }
+      }
+    },
+    "B1 soft and hard strength grids": {
+      "complete": 2,
+      "total": 9,
+      "progress": {
+        "C2_a1p25": {
+          "state": "generating",
+          "completed": 1520
+        },
+        "C2_a1p5": {
+          "state": "generating",
+          "completed": 1501
+        }
+      }
+    }
+  }
+}

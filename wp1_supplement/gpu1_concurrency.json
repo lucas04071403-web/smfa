@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-10-24T01:37:16.651841+00:00",
+  "diagnostic_pid": 3232495,
+  "worker_pid": 3257522,
+  "source_sha256": "e98a303ec796e90be871ba5d5c421fe51a236226057cc989257654357b58a4ce",
+  "reason": "Diagnostic accumulation spends most time on CPU and disk; observed GPU usage about 17 GiB, eval about 19 GiB, within 46 GiB.",
+  "inference_and_candidate_rules_unchanged": true,
+  "timing_note": "GPU 1 candidate and diagnostic wall times overlap; compare per-question and wall times with this scheduling context.",
+  "diagnostics_finished_at": "2026-10-24T03:17:50.601701+00:00",
+  "overlap_ended_at": "2026-10-24T03:18:12.694374+00:00"
+}

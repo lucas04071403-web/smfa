@@ -1,0 +1,22 @@
+{
+  "state": "passed",
+  "at": "2026-10-24T01:22:54.629909+00:00",
+  "indices": [
+    0,
+    6,
+    7,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9
+  ],
+  "samples": 10,
+  "layers": 2,
+  "prompt_only": true,
+  "conservation": "Visual + text + common prefix equals sequence length for every sample.",
+  "prefix_max_relative": 0.0015213117003440857,
+  "visual_duplicate_max_relative": 0.0
+}

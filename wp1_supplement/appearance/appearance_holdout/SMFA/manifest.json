@@ -1,0 +1,9 @@
+{
+  "bank": "appearance_holdout",
+  "model": "SMFA",
+  "checkpoint": "/root/lucas4/S-MLLMUn/model/unlearned_model/llava-onevision/split_ratio_5/SMFA/sculpted",
+  "checkpoint_index_sha256": "cb8c742367f4d3bbba1d097f5f5d191e7ac3efbcf0c8be00317678b4caa03649",
+  "templates_sha256": "4c829b9cc93ade957cd38639451a28ffa89be3afbad7269ccfeddcee40a961a7",
+  "freeze_sha256": "f5cfac05b778e2538b6abeef47dc725b0a19c87b8393fe9f17ea6c49b1d3a272",
+  "code_sha256": "ea515f9484c25f310e08e8471595353ec3b58acb642b341a548ec5f9b9b379be"
+}

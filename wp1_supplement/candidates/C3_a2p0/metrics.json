@@ -1,0 +1,362 @@
+{
+  "forget/all": {
+    "n_questions": 475,
+    "n_people": 25,
+    "mean": {
+      "answer_characters": 63.55789473684211,
+      "answer_tokens": 14.635789473684211,
+      "answer_words": 10.416842105263157,
+      "refusal_exact": 0.04421052631578947,
+      "refusal_loose": 0.04421052631578947,
+      "rougeL": 0.6507617972064303
+    },
+    "person_macro_mean": {
+      "answer_characters": 63.55789473684208,
+      "answer_tokens": 14.635789473684213,
+      "answer_words": 10.416842105263159,
+      "refusal_exact": 0.04421052631578947,
+      "refusal_loose": 0.04421052631578947,
+      "rougeL": 0.6507617972064297
+    }
+  },
+  "forget/combined_memory": {
+    "n_questions": 325,
+    "n_people": 25,
+    "mean": {
+      "answer_characters": 72.68923076923078,
+      "answer_tokens": 16.393846153846155,
+      "answer_words": 11.55076923076923,
+      "refusal_exact": 0.06461538461538462,
+      "refusal_loose": 0.06461538461538462,
+      "rougeL": 0.6305306173054669
+    },
+    "person_macro_mean": {
+      "answer_characters": 72.6892307692308,
+      "answer_tokens": 16.393846153846155,
+      "answer_words": 11.550769230769228,
+      "refusal_exact": 0.0646153846153846,
+      "refusal_loose": 0.0646153846153846,
+      "rougeL": 0.6305306173054666
+    }
+  },
+  "forget/image_memory": {
+    "n_questions": 175,
+    "n_people": 25,
+    "mean": {
+      "answer_characters": 69.94857142857143,
+      "answer_tokens": 15.022857142857143,
+      "answer_words": 11.177142857142858,
+      "refusal_exact": 0.045714285714285714,
+      "refusal_loose": 0.045714285714285714,
+      "rougeL": 0.6176397865668953
+    },
+    "person_macro_mean": {
+      "answer_characters": 69.94857142857143,
+      "answer_tokens": 15.022857142857141,
+      "answer_words": 11.177142857142858,
+      "refusal_exact": 0.0457142857142857,
+      "refusal_loose": 0.0457142857142857,
+      "rougeL": 0.6176397865668956
+    }
+  },
+  "forget/image_memory/character": {
+    "n_questions": 150,
+    "n_people": 25,
+    "mean": {
+      "answer_characters": 74.02666666666667,
+      "answer_tokens": 15.413333333333334,
+      "answer_words": 11.706666666666667,
+      "refusal_exact": 0.05333333333333334,
+      "refusal_loose": 0.05333333333333334,
+      "rougeL": 0.5589130843280444
+    },
+    "person_macro_mean": {
+      "answer_characters": 74.02666666666667,
+      "answer_tokens": 15.413333333333334,
+      "answer_words": 11.706666666666665,
+      "refusal_exact": 0.05333333333333333,
+      "refusal_loose": 0.05333333333333333,
+      "rougeL": 0.5589130843280449
+    }
+  },
+  "forget/image_memory/ophthalmic": {
+    "n_questions": 25,
+    "n_people": 25,
+    "mean": {
+      "answer_characters": 45.48,
+      "answer_tokens": 12.68,
+      "answer_words": 8.0,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.97
+    },
+    "person_macro_mean": {
+      "answer_characters": 45.48,
+      "answer_tokens": 12.68,
+      "answer_words": 8.0,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.97
+    }
+  },
+  "forget/image_understanding": {
+    "n_questions": 150,
+    "n_people": 25,
+    "mean": {
+      "answer_characters": 43.77333333333333,
+      "answer_tokens": 10.826666666666666,
+      "answer_words": 7.96,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.6945960203251829
+    },
+    "person_macro_mean": {
+      "answer_characters": 43.77333333333334,
+      "answer_tokens": 10.826666666666664,
+      "answer_words": 7.959999999999999,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.6945960203251828
+    }
+  },
+  "forget/image_understanding/character": {
+    "n_questions": 125,
+    "n_people": 25,
+    "mean": {
+      "answer_characters": 40.632,
+      "answer_tokens": 9.232,
+      "answer_words": 7.72,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.6402782496003034
+    },
+    "person_macro_mean": {
+      "answer_characters": 40.63199999999999,
+      "answer_tokens": 9.232000000000003,
+      "answer_words": 7.7200000000000015,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.6402782496003033
+    }
+  },
+  "forget/image_understanding/ophthalmic": {
+    "n_questions": 25,
+    "n_people": 25,
+    "mean": {
+      "answer_characters": 59.48,
+      "answer_tokens": 18.8,
+      "answer_words": 9.16,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.9661848739495799
+    },
+    "person_macro_mean": {
+      "answer_characters": 59.48,
+      "answer_tokens": 18.8,
+      "answer_words": 9.16,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.9661848739495799
+    }
+  },
+  "forget/text_memory": {
+    "n_questions": 150,
+    "n_people": 25,
+    "mean": {
+      "answer_characters": 75.88666666666667,
+      "answer_tokens": 17.993333333333332,
+      "answer_words": 11.986666666666666,
+      "refusal_exact": 0.08666666666666667,
+      "refusal_loose": 0.08666666666666667,
+      "rougeL": 0.6455699198337992
+    },
+    "person_macro_mean": {
+      "answer_characters": 75.88666666666666,
+      "answer_tokens": 17.993333333333332,
+      "answer_words": 11.986666666666668,
+      "refusal_exact": 0.08666666666666666,
+      "refusal_loose": 0.08666666666666666,
+      "rougeL": 0.6455699198337996
+    }
+  },
+  "retain/all": {
+    "n_questions": 1900,
+    "n_people": 100,
+    "mean": {
+      "answer_characters": 63.56,
+      "answer_tokens": 14.75,
+      "answer_words": 10.311052631578947,
+      "refusal_exact": 0.002631578947368421,
+      "refusal_loose": 0.002631578947368421,
+      "rougeL": 0.7143017798507265
+    },
+    "person_macro_mean": {
+      "answer_characters": 63.56,
+      "answer_tokens": 14.749999999999995,
+      "answer_words": 10.311052631578946,
+      "refusal_exact": 0.002631578947368421,
+      "refusal_loose": 0.002631578947368421,
+      "rougeL": 0.7143017798507287
+    }
+  },
+  "retain/combined_memory": {
+    "n_questions": 1300,
+    "n_people": 100,
+    "mean": {
+      "answer_characters": 70.49384615384615,
+      "answer_tokens": 16.216153846153848,
+      "answer_words": 11.113846153846154,
+      "refusal_exact": 0.0038461538461538464,
+      "refusal_loose": 0.0038461538461538464,
+      "rougeL": 0.7271894994163798
+    },
+    "person_macro_mean": {
+      "answer_characters": 70.49384615384614,
+      "answer_tokens": 16.21615384615385,
+      "answer_words": 11.113846153846145,
+      "refusal_exact": 0.0038461538461538464,
+      "refusal_loose": 0.0038461538461538464,
+      "rougeL": 0.7271894994163809
+    }
+  },
+  "retain/image_memory": {
+    "n_questions": 700,
+    "n_people": 100,
+    "mean": {
+      "answer_characters": 67.01,
+      "answer_tokens": 14.741428571428571,
+      "answer_words": 10.651428571428571,
+      "refusal_exact": 0.004285714285714286,
+      "refusal_loose": 0.004285714285714286,
+      "rougeL": 0.6977172995803042
+    },
+    "person_macro_mean": {
+      "answer_characters": 67.00999999999998,
+      "answer_tokens": 14.741428571428571,
+      "answer_words": 10.651428571428571,
+      "refusal_exact": 0.004285714285714285,
+      "refusal_loose": 0.004285714285714285,
+      "rougeL": 0.6977172995803028
+    }
+  },
+  "retain/image_memory/character": {
+    "n_questions": 600,
+    "n_people": 100,
+    "mean": {
+      "answer_characters": 70.735,
+      "answer_tokens": 15.203333333333333,
+      "answer_words": 11.091666666666667,
+      "refusal_exact": 0.005,
+      "refusal_loose": 0.005,
+      "rougeL": 0.6529618495103545
+    },
+    "person_macro_mean": {
+      "answer_characters": 70.73500000000001,
+      "answer_tokens": 15.20333333333334,
+      "answer_words": 11.091666666666661,
+      "refusal_exact": 0.005,
+      "refusal_loose": 0.005,
+      "rougeL": 0.6529618495103534
+    }
+  },
+  "retain/image_memory/ophthalmic": {
+    "n_questions": 100,
+    "n_people": 100,
+    "mean": {
+      "answer_characters": 44.66,
+      "answer_tokens": 11.97,
+      "answer_words": 8.01,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.96625
+    },
+    "person_macro_mean": {
+      "answer_characters": 44.66,
+      "answer_tokens": 11.97,
+      "answer_words": 8.01,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.96625
+    }
+  },
+  "retain/image_understanding": {
+    "n_questions": 600,
+    "n_people": 100,
+    "mean": {
+      "answer_characters": 48.53666666666667,
+      "answer_tokens": 11.573333333333334,
+      "answer_words": 8.571666666666667,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.6863783874584821
+    },
+    "person_macro_mean": {
+      "answer_characters": 48.53666666666669,
+      "answer_tokens": 11.573333333333332,
+      "answer_words": 8.571666666666664,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.6863783874584807
+    }
+  },
+  "retain/image_understanding/character": {
+    "n_questions": 500,
+    "n_people": 100,
+    "mean": {
+      "answer_characters": 44.636,
+      "answer_tokens": 9.938,
+      "answer_words": 8.3,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.6458555182621992
+    },
+    "person_macro_mean": {
+      "answer_characters": 44.63600000000004,
+      "answer_tokens": 9.937999999999994,
+      "answer_words": 8.3,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.6458555182621984
+    }
+  },
+  "retain/image_understanding/ophthalmic": {
+    "n_questions": 100,
+    "n_people": 100,
+    "mean": {
+      "answer_characters": 68.04,
+      "answer_tokens": 19.75,
+      "answer_words": 9.93,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.888992733439892
+    },
+    "person_macro_mean": {
+      "answer_characters": 68.04,
+      "answer_tokens": 19.75,
+      "answer_words": 9.93,
+      "refusal_exact": 0.0,
+      "refusal_loose": 0.0,
+      "rougeL": 0.888992733439892
+    }
+  },
+  "retain/text_memory": {
+    "n_questions": 600,
+    "n_people": 100,
+    "mean": {
+      "answer_characters": 74.55833333333334,
+      "answer_tokens": 17.936666666666667,
+      "answer_words": 11.653333333333334,
+      "refusal_exact": 0.0033333333333333335,
+      "refusal_loose": 0.0033333333333333335,
+      "rougeL": 0.7615737325584732
+    },
+    "person_macro_mean": {
+      "answer_characters": 74.55833333333334,
+      "answer_tokens": 17.93666666666667,
+      "answer_words": 11.65333333333333,
+      "refusal_exact": 0.003333333333333333,
+      "refusal_loose": 0.003333333333333333,
+      "rougeL": 0.7615737325584729
+    }
+  }
+}

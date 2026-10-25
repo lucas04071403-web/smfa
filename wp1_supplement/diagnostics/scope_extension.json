@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-24T01:17:37.261153+00:00",
+  "frozen_primary_layers": [
+    0,
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    21,
+    24,
+    27
+  ],
+  "additional_layers": [
+    1,
+    2,
+    4,
+    5,
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    17,
+    19,
+    20,
+    22,
+    23,
+    25,
+    26
+  ],
+  "reason": "Complete the requested per-layer diagnostic; deterministic complement, no result-based layer choice.",
+  "selection_rules_unchanged": true,
+  "diagnostics_do_not_affect_selection": true,
+  "source_selection_sha256": "801746d4071d3f296e526d103a7e4ada90bcc3506f584fe48dfa6bd7d6942d43"
+}

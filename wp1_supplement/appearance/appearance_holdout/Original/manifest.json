@@ -1,0 +1,9 @@
+{
+  "bank": "appearance_holdout",
+  "model": "Original",
+  "checkpoint": "/root/lucas4/S-MLLMUn/model/original_model/llava-onevision-qwen2-7b-original",
+  "checkpoint_index_sha256": "3258aea039a20492091a29a4da971ba69efcaed1d8bfe3f964fe612f5dab4c4a",
+  "templates_sha256": "4c829b9cc93ade957cd38639451a28ffa89be3afbad7269ccfeddcee40a961a7",
+  "freeze_sha256": "f5cfac05b778e2538b6abeef47dc725b0a19c87b8393fe9f17ea6c49b1d3a272",
+  "code_sha256": "ea515f9484c25f310e08e8471595353ec3b58acb642b341a548ec5f9b9b379be"
+}

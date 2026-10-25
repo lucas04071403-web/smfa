@@ -1,0 +1,31 @@
+{
+  "state": "passed",
+  "checked_at": "2026-10-24T06:03:08.483807+00:00",
+  "checked": {
+    "C0_target0": {
+      "questions": 2375,
+      "metrics_sha256": "db0749c90797768ab1680dc934ef9199c1097a125ce6d6016698aa2adf74fb10"
+    },
+    "C1_c0p8": {
+      "questions": 2375,
+      "metrics_sha256": "5e35445241f727867855132104818abda0df436b815248f716b5c98b8ff9cb02"
+    },
+    "C1_c0p85": {
+      "questions": 2375,
+      "metrics_sha256": "09c761f1effec51c54681aefd2cfcd243772fbdfb163163392025bf748ec12a4"
+    },
+    "C1_c0p9": {
+      "questions": 2375,
+      "metrics_sha256": "ff4e9a077f72bff8e898911623421f8bdc4c45aaa204c85c38329ad57b9b538d"
+    },
+    "C1_c0p95": {
+      "questions": 2375,
+      "metrics_sha256": "e91d353240a84e99beaab4e26c50431b16be6df8a43e389ceff2d24dfe4f5fbc"
+    },
+    "C1_target0": {
+      "questions": 2375,
+      "metrics_sha256": "f5b0f25387e46810b950b04bc053c0c186de20c37cf506b21f72c245504410fa"
+    }
+  },
+  "source_results_modified": false
+}

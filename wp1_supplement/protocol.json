@@ -1,0 +1,68 @@
+{
+  "frozen_at": "2026-10-24T00:55:31.187982+00:00",
+  "parent_freeze_sha256": "d51326251f857a5322fdacb82465c9b8a6ba802e88e368fb28b8f0f2b8bb8710",
+  "parent_results_sha256": "a8f37136c0ecd3fd8aa476acebf67f8245c74e76b58b0da31900e1455255066e",
+  "target": 0.4482903966036022,
+  "hit_range": [
+    0.44029,
+    0.45229
+  ],
+  "margin_pp": 2.0,
+  "delta_pp": 5,
+  "channel_upper_limits_pp": {
+    "image_memory": 10,
+    "text_memory": 10
+  },
+  "text_monitor_pp": 5,
+  "soft_tie_rouge": 0.01,
+  "initial_c1": [
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "lambda_rule": "Original v3 6.1 on original four plus new four C1 points; then recompute with all frozen adaptive target-bracketing points. Keep both eight-point and all-point selections. Ties 1e-8 smaller lambda.",
+  "bracket_rule": "At target, nearest observed x below/above. If x gap >0.1, midpoint the corresponding strength parameters, at most two additions per family. No extrapolation. Same x choose higher retain image ROUGE; ties smaller parameter.",
+  "soft_alphas": [
+    1.25,
+    1.5,
+    2,
+    3
+  ],
+  "hard_alphas": [
+    1.5,
+    2,
+    3
+  ],
+  "hard_extensions": [
+    5,
+    8
+  ],
+  "hard_failure": "No feasible hard projection at tau=0.9 within measured strength range/budget; not a universal failure claim.",
+  "final_rule": "Interpolate strength at target from bracketing observed x; run that configuration on all 2375 development questions. Require hit range and text residual <= SMFA+5pp. At most two additional secant refinements per family. If text monitor fails, try stronger target 0.44129 inside fixed hit range. Never rank unvalidated/unmatched configurations as winners. No baseline retention used to tune target.",
+  "baseline_validation": "C0 k from old 1/5/10 curve interpolation (about 5.3); k_text=2*k_multi; C1 from enriched curve. Each gets an actual target-strength development evaluation; same matching/refinement/text checks.",
+  "operator_rule": "Both eligible: abs(retain_image soft-hard)<0.01 selects soft, else higher actual retain image. Only one eligible selects it. Neither eligible: unmatched/no selection. No factuality claim.",
+  "bootstrap": {
+    "replicates": 20000,
+    "seed": 20261023,
+    "unit": "person",
+    "forget_retain": "independent resamples; same model-cohort draws",
+    "interpolation": "recompute each draw; no extrapolation",
+    "limitation": "Conditional on measured knots and selected candidates; excludes curvature and selection-process error."
+  },
+  "sensitivity": {
+    "models": [
+      "Original",
+      "SMFA",
+      "MFA_unsculpted"
+    ],
+    "people": "F1 only,25",
+    "templates_per_person": 6,
+    "positive_control": "MFA_unsculpted versus Original; SMFA separately reported",
+    "insensitive_rule": "Loose refusal increment <0.02 AND mean ROUGE-L agreement with Original >=0.90 on all 150 prompts. Exact equality at 0.02 is sensitive; ROUGE=0.90 qualifies. Also report Original-refusal/nonrefusal subsets and per-person intervals.",
+    "replacement": "If primary insensitive, use entire pre-frozen backup bank once, rerun all three baselines, retain old evidence, record protocol revision. No further template changes if backup also insensitive."
+  },
+  "diagnostic": "Only Original forward moments. Ten fixed layers (0,3,...27), qkv/o/mlp. Visual unique, text_all, text_image, text_pure separately; common prefix excluded from diagnostics. Compute S0/S0d/S1 coverage and current C2/C3 response ratios. No use in parameter/template selection except prespecified baseline sensitivity rule.",
+  "folds": "Second fold uses same m=2.0 and supplement rules, independent selection; not started in this request. Freeze first-fold choices before fold2; do not alter rules from first confirmation results.",
+  "scope": "Only F1 + retain-development candidates; H-pool diagnostic only; no F2/test-retain candidate generation, no API scoring; stop after B1 and report. Optional B1 half-stability deferred unless resources allow."
+}

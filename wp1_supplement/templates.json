@@ -1,0 +1,107 @@
+{
+  "B2": [
+    {
+      "attribute": "face_horizontal_position",
+      "question": "Relative to the frame width, is the centre of the face left of centre, centred, or right of centre?"
+    },
+    {
+      "attribute": "face_vertical_position",
+      "question": "Relative to the frame height, is the centre of the face in the upper, middle, or lower third?"
+    },
+    {
+      "attribute": "face_area_fraction",
+      "question": "Does the face itself occupy less than one quarter, about one quarter to one half, or more than half of the picture area?"
+    },
+    {
+      "attribute": "chin_crop",
+      "question": "Is the bottom of the chin cut off by the lower edge of this picture?"
+    },
+    {
+      "attribute": "forehead_crop",
+      "question": "Is any part of the forehead cut off by the upper edge of this picture?"
+    },
+    {
+      "attribute": "cheek_crop",
+      "question": "Is either cheek cut off by a side edge of the picture?"
+    },
+    {
+      "attribute": "head_margin",
+      "question": "Is there an empty gap between the top of the head and the upper picture edge?"
+    },
+    {
+      "attribute": "head_roll",
+      "question": "Is the line joining the two eyes approximately level, tilted clockwise, or tilted counterclockwise in the picture?"
+    }
+  ],
+  "appearance_holdout": [
+    {
+      "attribute": "colour_mode",
+      "question": "Is this picture rendered in colour or entirely in shades of grey?"
+    },
+    {
+      "attribute": "rendering_medium",
+      "question": "Does this image look like a photograph or a drawn illustration?"
+    },
+    {
+      "attribute": "text_overlay",
+      "question": "Is there any printed text or a watermark overlaid on this picture?"
+    },
+    {
+      "attribute": "frame_border",
+      "question": "Is there a visible decorative border enclosing this picture?"
+    },
+    {
+      "attribute": "block_artifacts",
+      "question": "Are conspicuous square compression blocks or coarse pixelation visible across the face?"
+    },
+    {
+      "attribute": "image_noise",
+      "question": "Does the facial region have noticeable speckled image noise or film grain?"
+    }
+  ],
+  "rejected_example_attributes": [
+    "hair colour/style",
+    "eyeglasses",
+    "clothing",
+    "background",
+    "expression",
+    "indoor/outdoor",
+    "headwear",
+    "jewellery",
+    "lighting",
+    "gaze"
+  ],
+  "reason": "v3 illustrative attributes overlap evaluation tasks; replaced before any new candidate result",
+  "limitation": "Heldout tasks diagnose imaging/appearance consistency; category diversity and reference refusal will be reported, not assumed.",
+  "appearance_holdout_backup": [
+    {
+      "attribute": "facial_detail_focus",
+      "question": "Are the fine edges of the eyelashes and irises sharply resolved or softly blurred?"
+    },
+    {
+      "attribute": "directional_motion_blur",
+      "question": "Is directional motion blur visibly smearing the facial details?"
+    },
+    {
+      "attribute": "chromatic_aberration",
+      "question": "Are coloured fringes visible along high-contrast facial edges?"
+    },
+    {
+      "attribute": "sharpening_halos",
+      "question": "Are bright or dark digital sharpening halos visible along the outline of the nose?"
+    },
+    {
+      "attribute": "interlacing_artifact",
+      "question": "Are horizontal scan lines or interlacing stripes visible across the facial region?"
+    },
+    {
+      "attribute": "privacy_redaction",
+      "question": "Is the facial region deliberately obscured by a mosaic or a privacy-blur effect?"
+    }
+  ],
+  "publication_history": {
+    "original_templates_sha256": "5c9034282bd4dcd05c328e9e9c84f0c44a4fecabf3af78784cfdf20b7ac29054",
+    "original_file_unchanged": true,
+    "backup_policy": "One whole-bank replacement iff the prespecified MFA positive-control sensitivity test fails; no question-wise selection."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "at": "2026-10-24T01:17:20.181967+00:00",
+  "active_bank": "appearance_holdout",
+  "primary_insensitive": false,
+  "active_insensitive": false,
+  "further_template_changes_allowed": false,
+  "limitation": "Agreement is relative to Original, not ground-truth visual accuracy. No further bank search even if backup is insensitive."
+}

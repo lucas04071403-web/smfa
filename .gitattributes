@@ -1,0 +1,4 @@
+# Preserve the exact Matplotlib SVG bytes referenced by the experiment hashes.
+# Its generated multiline path data intentionally contains trailing spaces.
+wp1_supplement/figures/c1_enrichment.svg -whitespace
+wp1_supplement/figures/supplement_tradeoffs.svg -whitespace

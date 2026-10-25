@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-24T14:29:27.066129+00:00",
+  "config": {
+    "family": "C3",
+    "name": "C3_target1",
+    "alpha": 3.199896664576262
+  },
+  "aim_target": 0.4482903966036022,
+  "source_configs": [
+    {
+      "family": "C3",
+      "name": "C3_hard",
+      "alpha": 1
+    },
+    {
+      "family": "C3",
+      "name": "C3_a1p5",
+      "alpha": 1.5
+    },
+    {
+      "family": "C3",
+      "name": "C3_a2p0",
+      "alpha": 2.0
+    },
+    {
+      "family": "C3",
+      "name": "C3_a3p0",
+      "alpha": 3.0
+    },
+    {
+      "family": "C3",
+      "name": "C3_a5",
+      "alpha": 5
+    },
+    {
+      "family": "C3",
+      "name": "C3_a8",
+      "alpha": 8
+    },
+    {
+      "family": "C3",
+      "name": "C3_bracket1",
+      "alpha": 4.0
+    },
+    {
+      "family": "C3",
+      "name": "C3_bracket2",
+      "alpha": 3.5
+    },
+    {
+      "family": "C3",
+      "name": "C3_target0",
+      "alpha": 3.2409603698016594
+    }
+  ],
+  "source_bracket": [
+    {
+      "name": "C3_target0",
+      "forget_combined": 0.4327893581880887,
+      "forget_image": 0.500294398025344,
+      "forget_text": 0.35403347837795796,
+      "retain_image": 0.6678651430142137,
+      "retain_text": 0.6959071990564726,
+      "retain_face": 0.630850476172998,
+      "retain_eye": 0.881769352571697,
+      "retain_eye_refusal": 0.01,
+      "refusal_loose": 0.03315789473684211,
+      "answer_words": 10.160526315789474,
+      "parameter": 3.2409603698016594
+    },
+    {
+      "name": "C3_a3p0",
+      "forget_combined": 0.5237489033243549,
+      "forget_image": 0.5463750457868408,
+      "forget_text": 0.4973517371181213,
+      "retain_image": 0.6828872359733125,
+      "retain_text": 0.7200148433449138,
+      "retain_face": 0.6390956870118873,
+      "retain_eye": 0.8808330611865979,
+      "retain_eye_refusal": 0.01,
+      "refusal_loose": 0.017894736842105262,
+      "answer_words": 10.198947368421052,
+      "parameter": 3.0
+    }
+  ],
+  "predicted_text_monitor_pp": -37.32004313183287
+}

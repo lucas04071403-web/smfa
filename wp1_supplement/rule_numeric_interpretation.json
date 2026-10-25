@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-24T01:15:12.428195+00:00",
+  "purpose": "Numerical interpretation of frozen rules only; no new candidate result used.",
+  "original_forget_combined": 0.7071117086742142,
+  "base_forget_combined": 0.2966417808730081,
+  "smfa_forget_combined": 0.4564997951596263,
+  "smfa_rouge_residual_pp": 38.94512203194547,
+  "target_rouge_residual_pp": 36.94512203194548,
+  "hit_range_rouge_residual_pp": [
+    34.99603975776805,
+    37.91951823627226
+  ],
+  "hit_tolerance_normalized_pp": [
+    -1.9490822741774263,
+    0.9743962043267786
+  ],
+  "max_forget_text_raw_rouge_from_monitor": 0.5355673582686211,
+  "sensitivity_two_pp_net_questions": 3,
+  "caution": "ROUGE residual is not factuality residual. Hit tolerance does not guarantee test noninferiority; compare actual and interpolated target retention together."
+}

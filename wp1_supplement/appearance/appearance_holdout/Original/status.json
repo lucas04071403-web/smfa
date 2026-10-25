@@ -1,0 +1,16 @@
+{
+  "state": "complete",
+  "started_at": "2026-10-24T01:01:06.135933+00:00",
+  "pid": 3214210,
+  "gpu": "1",
+  "model": "Original",
+  "bank": "appearance_holdout",
+  "completed": 150,
+  "total": 150,
+  "load_seconds": 8.213493878021836,
+  "generation_started_at": "2026-10-24T01:01:14.351342+00:00",
+  "updated_at": "2026-10-24T01:06:31.341662+00:00",
+  "elapsed_generation_seconds": 316.99037485942245,
+  "finished_at": "2026-10-24T01:06:31.345082+00:00",
+  "generation_seconds": 316.9937838613987
+}

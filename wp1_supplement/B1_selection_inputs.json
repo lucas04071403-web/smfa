@@ -1,0 +1,17 @@
+{
+  "frozen_at": "2026-10-24T03:55:20.216325+00:00",
+  "selected_lambda": 10,
+  "c1_selection_sha256": "350811ff7b18b88994a0c859c3c30d33824d7c3d48b4a8b161b204f1e132f34a",
+  "c1_names": [
+    "C1_c0p25",
+    "C1_c0p5",
+    "C1_c0p75",
+    "C1_c1p0",
+    "C1_c0p8",
+    "C1_c0p85",
+    "C1_c0p9",
+    "C1_c0p95"
+  ],
+  "supplement_freeze_sha256": "f5cfac05b778e2538b6abeef47dc725b0a19c87b8393fe9f17ea6c49b1d3a272",
+  "note": "Lambda locked before any new B1 alpha generation; diagnostics cannot change this selection."
+}

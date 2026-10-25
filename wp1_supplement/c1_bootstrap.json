@@ -1,0 +1,143 @@
+{
+  "state": "complete",
+  "at": "2026-10-24T03:55:36.227561+00:00",
+  "seed": 20261023,
+  "replicates": 20000,
+  "curve_names": [
+    "C1_c0p25",
+    "C1_c0p5",
+    "C1_c0p75",
+    "C1_c1p0",
+    "C1_c0p8",
+    "C1_c0p85",
+    "C1_c0p9",
+    "C1_c0p95"
+  ],
+  "comparisons": {
+    "SMFA": {
+      "estimate": 0.0016234615008000608,
+      "valid_replicates": 20000,
+      "unbracketed_replicates": 0,
+      "conditional_ci95": [
+        -0.008671354698704456,
+        0.012574888027086705
+      ],
+      "conditional_ci90": [
+        -0.006935116584273343,
+        0.0107068166910934
+      ],
+      "conditional_fraction_above_0_01": 0.06325
+    },
+    "C0_k1": {
+      "estimate": 0.010092282538233577,
+      "valid_replicates": 20000,
+      "unbracketed_replicates": 0,
+      "conditional_ci95": [
+        0.0004602881638478107,
+        0.02063582939894621
+      ],
+      "conditional_ci90": [
+        0.0018927738945627326,
+        0.01889160977294289
+      ],
+      "conditional_fraction_above_0_01": 0.5042
+    },
+    "C0_k10": {
+      "estimate": 0.010694529251815521,
+      "valid_replicates": 20000,
+      "unbracketed_replicates": 0,
+      "conditional_ci95": [
+        -0.0029080151914286563,
+        0.02456111789718172
+      ],
+      "conditional_ci90": [
+        -0.0007195963625556051,
+        0.022340493758941843
+      ],
+      "conditional_fraction_above_0_01": 0.526
+    },
+    "C2_l10": {
+      "estimate": 0.013906392408186585,
+      "valid_replicates": 20000,
+      "unbracketed_replicates": 0,
+      "conditional_ci95": [
+        0.002851678003958655,
+        0.025830316022946106
+      ],
+      "conditional_ci90": [
+        0.004639900499804961,
+        0.02353158915645712
+      ],
+      "conditional_fraction_above_0_01": 0.7431
+    },
+    "C2_l100": {
+      "estimate": 0.011308184724279968,
+      "valid_replicates": 20000,
+      "unbracketed_replicates": 0,
+      "conditional_ci95": [
+        0.0029302456299972416,
+        0.020793336089647015
+      ],
+      "conditional_ci90": [
+        0.004062216347554515,
+        0.019220344665795683
+      ],
+      "conditional_fraction_above_0_01": 0.5975
+    },
+    "C2_l1000": {
+      "estimate": 0.010030107432552726,
+      "valid_replicates": 20000,
+      "unbracketed_replicates": 0,
+      "conditional_ci95": [
+        0.0008179374028714549,
+        0.02053253498870084
+      ],
+      "conditional_ci90": [
+        0.002115433099984487,
+        0.018651936138624956
+      ],
+      "conditional_fraction_above_0_01": 0.49385
+    }
+  },
+  "lambda_ranking": {
+    "fully_bracketed_replicates": 20000,
+    "conditional_selection_frequencies": {
+      "C2_l10": 0.5192,
+      "C2_l100": 0.2798,
+      "C2_l1000": 0.201
+    }
+  },
+  "method": "Person bootstrap; independent forget/retain samples, paired across models within each cohort; reinterpolate each draw; no extrapolation.",
+  "limitation": "Conditional on measured knots and selected candidates; excludes curvature and selection-process error.",
+  "interval_note": "Intervals exclude curvature error, candidate-selection error and factuality scoring uncertainty. Frequencies are not probabilities of population optimality.",
+  "source_sha256": {
+    "wp1_a_stage/candidates/C1_c0p25/forget_generation_results.json": "366b58ac61d2955e8f7b8a3a0f3e8eec971082076378d3e6e4c5a7c9e651a122",
+    "wp1_a_stage/candidates/C1_c0p25/retain_generation_results.json": "bdc5eb3f6d8081332ea7b67bac45ad37c3dbea89b333f63c70e5b9d2f7727cb7",
+    "wp1_a_stage/candidates/C1_c0p5/forget_generation_results.json": "c99e1d5a488695aa6fae73acdf98313d452fcceab9348064f8ab33832d23475b",
+    "wp1_a_stage/candidates/C1_c0p5/retain_generation_results.json": "da4a4814be694273260599a224c74a6b9ae4b691a58ec25d085dcdd5d06530b4",
+    "wp1_a_stage/candidates/C1_c0p75/forget_generation_results.json": "1f05e265f58b5ec7f557b75fd396281c2dd5a3bbebdc95ed1ad4564889553cd2",
+    "wp1_a_stage/candidates/C1_c0p75/retain_generation_results.json": "1e1bd6caa4987bd7cb9b95e10f94e97ffc10b080d85bc26896697c88db6ad871",
+    "wp1_a_stage/candidates/C1_c1p0/forget_generation_results.json": "448053e96165a6b14f1f4c571f86afad0f0c1e4adad4aca6f8c17718c1e1cb45",
+    "wp1_a_stage/candidates/C1_c1p0/retain_generation_results.json": "3cb3b5b02014934bcb6121bfcbcd0e18969b0a03f48cb0d4413865679b8a4c54",
+    "wp1_supplement/candidates/C1_c0p8/forget_generation_results.json": "1b9b0917edfe0bac04fede571966d9f498e551decce14ba71c6ad413a2044afe",
+    "wp1_supplement/candidates/C1_c0p8/retain_generation_results.json": "60b286d55c5c0ca2eaa449a6d5a08c952c4bab3adfa2849cf4d655c5ce11a265",
+    "wp1_supplement/candidates/C1_c0p85/forget_generation_results.json": "69eea3bee282cb0766c538e8e74022ade9ea98a48d677efa11092dbbf66c7fe0",
+    "wp1_supplement/candidates/C1_c0p85/retain_generation_results.json": "0ac3b6c71bee174cf9364739d5574d3d8bfe54c285424729cdf873aab492051c",
+    "wp1_supplement/candidates/C1_c0p9/forget_generation_results.json": "e5a2a26fbf19c83124502ffe8f1101bd895ff667db2f1d32c88047eadbd65474",
+    "wp1_supplement/candidates/C1_c0p9/retain_generation_results.json": "5313b2a6fb318ea2821dee68262459330612f31122e323b74bce6ebf0680033f",
+    "wp1_supplement/candidates/C1_c0p95/forget_generation_results.json": "ba30205216d9754c0179853737eabdf98edc5a5517f2bff1c7f7cf325a7635d7",
+    "wp1_supplement/candidates/C1_c0p95/retain_generation_results.json": "6e541d997ea5f3a029cff113af876612169834d5a776ff26b1dc59c1f261ad8e",
+    "wp1_a_stage/references/SMFA/forget_generation_results.json": "bb693b4f568ae7abb8c2d60181b3b058d945c6dd707a44cc55c4f7dcf4883868",
+    "wp1_a_stage/references/SMFA/retain_generation_results.json": "5e2ce4b8fef32fb5639992ff9c3841c90d252f3d32fd236ca33e31c29d718681",
+    "wp1_a_stage/candidates/C0_k1/forget_generation_results.json": "b8fbb9c5fa9d38da0453c7ef58a742ad7ada9183da2a28c98403920590be3526",
+    "wp1_a_stage/candidates/C0_k1/retain_generation_results.json": "d7fc881a692c82eb9d7ce3aca7669946f330285582d8193508b014b9c4dcdbbb",
+    "wp1_a_stage/candidates/C0_k10/forget_generation_results.json": "62b31bb8589f9ccde655653682f6de8b85e8c4a090487593f1ff6fdc6bc03d04",
+    "wp1_a_stage/candidates/C0_k10/retain_generation_results.json": "090ac3effc863b545d0e77f5c8db192125571c7531ffd378d907aa0e212bdb7b",
+    "wp1_a_stage/candidates/C2_l10/forget_generation_results.json": "24c5a2cc8b2811e7da8267e439c14fe3c9004dd895767e159406ab8035c17689",
+    "wp1_a_stage/candidates/C2_l10/retain_generation_results.json": "145700d878320b17cd4ffb8de22dc40dc5922a5adbb5eb77a216930dfe09f123",
+    "wp1_a_stage/candidates/C2_l100/forget_generation_results.json": "d6daabaad9700cacb1a69bf1a2b0c27f75c65070fee4ce81a8bb7559a8b379ee",
+    "wp1_a_stage/candidates/C2_l100/retain_generation_results.json": "5ee393169db06bcdd1f3f3b4405bf3834523ef1c7abd7b4e9a2cb9718f31b1a6",
+    "wp1_a_stage/candidates/C2_l1000/forget_generation_results.json": "b869b5a0972daee1b9e4bea8eda1b1499f7e6ce4105f6db455303830e593d2db",
+    "wp1_a_stage/candidates/C2_l1000/retain_generation_results.json": "b7854ef0e95f92f0c67f9386d46399847b49a60ff4cbe90d23b1fe298cf06a62"
+  }
+}

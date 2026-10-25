@@ -1,0 +1,20 @@
+{
+  "directory": "/root/lucas4/wp1_supplement/recovery/2026-10-24T06-02-25.167135+00-00",
+  "audit": "passed",
+  "cached_questions": 17271,
+  "remaining_queued_questions": 13604,
+  "checked_at": "2026-10-24T06:02:25.997408+00:00",
+  "gpu": {
+    "ready": true,
+    "returncode": 0,
+    "output": "0, NVIDIA A40, 45062\n1, NVIDIA A40, 45489"
+  },
+  "visible_existing_processes": [],
+  "launched": true,
+  "pids": [
+    3389332,
+    3389333,
+    3389334
+  ],
+  "launched_at": "2026-10-24T06:02:31.394562+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "passed",
+  "at": "2026-10-24T01:17:30.954316+00:00",
+  "lowrank_energy_abs_error": 4.547473508864641e-13,
+  "coverage_abs_error": 0.0,
+  "code_sha256": "c623d9af7b8ec3f2e5165d0065ef3e84f7de8229ba77f17b50cd97e492967181"
+}

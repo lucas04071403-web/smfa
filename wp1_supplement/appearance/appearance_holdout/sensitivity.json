@@ -1,0 +1,139 @@
+{
+  "state": "complete",
+  "at": "2026-10-24T01:17:20.177133+00:00",
+  "bank": "appearance_holdout",
+  "n_people": 25,
+  "n_prompts": 150,
+  "positive_control": "MFA_unsculpted versus Original",
+  "comparisons": {
+    "SMFA": {
+      "mean_agreement_rougeL": 0.652435032840614,
+      "refusal_increment": 0.07333333333333333,
+      "original_refusal_rate": 0.0,
+      "model_refusal_rate": 0.07333333333333333,
+      "insensitive": false,
+      "conditional_ci95_by_person": {
+        "agreement": [
+          0.616935035885186,
+          0.6882423590600215
+        ],
+        "refusal_increment": [
+          0.03333333333333333,
+          0.11333333333333334
+        ]
+      },
+      "subsets": {
+        "original_nonrefusal": {
+          "n": 150,
+          "agreement": 0.652435032840614,
+          "refusal_increment": 0.07333333333333333
+        },
+        "original_refusal": {
+          "n": 0,
+          "agreement": null,
+          "refusal_increment": null
+        }
+      },
+      "by_attribute": {
+        "block_artifacts": {
+          "n": 25,
+          "agreement": 0.25059100156809133,
+          "refusal_increment": 0.24
+        },
+        "colour_mode": {
+          "n": 25,
+          "agreement": 1.0,
+          "refusal_increment": 0.0
+        },
+        "frame_border": {
+          "n": 25,
+          "agreement": 0.8430064734027582,
+          "refusal_increment": 0.0
+        },
+        "image_noise": {
+          "n": 25,
+          "agreement": 0.18134369223209212,
+          "refusal_increment": 0.08
+        },
+        "rendering_medium": {
+          "n": 25,
+          "agreement": 0.920475113122172,
+          "refusal_increment": 0.08
+        },
+        "text_overlay": {
+          "n": 25,
+          "agreement": 0.7191939167185705,
+          "refusal_increment": 0.04
+        }
+      }
+    },
+    "MFA_unsculpted": {
+      "mean_agreement_rougeL": 0.5130255032068084,
+      "refusal_increment": 0.2733333333333333,
+      "original_refusal_rate": 0.0,
+      "model_refusal_rate": 0.2733333333333333,
+      "insensitive": false,
+      "conditional_ci95_by_person": {
+        "agreement": [
+          0.445980774142177,
+          0.5774135051315855
+        ],
+        "refusal_increment": [
+          0.18666666666666665,
+          0.36
+        ]
+      },
+      "subsets": {
+        "original_nonrefusal": {
+          "n": 150,
+          "agreement": 0.5130255032068084,
+          "refusal_increment": 0.2733333333333333
+        },
+        "original_refusal": {
+          "n": 0,
+          "agreement": null,
+          "refusal_increment": null
+        }
+      },
+      "by_attribute": {
+        "block_artifacts": {
+          "n": 25,
+          "agreement": 0.16905933818503477,
+          "refusal_increment": 0.48
+        },
+        "colour_mode": {
+          "n": 25,
+          "agreement": 0.88,
+          "refusal_increment": 0.12
+        },
+        "frame_border": {
+          "n": 25,
+          "agreement": 0.724392156862745,
+          "refusal_increment": 0.0
+        },
+        "image_noise": {
+          "n": 25,
+          "agreement": 0.1340324588962426,
+          "refusal_increment": 0.4
+        },
+        "rendering_medium": {
+          "n": 25,
+          "agreement": 0.5022445820433437,
+          "refusal_increment": 0.52
+        },
+        "text_overlay": {
+          "n": 25,
+          "agreement": 0.6684244832534846,
+          "refusal_increment": 0.12
+        }
+      }
+    }
+  },
+  "insensitive": false,
+  "source_sha256": {
+    "Original": "b54cc012ae9818421f788f59d5e679c91e3425a7af1ff3573c21b334ec1aa991",
+    "SMFA": "a25173d3d6321938da210fa74d261ef670622433bf58d4c1f2dc885d3ce2c684",
+    "MFA_unsculpted": "69076004a4b2523b968c6d816c8d659a33f8d6eef5d8e37262ad41dc46d57983"
+  },
+  "ci_note": "Paired person bootstrap, 20000 draws, seed 20261023; diagnostic only, not template selection by CI."
+}

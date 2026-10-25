@@ -1,0 +1,17 @@
+{
+  "config": {
+    "family": "C3",
+    "name": "C3_a5",
+    "alpha": 5
+  },
+  "code_sha256": {
+    "wp1_supplement/evaluate.py": "c523f77d9f15e6b8f571f31dd1c08a185dadc0899b64fa58ae6bd22daca41e94",
+    "wp1_supplement/common.py": "16f8d92a9ba923aca8d226a8e9dff972916d5baf987ec8427f1b4e4f02863cfa",
+    "wp1_a_stage/candidates.py": "d5ab429eff7c22066f2e97fb29a55fe29951287c224d7f6aa0a330053ca6433f",
+    "wp1_a_stage/common.py": "69792af5db1f39756c329dee71d4b1b685cd391733287239c892c65f665f5a4a",
+    "wp1_review/memory_construct.py": "73d7647e554a6b42f0698b93235618ca45941e75810aca6624a08182dd579f90"
+  },
+  "freeze_sha256": "f5cfac05b778e2538b6abeef47dc725b0a19c87b8393fe9f17ea6c49b1d3a272",
+  "parent_freeze_sha256": "d51326251f857a5322fdacb82465c9b8a6ba802e88e368fb28b8f0f2b8bb8710",
+  "eigen_sha256": "1c30b0c7bd0865a2a349d5848e7ba0ee0bc5bc64b20cb35abf18f36d2567150e"
+}

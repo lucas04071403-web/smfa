@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-24T10:31:00.436279+00:00",
+  "index": 2,
+  "target": 0.4482903966036022,
+  "bracket": [
+    {
+      "name": "C2_bracket1",
+      "forget_combined": 0.37969298801268714,
+      "forget_image": 0.3330746136980192,
+      "forget_text": 0.43408109137980005,
+      "retain_image": 0.5670468138281426,
+      "retain_text": 0.7001381038896084,
+      "retain_face": 0.6235612326722171,
+      "retain_eye": 0.8293023153106912,
+      "retain_eye_refusal": 0.07,
+      "refusal_loose": 0.0868421052631579,
+      "answer_words": 10.147894736842105,
+      "parameter": 1.125
+    },
+    {
+      "name": "C2_l10",
+      "forget_combined": 0.5467042011761933,
+      "forget_image": 0.5054908043992036,
+      "forget_text": 0.594786497416014,
+      "retain_image": 0.645182480698799,
+      "retain_text": 0.7364497575839452,
+      "retain_face": 0.6336147917238176,
+      "retain_eye": 0.877433378074533,
+      "retain_eye_refusal": 0.03,
+      "refusal_loose": 0.03684210526315789,
+      "answer_words": 10.160526315789474,
+      "parameter": 1
+    }
+  ],
+  "gap": 0.1670112131635062,
+  "config": {
+    "family": "C2",
+    "lambda_rel": 10,
+    "name": "C2_bracket2",
+    "alpha": 1.0625
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-24T12:26:48.523714+00:00",
+  "index": 2,
+  "target": 0.4482903966036022,
+  "bracket": [
+    {
+      "name": "C3_bracket1",
+      "forget_combined": 0.26112298003772066,
+      "forget_image": 0.37329360154815344,
+      "forget_text": 0.130257254942216,
+      "retain_image": 0.5775542141928333,
+      "retain_text": 0.5950829232472745,
+      "retain_face": 0.5969984558290116,
+      "retain_eye": 0.7614872771595316,
+      "retain_eye_refusal": 0.02,
+      "refusal_loose": 0.11315789473684211,
+      "answer_words": 9.647894736842105,
+      "parameter": 4.0
+    },
+    {
+      "name": "C3_a3p0",
+      "forget_combined": 0.5237489033243549,
+      "forget_image": 0.5463750457868408,
+      "forget_text": 0.4973517371181213,
+      "retain_image": 0.6828872359733125,
+      "retain_text": 0.7200148433449138,
+      "retain_face": 0.6390956870118873,
+      "retain_eye": 0.8808330611865979,
+      "retain_eye_refusal": 0.01,
+      "refusal_loose": 0.017894736842105262,
+      "answer_words": 10.198947368421052,
+      "parameter": 3.0
+    }
+  ],
+  "gap": 0.2626259232866342,
+  "config": {
+    "family": "C3",
+    "name": "C3_bracket2",
+    "alpha": 3.5
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "state": "complete",
+  "candidate": "C2_bracket2",
+  "started_at": "2026-10-24T10:31:01.074756+00:00",
+  "pid": 3389332,
+  "gpu": "0",
+  "load_seconds": 24.81168178282678,
+  "total_questions": 2375,
+  "completed_questions": 2375,
+  "generation_started_at": "2026-10-24T10:32:56.790800+00:00",
+  "updated_at": "2026-10-24T11:32:55.623265+00:00",
+  "new_questions_this_run": 2375,
+  "elapsed_generation_seconds": 3598.832819905132,
+  "finished_at": "2026-10-24T11:32:56.362765+00:00",
+  "generation_seconds": 3599.572332032025,
+  "construction_seconds": 115.71023380197585,
+  "peak_allocated_bytes": 17622582272
+}

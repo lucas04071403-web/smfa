@@ -1,0 +1,1006 @@
+{
+  "method": "Same content-word Jaccard as original freeze; reject >=0.5 and exact matches; semantic task review",
+  "checks": [
+    {
+      "group": "B2",
+      "attribute": "face_horizontal_position",
+      "question": "Relative to the frame width, is the centre of the face left of centre, centred, or right of centre?",
+      "nearest": [
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "b600e56a330027879fb8855895e1046cfc2ad6adb28af2fe621dd1c655c4eb73"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "e43f402ad1a4076c646f475e6257f35c0d525a6656d54e7260721508075aa767"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "9fe095e2388a41fe7261d254eb2a798604d3ec672c16f83ad228abf4ad6f72ce"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "B2",
+      "attribute": "face_vertical_position",
+      "question": "Relative to the frame height, is the centre of the face in the upper, middle, or lower third?",
+      "nearest": [
+        {
+          "jaccard": 0.09090909090909091,
+          "eval_question_sha256": "b600e56a330027879fb8855895e1046cfc2ad6adb28af2fe621dd1c655c4eb73"
+        },
+        {
+          "jaccard": 0.09090909090909091,
+          "eval_question_sha256": "e43f402ad1a4076c646f475e6257f35c0d525a6656d54e7260721508075aa767"
+        },
+        {
+          "jaccard": 0.09090909090909091,
+          "eval_question_sha256": "9fe095e2388a41fe7261d254eb2a798604d3ec672c16f83ad228abf4ad6f72ce"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "B2",
+      "attribute": "face_area_fraction",
+      "question": "Does the face itself occupy less than one quarter, about one quarter to one half, or more than half of the picture area?",
+      "nearest": [
+        {
+          "jaccard": 0.07692307692307693,
+          "eval_question_sha256": "b600e56a330027879fb8855895e1046cfc2ad6adb28af2fe621dd1c655c4eb73"
+        },
+        {
+          "jaccard": 0.07692307692307693,
+          "eval_question_sha256": "e43f402ad1a4076c646f475e6257f35c0d525a6656d54e7260721508075aa767"
+        },
+        {
+          "jaccard": 0.07692307692307693,
+          "eval_question_sha256": "9fe095e2388a41fe7261d254eb2a798604d3ec672c16f83ad228abf4ad6f72ce"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "B2",
+      "attribute": "chin_crop",
+      "question": "Is the bottom of the chin cut off by the lower edge of this picture?",
+      "nearest": [
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "a53b4dad26ddbe990f090fc2b1520c3cbc9d8f88125c9231cd03e4ecc0cdc2ec"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "21cbfab5d95fc55bde2e05ac56f10b630838c9959a8f7508f14ed8d7164dce6d"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "61676c9fc3e087bb619851f88d32e67f45447bd711387e8b6b64e9e247bbc97a"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "B2",
+      "attribute": "forehead_crop",
+      "question": "Is any part of the forehead cut off by the upper edge of this picture?",
+      "nearest": [
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "c8b4b5c62adaed16e0e636f2e6e87cd5036de308e9e5bd44171d3be6127ed440"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "a53b4dad26ddbe990f090fc2b1520c3cbc9d8f88125c9231cd03e4ecc0cdc2ec"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "21cbfab5d95fc55bde2e05ac56f10b630838c9959a8f7508f14ed8d7164dce6d"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "B2",
+      "attribute": "cheek_crop",
+      "question": "Is either cheek cut off by a side edge of the picture?",
+      "nearest": [
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "a53b4dad26ddbe990f090fc2b1520c3cbc9d8f88125c9231cd03e4ecc0cdc2ec"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "21cbfab5d95fc55bde2e05ac56f10b630838c9959a8f7508f14ed8d7164dce6d"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "61676c9fc3e087bb619851f88d32e67f45447bd711387e8b6b64e9e247bbc97a"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "B2",
+      "attribute": "head_margin",
+      "question": "Is there an empty gap between the top of the head and the upper picture edge?",
+      "nearest": [
+        {
+          "jaccard": 0.125,
+          "eval_question_sha256": "b5d1a893367044298e31285eecaa4941fba66d4685dda590886424da744403cb"
+        },
+        {
+          "jaccard": 0.1111111111111111,
+          "eval_question_sha256": "114877d6fa304784b869a6a1204517fbb8d71fa587dd3fe589b47f67c1ebf8e6"
+        },
+        {
+          "jaccard": 0.1111111111111111,
+          "eval_question_sha256": "6176b1b7f09fc9b564421b37fde1e3947a54f4a3efdfc85b8847fe66b706432e"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "B2",
+      "attribute": "head_roll",
+      "question": "Is the line joining the two eyes approximately level, tilted clockwise, or tilted counterclockwise in the picture?",
+      "nearest": [
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "2cc2764df5f88bc488be8e64d336b29376773bfd718b9e86717e9cec0a089562"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "2669fb7828fefe280058c8a10dd7ae51d4da54f62671c527bcb9b8daf2dcfe31"
+        },
+        {
+          "jaccard": 0.09090909090909091,
+          "eval_question_sha256": "9a54f14863be051871e2d4a9c8a8750e03651b97761e536e151c4b725fdf2cef"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout",
+      "attribute": "colour_mode",
+      "question": "Is this picture rendered in colour or entirely in shades of grey?",
+      "nearest": [
+        {
+          "jaccard": 0.0,
+          "eval_question_sha256": "114877d6fa304784b869a6a1204517fbb8d71fa587dd3fe589b47f67c1ebf8e6"
+        },
+        {
+          "jaccard": 0.0,
+          "eval_question_sha256": "e748776dd6a049749ad5fa20ed43f8c8d8cd5bf4002de87b87d3006ca4de5691"
+        },
+        {
+          "jaccard": 0.0,
+          "eval_question_sha256": "1edf915fe090cb865321a9019116fd61d788b98a3d40a6542b41d45dfe4897eb"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout",
+      "attribute": "rendering_medium",
+      "question": "Does this image look like a photograph or a drawn illustration?",
+      "nearest": [
+        {
+          "jaccard": 0.16666666666666666,
+          "eval_question_sha256": "a9c8852e3ee713ac0ac88ffc71f2f071ab7c6b8e2fc78361a7c6a97ef426a5a7"
+        },
+        {
+          "jaccard": 0.16666666666666666,
+          "eval_question_sha256": "88423372dd7391a6234b466ee2b603056218698e4e2b84bd80578edbf4ed165f"
+        },
+        {
+          "jaccard": 0.16666666666666666,
+          "eval_question_sha256": "6c54b9205a5ab7ea965b0fbcf68b40b0f2f3b744f2b9962d96135203082ecb69"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout",
+      "attribute": "text_overlay",
+      "question": "Is there any printed text or a watermark overlaid on this picture?",
+      "nearest": [
+        {
+          "jaccard": 0.0,
+          "eval_question_sha256": "114877d6fa304784b869a6a1204517fbb8d71fa587dd3fe589b47f67c1ebf8e6"
+        },
+        {
+          "jaccard": 0.0,
+          "eval_question_sha256": "e748776dd6a049749ad5fa20ed43f8c8d8cd5bf4002de87b87d3006ca4de5691"
+        },
+        {
+          "jaccard": 0.0,
+          "eval_question_sha256": "1edf915fe090cb865321a9019116fd61d788b98a3d40a6542b41d45dfe4897eb"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout",
+      "attribute": "frame_border",
+      "question": "Is there a visible decorative border enclosing this picture?",
+      "nearest": [
+        {
+          "jaccard": 0.2,
+          "eval_question_sha256": "ad037faa199980bfe25d7f1e4ae9291dd63dc65120cd277fa235dfe246de83ec"
+        },
+        {
+          "jaccard": 0.2,
+          "eval_question_sha256": "8a4604f672467a1ddf86cbc24e3f8a11216375f15283480034a753c3207a4fa5"
+        },
+        {
+          "jaccard": 0.2,
+          "eval_question_sha256": "150c3e11325e49ccdb4ecbe7eb40b5b0da179ede966671b2e8191fb961511f47"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout",
+      "attribute": "block_artifacts",
+      "question": "Are conspicuous square compression blocks or coarse pixelation visible across the face?",
+      "nearest": [
+        {
+          "jaccard": 0.18181818181818182,
+          "eval_question_sha256": "580bf6bd0d631ea76885064ae05001a7e01c978dc7957a2313a3bb82669db760"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "ad037faa199980bfe25d7f1e4ae9291dd63dc65120cd277fa235dfe246de83ec"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "8a4604f672467a1ddf86cbc24e3f8a11216375f15283480034a753c3207a4fa5"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout",
+      "attribute": "image_noise",
+      "question": "Does the facial region have noticeable speckled image noise or film grain?",
+      "nearest": [
+        {
+          "jaccard": 0.25,
+          "eval_question_sha256": "77856e75ec50a874ed1d36e5fc838e9cd34cd0377e1b5b9f91284dd707882d83"
+        },
+        {
+          "jaccard": 0.125,
+          "eval_question_sha256": "2a88d91517d1dfe24911a3275fc1534f7dbe3732043e8aba745d455f0fd5f226"
+        },
+        {
+          "jaccard": 0.125,
+          "eval_question_sha256": "8e13e347a966483197bd53b20a12d9cebff117eadd953f4b04f450ba83c8ffa2"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout_backup",
+      "attribute": "facial_detail_focus",
+      "question": "Are the fine edges of the eyelashes and irises sharply resolved or softly blurred?",
+      "nearest": [
+        {
+          "jaccard": 0.1111111111111111,
+          "eval_question_sha256": "9d158d092e9254bfbdb4179bd82fa95b21e4157d1f176ba5c74c326d0f228806"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "bc3dd45207666b304ea41ea2bde172bb1a2c836b89283c386534983e18e0a4da"
+        },
+        {
+          "jaccard": 0.0,
+          "eval_question_sha256": "114877d6fa304784b869a6a1204517fbb8d71fa587dd3fe589b47f67c1ebf8e6"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout_backup",
+      "attribute": "directional_motion_blur",
+      "question": "Is directional motion blur visibly smearing the facial details?",
+      "nearest": [
+        {
+          "jaccard": 0.125,
+          "eval_question_sha256": "2a88d91517d1dfe24911a3275fc1534f7dbe3732043e8aba745d455f0fd5f226"
+        },
+        {
+          "jaccard": 0.125,
+          "eval_question_sha256": "8e13e347a966483197bd53b20a12d9cebff117eadd953f4b04f450ba83c8ffa2"
+        },
+        {
+          "jaccard": 0.1111111111111111,
+          "eval_question_sha256": "2cc58f5ee3065714c917db5680524e3e2abcea86664aee28f4138e2628cba4d2"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout_backup",
+      "attribute": "chromatic_aberration",
+      "question": "Are coloured fringes visible along high-contrast facial edges?",
+      "nearest": [
+        {
+          "jaccard": 0.2222222222222222,
+          "eval_question_sha256": "a8ecfa2762337429fc8105c358fa3e8a4faa7e62f08cdec5ee69643ed8e8dae1"
+        },
+        {
+          "jaccard": 0.2222222222222222,
+          "eval_question_sha256": "a243314d0d88b690a02fcd9134dfe2dbb5a5ae256092e2fb1d2ab741e5f3e64a"
+        },
+        {
+          "jaccard": 0.2,
+          "eval_question_sha256": "80173e69de1896451f7697389227dd5cc5ce160cda22579c26c12a96a88d87d1"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout_backup",
+      "attribute": "sharpening_halos",
+      "question": "Are bright or dark digital sharpening halos visible along the outline of the nose?",
+      "nearest": [
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "ad037faa199980bfe25d7f1e4ae9291dd63dc65120cd277fa235dfe246de83ec"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "8a4604f672467a1ddf86cbc24e3f8a11216375f15283480034a753c3207a4fa5"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "150c3e11325e49ccdb4ecbe7eb40b5b0da179ede966671b2e8191fb961511f47"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout_backup",
+      "attribute": "interlacing_artifact",
+      "question": "Are horizontal scan lines or interlacing stripes visible across the facial region?",
+      "nearest": [
+        {
+          "jaccard": 0.2,
+          "eval_question_sha256": "a8ecfa2762337429fc8105c358fa3e8a4faa7e62f08cdec5ee69643ed8e8dae1"
+        },
+        {
+          "jaccard": 0.2,
+          "eval_question_sha256": "a243314d0d88b690a02fcd9134dfe2dbb5a5ae256092e2fb1d2ab741e5f3e64a"
+        },
+        {
+          "jaccard": 0.18181818181818182,
+          "eval_question_sha256": "80173e69de1896451f7697389227dd5cc5ce160cda22579c26c12a96a88d87d1"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    },
+    {
+      "group": "appearance_holdout_backup",
+      "attribute": "privacy_redaction",
+      "question": "Is the facial region deliberately obscured by a mosaic or a privacy-blur effect?",
+      "nearest": [
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "2a88d91517d1dfe24911a3275fc1534f7dbe3732043e8aba745d455f0fd5f226"
+        },
+        {
+          "jaccard": 0.1,
+          "eval_question_sha256": "8e13e347a966483197bd53b20a12d9cebff117eadd953f4b04f450ba83c8ffa2"
+        },
+        {
+          "jaccard": 0.09090909090909091,
+          "eval_question_sha256": "2cc58f5ee3065714c917db5680524e3e2abcea86664aee28f4138e2628cba4d2"
+        }
+      ],
+      "exact_overlap": false,
+      "semantic_review": "Pass. B2 asks frame geometry/head roll; primary/backup ask image encoding, overlays or optical/digital degradation. Backup focus is facial resolution, not background focus, eye colour/opening, expression, skin condition or clothing. No identity/age/gender/ethnicity."
+    }
+  ],
+  "cross_b2_holdout": [
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "colour_mode",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "rendering_medium",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "text_overlay",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "frame_border",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "block_artifacts",
+      "jaccard": 0.0625,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "image_noise",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "facial_detail_focus",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "directional_motion_blur",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "chromatic_aberration",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "sharpening_halos",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "interlacing_artifact",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_horizontal_position",
+      "holdout": "privacy_redaction",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "colour_mode",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "rendering_medium",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "text_overlay",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "frame_border",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "block_artifacts",
+      "jaccard": 0.058823529411764705,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "image_noise",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "facial_detail_focus",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "directional_motion_blur",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "chromatic_aberration",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "sharpening_halos",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "interlacing_artifact",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_vertical_position",
+      "holdout": "privacy_redaction",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "colour_mode",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "rendering_medium",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "text_overlay",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "frame_border",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "block_artifacts",
+      "jaccard": 0.05263157894736842,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "image_noise",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "facial_detail_focus",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "directional_motion_blur",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "chromatic_aberration",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "sharpening_halos",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "interlacing_artifact",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "face_area_fraction",
+      "holdout": "privacy_redaction",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "colour_mode",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "rendering_medium",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "text_overlay",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "frame_border",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "block_artifacts",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "image_noise",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "facial_detail_focus",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "directional_motion_blur",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "chromatic_aberration",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "sharpening_halos",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "interlacing_artifact",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "chin_crop",
+      "holdout": "privacy_redaction",
+      "jaccard": 0.06666666666666667,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "colour_mode",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "rendering_medium",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "text_overlay",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "frame_border",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "block_artifacts",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "image_noise",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "facial_detail_focus",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "directional_motion_blur",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "chromatic_aberration",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "sharpening_halos",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "interlacing_artifact",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "forehead_crop",
+      "holdout": "privacy_redaction",
+      "jaccard": 0.06666666666666667,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "colour_mode",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "rendering_medium",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "text_overlay",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "frame_border",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "block_artifacts",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "image_noise",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "facial_detail_focus",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "directional_motion_blur",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "chromatic_aberration",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "sharpening_halos",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "interlacing_artifact",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "cheek_crop",
+      "holdout": "privacy_redaction",
+      "jaccard": 0.06666666666666667,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "colour_mode",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "rendering_medium",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "text_overlay",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "frame_border",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "block_artifacts",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "image_noise",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "facial_detail_focus",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "directional_motion_blur",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "chromatic_aberration",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "sharpening_halos",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "interlacing_artifact",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_margin",
+      "holdout": "privacy_redaction",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "colour_mode",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "rendering_medium",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "text_overlay",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "frame_border",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "block_artifacts",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "image_noise",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "facial_detail_focus",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "directional_motion_blur",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "chromatic_aberration",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "sharpening_halos",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "interlacing_artifact",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    },
+    {
+      "b2": "head_roll",
+      "holdout": "privacy_redaction",
+      "jaccard": 0.0,
+      "semantic_review": "Different task: crop/position/roll versus rendering/quality; no paraphrase."
+    }
+  ],
+  "semantic_overlap": false,
+  "eval_unique_questions": 321,
+  "publication_note": "Nearest dataset-question text omitted; authored templates, similarities and hashes retained."
+}

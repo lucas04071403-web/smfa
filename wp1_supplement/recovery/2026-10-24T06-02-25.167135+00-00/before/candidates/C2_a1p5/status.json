@@ -1,0 +1,14 @@
+{
+  "state": "generating",
+  "candidate": "C2_a1p5",
+  "started_at": "2026-10-24T04:59:14.516628+00:00",
+  "pid": 3212247,
+  "gpu": "0",
+  "load_seconds": 9.518291590735316,
+  "total_questions": 2375,
+  "completed_questions": 1501,
+  "generation_started_at": "2026-10-24T05:01:33.717757+00:00",
+  "updated_at": "2026-10-24T05:37:37.993964+00:00",
+  "new_questions_this_run": 1501,
+  "elapsed_generation_seconds": 2164.276569807902
+}

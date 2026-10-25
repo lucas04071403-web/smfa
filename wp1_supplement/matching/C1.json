@@ -1,0 +1,98 @@
+{
+  "state": "matched",
+  "at": "2026-10-24T04:57:49.636884+00:00",
+  "family": "C1",
+  "selected_config": {
+    "family": "C1",
+    "name": "C1_target0",
+    "c": 0.8944600325433737
+  },
+  "summary": {
+    "name": "C1_target0",
+    "forget_combined": 0.45068626286434244,
+    "forget_image": 0.38692834693005074,
+    "forget_text": 0.525070498121016,
+    "retain_image": 0.5660203637480233,
+    "retain_text": 0.7102976957309479,
+    "retain_face": 0.6266874134340863,
+    "retain_eye": 0.8154216532897854,
+    "retain_eye_refusal": 0.09,
+    "refusal_loose": 0.07368421052631578,
+    "answer_words": 10.098947368421053
+  },
+  "text_monitor_difference_pp": 2.1725066792299024,
+  "attempts": [
+    {
+      "config": {
+        "family": "C1",
+        "name": "C1_target0",
+        "c": 0.8944600325433737
+      },
+      "summary": {
+        "name": "C1_target0",
+        "forget_combined": 0.45068626286434244,
+        "forget_image": 0.38692834693005074,
+        "forget_text": 0.525070498121016,
+        "retain_image": 0.5660203637480233,
+        "retain_text": 0.7102976957309479,
+        "retain_face": 0.6266874134340863,
+        "retain_eye": 0.8154216532897854,
+        "retain_eye_refusal": 0.09,
+        "refusal_loose": 0.07368421052631578,
+        "answer_words": 10.098947368421053
+      },
+      "text_monitor_difference_pp": 2.1725066792299024,
+      "eligible": true,
+      "aim_target": 0.4482903966036022,
+      "in_hit_range": true
+    }
+  ],
+  "configs": [
+    {
+      "name": "C1_c0p25",
+      "family": "C1",
+      "c": 0.25
+    },
+    {
+      "name": "C1_c0p5",
+      "family": "C1",
+      "c": 0.5
+    },
+    {
+      "name": "C1_c0p75",
+      "family": "C1",
+      "c": 0.75
+    },
+    {
+      "name": "C1_c1p0",
+      "family": "C1",
+      "c": 1.0
+    },
+    {
+      "name": "C1_c0p8",
+      "family": "C1",
+      "c": 0.8
+    },
+    {
+      "name": "C1_c0p85",
+      "family": "C1",
+      "c": 0.85
+    },
+    {
+      "name": "C1_c0p9",
+      "family": "C1",
+      "c": 0.9
+    },
+    {
+      "name": "C1_c0p95",
+      "family": "C1",
+      "c": 0.95
+    },
+    {
+      "family": "C1",
+      "name": "C1_target0",
+      "c": 0.8944600325433737
+    }
+  ],
+  "interpolated_retain_at_exact_target": 0.5647197797225832
+}

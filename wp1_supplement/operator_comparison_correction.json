@@ -1,0 +1,27 @@
+{
+  "frozen_at": "2026-10-24T04:40:15.656412+00:00",
+  "reason": "Implement user-requested v3 section 6.2 comparison at the same target. Initial supplement implementation compared actual retain values at potentially different hit points.",
+  "original_supplement_freeze_sha256": "f5cfac05b778e2538b6abeef47dc725b0a19c87b8393fe9f17ea6c49b1d3a272",
+  "before_any_new_C2_C3_candidates": true,
+  "existing_candidates": [
+    "C1_c0p8",
+    "C1_c0p85",
+    "C1_c0p9",
+    "C1_c0p95",
+    "C0_target0",
+    "C1_target0"
+  ],
+  "eligibility": "Unchanged: actual full development validation must hit [0.44029,0.45229] and pass +5pp text monitor.",
+  "comparison": "Both eligible: linearly interpolate each validated family curve, including actual target attempts, at the fixed target 0.4482903966036022; compare retain-image ROUGE. abs(soft-hard)<0.01 chooses soft; otherwise higher interpolated retention.",
+  "actual_metrics": "Still reported, including actual soft-hard difference and achieved forget level; not substituted for same-target comparison.",
+  "unchanged": [
+    "lambda=10 locked earlier",
+    "target",
+    "hit interval",
+    "text monitor",
+    "bounded refinement budgets",
+    "candidate generation",
+    "bootstrap",
+    "diagnostics"
+  ]
+}

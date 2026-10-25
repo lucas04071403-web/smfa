@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-24T03:55:20.354089+00:00",
+  "config": {
+    "family": "C0",
+    "name": "C0_target0",
+    "k_multi": 5.303294081605771,
+    "k_text": 10.606588163211542
+  },
+  "aim_target": 0.4482903966036022,
+  "source_configs": [
+    {
+      "name": "C0_k1",
+      "family": "C0",
+      "k_multi": 1,
+      "k_text": 2
+    },
+    {
+      "name": "SMFA",
+      "family": "C0",
+      "k_multi": 5,
+      "k_text": 10
+    },
+    {
+      "name": "C0_k10",
+      "family": "C0",
+      "k_multi": 10,
+      "k_text": 20
+    }
+  ],
+  "source_bracket": [
+    {
+      "name": "C0_k10",
+      "forget_combined": 0.32116252592311567,
+      "forget_image": 0.257126524971959,
+      "forget_text": 0.3958711936994652,
+      "retain_image": 0.4745677708483184,
+      "retain_text": 0.681685537135941,
+      "retain_face": 0.6158418975727211,
+      "retain_eye": 0.7805723837785521,
+      "retain_eye_refusal": 0.14,
+      "refusal_loose": 0.11315789473684211,
+      "answer_words": 9.94,
+      "parameter": 10
+    },
+    {
+      "name": "SMFA",
+      "forget_combined": 0.4564997951596263,
+      "forget_image": 0.40463799600178796,
+      "forget_text": 0.5170052275104374,
+      "retain_image": 0.5726629890664442,
+      "retain_text": 0.7070038630304684,
+      "retain_face": 0.6266426453926538,
+      "retain_eye": 0.8097930818612139,
+      "retain_eye_refusal": 0.09,
+      "refusal_loose": 0.07263157894736842,
+      "answer_words": 10.053157894736842,
+      "parameter": 5
+    }
+  ],
+  "predicted_text_monitor_pp": -1.9792574470311644
+}

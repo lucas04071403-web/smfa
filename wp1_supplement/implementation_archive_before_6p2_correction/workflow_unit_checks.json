@@ -1,0 +1,18 @@
+{
+  "state": "passed",
+  "at": "2026-10-24T01:18:15.162550+00:00",
+  "checks": {
+    "midpoint_budget_and_nonlinear_bracketing": true,
+    "nonlinear_actual_validation_hits_interval": true,
+    "resume_does_not_repeat_validated_match": true,
+    "no_extrapolation_or_forced_winner": true,
+    "soft_tie_rule": true,
+    "text_monitor_failure_bounded_and_stronger_aim": true
+  },
+  "no_GPU_or_real_candidate_outputs": true,
+  "code_sha256": {
+    "workflow_checks.py": "904dd6fdbf84640d1329aac239b69f800b522d1c052b9a68778f7c7109cfd38d",
+    "controller.py": "80ff4e8c3be7c9841c35e109ad04177e5504176ded6bab8c215810c1e9903816",
+    "analyze.py": "462f1a2f97d470f64fc0141371e86fd8e59cc6911a5db77208570482827391b5"
+  }
+}

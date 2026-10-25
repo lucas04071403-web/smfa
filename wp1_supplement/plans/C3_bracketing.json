@@ -1,0 +1,160 @@
+{
+  "at": "2026-10-24T13:27:52.658413+00:00",
+  "configs": [
+    {
+      "family": "C3",
+      "name": "C3_hard",
+      "alpha": 1
+    },
+    {
+      "family": "C3",
+      "name": "C3_a1p5",
+      "alpha": 1.5
+    },
+    {
+      "family": "C3",
+      "name": "C3_a2p0",
+      "alpha": 2.0
+    },
+    {
+      "family": "C3",
+      "name": "C3_a3p0",
+      "alpha": 3.0
+    },
+    {
+      "family": "C3",
+      "name": "C3_a5",
+      "alpha": 5
+    },
+    {
+      "family": "C3",
+      "name": "C3_a8",
+      "alpha": 8
+    },
+    {
+      "family": "C3",
+      "name": "C3_bracket1",
+      "alpha": 4.0
+    },
+    {
+      "family": "C3",
+      "name": "C3_bracket2",
+      "alpha": 3.5
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-10-24T11:27:04.327280+00:00",
+      "index": 1,
+      "target": 0.4482903966036022,
+      "bracket": [
+        {
+          "name": "C3_a5",
+          "forget_combined": 0.08015434672689556,
+          "forget_image": 0.11409508151001137,
+          "forget_text": 0.04055682281326049,
+          "retain_image": 0.3106584751909498,
+          "retain_text": 0.4508007823684458,
+          "retain_face": 0.45032357564298975,
+          "retain_eye": 0.6607867467562488,
+          "retain_eye_refusal": 0.05,
+          "refusal_loose": 0.27578947368421053,
+          "answer_words": 9.42263157894737,
+          "parameter": 5
+        },
+        {
+          "name": "C3_a3p0",
+          "forget_combined": 0.5237489033243549,
+          "forget_image": 0.5463750457868408,
+          "forget_text": 0.4973517371181213,
+          "retain_image": 0.6828872359733125,
+          "retain_text": 0.7200148433449138,
+          "retain_face": 0.6390956870118873,
+          "retain_eye": 0.8808330611865979,
+          "retain_eye_refusal": 0.01,
+          "refusal_loose": 0.017894736842105262,
+          "answer_words": 10.198947368421052,
+          "parameter": 3.0
+        }
+      ],
+      "gap": 0.4435945565974593,
+      "config": {
+        "family": "C3",
+        "name": "C3_bracket1",
+        "alpha": 4.0
+      }
+    },
+    {
+      "at": "2026-10-24T12:26:48.523714+00:00",
+      "index": 2,
+      "target": 0.4482903966036022,
+      "bracket": [
+        {
+          "name": "C3_bracket1",
+          "forget_combined": 0.26112298003772066,
+          "forget_image": 0.37329360154815344,
+          "forget_text": 0.130257254942216,
+          "retain_image": 0.5775542141928333,
+          "retain_text": 0.5950829232472745,
+          "retain_face": 0.5969984558290116,
+          "retain_eye": 0.7614872771595316,
+          "retain_eye_refusal": 0.02,
+          "refusal_loose": 0.11315789473684211,
+          "answer_words": 9.647894736842105,
+          "parameter": 4.0
+        },
+        {
+          "name": "C3_a3p0",
+          "forget_combined": 0.5237489033243549,
+          "forget_image": 0.5463750457868408,
+          "forget_text": 0.4973517371181213,
+          "retain_image": 0.6828872359733125,
+          "retain_text": 0.7200148433449138,
+          "retain_face": 0.6390956870118873,
+          "retain_eye": 0.8808330611865979,
+          "retain_eye_refusal": 0.01,
+          "refusal_loose": 0.017894736842105262,
+          "answer_words": 10.198947368421052,
+          "parameter": 3.0
+        }
+      ],
+      "gap": 0.2626259232866342,
+      "config": {
+        "family": "C3",
+        "name": "C3_bracket2",
+        "alpha": 3.5
+      }
+    }
+  ],
+  "final_bracket": [
+    {
+      "name": "C3_bracket2",
+      "forget_combined": 0.36717023691779094,
+      "forget_image": 0.45817090291278484,
+      "forget_text": 0.26100279325696457,
+      "retain_image": 0.6483850658696915,
+      "retain_text": 0.6660436038793994,
+      "retain_face": 0.6238166738826993,
+      "retain_eye": 0.8327056637760206,
+      "retain_eye_refusal": 0.03,
+      "refusal_loose": 0.049473684210526316,
+      "answer_words": 10.16,
+      "parameter": 3.5
+    },
+    {
+      "name": "C3_a3p0",
+      "forget_combined": 0.5237489033243549,
+      "forget_image": 0.5463750457868408,
+      "forget_text": 0.4973517371181213,
+      "retain_image": 0.6828872359733125,
+      "retain_text": 0.7200148433449138,
+      "retain_face": 0.6390956870118873,
+      "retain_eye": 0.8808330611865979,
+      "retain_eye_refusal": 0.01,
+      "refusal_loose": 0.017894736842105262,
+      "answer_words": 10.198947368421052,
+      "parameter": 3.0
+    }
+  ],
+  "max_additions": 2
+}

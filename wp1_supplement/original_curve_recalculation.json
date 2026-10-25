@@ -1,0 +1,141 @@
+{
+  "state": "selected",
+  "at": "2026-10-24T01:05:05.984925+00:00",
+  "curve_names": [
+    "C1_c0p25",
+    "C1_c0p5",
+    "C1_c0p75",
+    "C1_c1p0"
+  ],
+  "c1_curve": [
+    {
+      "name": "C1_c1p0",
+      "forget_combined": 0.294373650939891,
+      "forget_image": 0.23611214154155175,
+      "forget_text": 0.3623454119046203,
+      "retain_image": 0.4379208215934755,
+      "retain_text": 0.6653066979552812,
+      "retain_face": 0.6090761186187125,
+      "retain_eye": 0.7647067303893138,
+      "retain_eye_refusal": 0.14,
+      "refusal_loose": 0.13789473684210526,
+      "answer_words": 9.958947368421052,
+      "parameter": 1.0
+    },
+    {
+      "name": "C1_c0p75",
+      "forget_combined": 0.5978387565948302,
+      "forget_image": 0.5602584966035808,
+      "forget_text": 0.6416823932512871,
+      "retain_image": 0.6599734577408187,
+      "retain_text": 0.7425637921473416,
+      "retain_face": 0.6400017655118685,
+      "retain_eye": 0.8780958475576566,
+      "retain_eye_refusal": 0.03,
+      "refusal_loose": 0.028421052631578948,
+      "answer_words": 10.256315789473684,
+      "parameter": 0.75
+    },
+    {
+      "name": "C1_c0p5",
+      "forget_combined": 0.6587398425733185,
+      "forget_image": 0.6054132444280819,
+      "forget_text": 0.7209542070760939,
+      "retain_image": 0.6900432058358531,
+      "retain_text": 0.7631468690492471,
+      "retain_face": 0.6488459792500757,
+      "retain_eye": 0.8966495961849901,
+      "retain_eye_refusal": 0.0,
+      "refusal_loose": 0.005263157894736842,
+      "answer_words": 10.41157894736842,
+      "parameter": 0.5
+    },
+    {
+      "name": "C1_c0p25",
+      "forget_combined": 0.6863886193726638,
+      "forget_image": 0.6360392191687293,
+      "forget_text": 0.745129586277254,
+      "retain_image": 0.7044234832880906,
+      "retain_text": 0.7631401285251777,
+      "retain_face": 0.6544569996533252,
+      "retain_eye": 0.8987832958186897,
+      "retain_eye_refusal": 0.0,
+      "refusal_loose": 0.0,
+      "answer_words": 10.361578947368422,
+      "parameter": 0.25
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "C2_l10",
+      "lambda_rel": 10,
+      "forget_combined_rouge": 0.5467042011761933,
+      "retain_image_rouge": 0.645182480698799,
+      "c1_interpolated_rouge": 0.622557087234479,
+      "uplift": 0.02262539346432002
+    },
+    {
+      "name": "C2_l100",
+      "lambda_rel": 100,
+      "forget_combined_rouge": 0.6186242730347327,
+      "retain_image_rouge": 0.6815444355389995,
+      "c1_interpolated_rouge": 0.6702362508147195,
+      "uplift": 0.011308184724279968
+    },
+    {
+      "name": "C2_l1000",
+      "lambda_rel": 1000,
+      "forget_combined_rouge": 0.653731355936037,
+      "retain_image_rouge": 0.6976003864051049,
+      "c1_interpolated_rouge": 0.6875702789725522,
+      "uplift": 0.010030107432552726
+    }
+  ],
+  "selected_lambda": 10,
+  "selected_candidate": "C2_l10",
+  "comparisons_vs_c1": {
+    "SMFA": {
+      "c1_interpolated_rouge": 0.5565523777148955,
+      "uplift": 0.016110611351548676
+    },
+    "C0_k1": {
+      "c1_interpolated_rouge": 0.6801742422398376,
+      "uplift": 0.010092282538233577
+    },
+    "C0_k10": {
+      "c1_interpolated_rouge": 0.4575228786293528,
+      "uplift": 0.0170448922189656
+    }
+  },
+  "original_selection": {
+    "source_sha256": "04bf7316b39eb2d763961b60e63959d006e3b29860348157162d80dcb2e99fc0",
+    "selected_lambda": 10,
+    "comparisons": [
+      {
+        "name": "C2_l10",
+        "lambda_rel": 10,
+        "forget_combined_rouge": 0.5467042011761933,
+        "retain_image_rouge": 0.6451824806987978,
+        "c1_interpolated_rouge": 0.6225570872344778,
+        "uplift": 0.02262539346432002
+      },
+      {
+        "name": "C2_l100",
+        "lambda_rel": 100,
+        "forget_combined_rouge": 0.6186242730347327,
+        "retain_image_rouge": 0.6815444355389982,
+        "c1_interpolated_rouge": 0.6702362508147182,
+        "uplift": 0.01130818472428008
+      },
+      {
+        "name": "C2_l1000",
+        "lambda_rel": 1000,
+        "forget_combined_rouge": 0.653731355936037,
+        "retain_image_rouge": 0.6976003864051035,
+        "c1_interpolated_rouge": 0.687570278972551,
+        "uplift": 0.010030107432552504
+      }
+    ]
+  },
+  "rule": "Original 6.1. Max retain-image uplift over observed C1 interpolation at each C2 forget-combined x. No extrapolation; lambda ties 1e-8 choose smaller."
+}

@@ -1,0 +1,134 @@
+{
+  "state": "matched",
+  "at": "2026-10-24T13:36:53.323298+00:00",
+  "family": "C2",
+  "selected_config": {
+    "family": "C2",
+    "lambda_rel": 10,
+    "name": "C2_target1",
+    "alpha": 1.0862173469253382
+  },
+  "summary": {
+    "name": "C2_target1",
+    "forget_combined": 0.45063253889757726,
+    "forget_image": 0.4115552608448996,
+    "forget_text": 0.49622269662570145,
+    "retain_image": 0.5904373988178981,
+    "retain_text": 0.710554787062452,
+    "retain_face": 0.6261487111786229,
+    "retain_eye": 0.8546908024235829,
+    "retain_eye_refusal": 0.06,
+    "refusal_loose": 0.07105263157894737,
+    "answer_words": 10.183157894736842
+  },
+  "text_monitor_difference_pp": -5.598099473459771,
+  "attempts": [
+    {
+      "config": {
+        "family": "C2",
+        "lambda_rel": 10,
+        "name": "C2_target0",
+        "alpha": 1.0834881082222254
+      },
+      "summary": {
+        "name": "C2_target0",
+        "forget_combined": 0.4531177791475234,
+        "forget_image": 0.4115552608448996,
+        "forget_text": 0.5016073838339181,
+        "retain_image": 0.5933671040333178,
+        "retain_text": 0.7105044446457777,
+        "retain_face": 0.6260451942277375,
+        "retain_eye": 0.8550751490343446,
+        "retain_eye_refusal": 0.06,
+        "refusal_loose": 0.07052631578947369,
+        "answer_words": 10.175263157894737
+      },
+      "text_monitor_difference_pp": -4.147649824557626,
+      "eligible": false,
+      "aim_target": 0.4482903966036022,
+      "in_hit_range": false
+    },
+    {
+      "config": {
+        "family": "C2",
+        "lambda_rel": 10,
+        "name": "C2_target1",
+        "alpha": 1.0862173469253382
+      },
+      "summary": {
+        "name": "C2_target1",
+        "forget_combined": 0.45063253889757726,
+        "forget_image": 0.4115552608448996,
+        "forget_text": 0.49622269662570145,
+        "retain_image": 0.5904373988178981,
+        "retain_text": 0.710554787062452,
+        "retain_face": 0.6261487111786229,
+        "retain_eye": 0.8546908024235829,
+        "retain_eye_refusal": 0.06,
+        "refusal_loose": 0.07105263157894737,
+        "answer_words": 10.183157894736842
+      },
+      "text_monitor_difference_pp": -5.598099473459771,
+      "eligible": true,
+      "aim_target": 0.4482903966036022,
+      "in_hit_range": true
+    }
+  ],
+  "configs": [
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_l10",
+      "alpha": 1
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_a1p25",
+      "alpha": 1.25
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_a1p5",
+      "alpha": 1.5
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_a2p0",
+      "alpha": 2.0
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_a3p0",
+      "alpha": 3.0
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_bracket1",
+      "alpha": 1.125
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_bracket2",
+      "alpha": 1.0625
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_target0",
+      "alpha": 1.0834881082222254
+    },
+    {
+      "family": "C2",
+      "lambda_rel": 10,
+      "name": "C2_target1",
+      "alpha": 1.0862173469253382
+    }
+  ],
+  "interpolated_retain_at_exact_target": 0.589665134577401
+}

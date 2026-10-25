@@ -1,0 +1,1103 @@
+{
+  "state": "complete",
+  "at": "2026-10-24T03:20:51.883753+00:00",
+  "groups": [
+    {
+      "group": "layer_00_attn",
+      "rank_A": 161,
+      "rank_B": 169,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6924519983137617,
+      "overlap_normalized_by_larger_rank": 0.6596732054941753,
+      "A_basis_coverage_on_B": 0.8377525210380554,
+      "B_basis_coverage_on_A": 0.8419804573059082
+    },
+    {
+      "group": "layer_00_o",
+      "rank_A": 186,
+      "rank_B": 192,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6832455460743238,
+      "overlap_normalized_by_larger_rank": 0.6618941227595011,
+      "A_basis_coverage_on_B": 0.8314157128334045,
+      "B_basis_coverage_on_A": 0.8357148766517639
+    },
+    {
+      "group": "layer_00_mlp",
+      "rank_A": 166,
+      "rank_B": 170,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.7198330982621893,
+      "overlap_normalized_by_larger_rank": 0.7028958488913143,
+      "A_basis_coverage_on_B": 0.8472492098808289,
+      "B_basis_coverage_on_A": 0.8506584167480469
+    },
+    {
+      "group": "layer_01_attn",
+      "rank_A": 110,
+      "rank_B": 108,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.8151329181812428,
+      "overlap_normalized_by_larger_rank": 0.8003123196688565,
+      "A_basis_coverage_on_B": 0.8778765201568604,
+      "B_basis_coverage_on_A": 0.873927116394043
+    },
+    {
+      "group": "layer_01_o",
+      "rank_A": 165,
+      "rank_B": 166,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6908034815932765,
+      "overlap_normalized_by_larger_rank": 0.6866420148366905,
+      "A_basis_coverage_on_B": 0.8308155536651611,
+      "B_basis_coverage_on_A": 0.8320645093917847
+    },
+    {
+      "group": "layer_01_mlp",
+      "rank_A": 4,
+      "rank_B": 4,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.9797793626785278,
+      "overlap_normalized_by_larger_rank": 0.9797793626785278,
+      "A_basis_coverage_on_B": 0.9022279381752014,
+      "B_basis_coverage_on_A": 0.9030665755271912
+    },
+    {
+      "group": "layer_02_attn",
+      "rank_A": 184,
+      "rank_B": 186,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.7397455961807914,
+      "overlap_normalized_by_larger_rank": 0.7317913424584174,
+      "A_basis_coverage_on_B": 0.8446832895278931,
+      "B_basis_coverage_on_A": 0.8451367616653442
+    },
+    {
+      "group": "layer_02_o",
+      "rank_A": 210,
+      "rank_B": 215,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6387583414713541,
+      "overlap_normalized_by_larger_rank": 0.6239034963208575,
+      "A_basis_coverage_on_B": 0.7958968281745911,
+      "B_basis_coverage_on_A": 0.7993651032447815
+    },
+    {
+      "group": "layer_02_mlp",
+      "rank_A": 25,
+      "rank_B": 24,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.9339946905771891,
+      "overlap_normalized_by_larger_rank": 0.8966349029541015,
+      "A_basis_coverage_on_B": 0.8993909955024719,
+      "B_basis_coverage_on_A": 0.896338939666748
+    },
+    {
+      "group": "layer_03_attn",
+      "rank_A": 165,
+      "rank_B": 170,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.7524472323330966,
+      "overlap_normalized_by_larger_rank": 0.7303164313821232,
+      "A_basis_coverage_on_B": 0.8427724838256836,
+      "B_basis_coverage_on_A": 0.8483258485794067
+    },
+    {
+      "group": "layer_03_o",
+      "rank_A": 216,
+      "rank_B": 225,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6382942199707031,
+      "overlap_normalized_by_larger_rank": 0.612762451171875,
+      "A_basis_coverage_on_B": 0.756956160068512,
+      "B_basis_coverage_on_A": 0.7789335250854492
+    },
+    {
+      "group": "layer_03_mlp",
+      "rank_A": 61,
+      "rank_B": 61,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.7393518666752049,
+      "overlap_normalized_by_larger_rank": 0.7393518666752049,
+      "A_basis_coverage_on_B": 0.8870355486869812,
+      "B_basis_coverage_on_A": 0.8858901858329773
+    },
+    {
+      "group": "layer_04_attn",
+      "rank_A": 122,
+      "rank_B": 122,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.7890593106629419,
+      "overlap_normalized_by_larger_rank": 0.7890593106629419,
+      "A_basis_coverage_on_B": 0.8676469922065735,
+      "B_basis_coverage_on_A": 0.8668524026870728
+    },
+    {
+      "group": "layer_04_o",
+      "rank_A": 185,
+      "rank_B": 185,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6162761791332348,
+      "overlap_normalized_by_larger_rank": 0.6162761791332348,
+      "A_basis_coverage_on_B": 0.7943196296691895,
+      "B_basis_coverage_on_A": 0.7938527464866638
+    },
+    {
+      "group": "layer_04_mlp",
+      "rank_A": 108,
+      "rank_B": 110,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6788818924515335,
+      "overlap_normalized_by_larger_rank": 0.6665385853160511,
+      "A_basis_coverage_on_B": 0.8696944117546082,
+      "B_basis_coverage_on_A": 0.8698233962059021
+    },
+    {
+      "group": "layer_05_attn",
+      "rank_A": 197,
+      "rank_B": 205,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6846150819420209,
+      "overlap_normalized_by_larger_rank": 0.6578983958174542,
+      "A_basis_coverage_on_B": 0.8272817134857178,
+      "B_basis_coverage_on_A": 0.8315022587776184
+    },
+    {
+      "group": "layer_05_o",
+      "rank_A": 137,
+      "rank_B": 132,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6812167312159683,
+      "overlap_normalized_by_larger_rank": 0.6563548067190351,
+      "A_basis_coverage_on_B": 0.8449277877807617,
+      "B_basis_coverage_on_A": 0.8337246179580688
+    },
+    {
+      "group": "layer_05_mlp",
+      "rank_A": 106,
+      "rank_B": 109,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.679127963084095,
+      "overlap_normalized_by_larger_rank": 0.6604363677698538,
+      "A_basis_coverage_on_B": 0.870878279209137,
+      "B_basis_coverage_on_A": 0.8705309629440308
+    },
+    {
+      "group": "layer_06_attn",
+      "rank_A": 187,
+      "rank_B": 196,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6655154304708389,
+      "overlap_normalized_by_larger_rank": 0.6349560484594229,
+      "A_basis_coverage_on_B": 0.8294622302055359,
+      "B_basis_coverage_on_A": 0.834628164768219
+    },
+    {
+      "group": "layer_06_o",
+      "rank_A": 172,
+      "rank_B": 175,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6422091195749682,
+      "overlap_normalized_by_larger_rank": 0.6311998203822544,
+      "A_basis_coverage_on_B": 0.8132702708244324,
+      "B_basis_coverage_on_A": 0.8141340017318726
+    },
+    {
+      "group": "layer_06_mlp",
+      "rank_A": 171,
+      "rank_B": 182,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6226887396204541,
+      "overlap_normalized_by_larger_rank": 0.58505370590713,
+      "A_basis_coverage_on_B": 0.8308184146881104,
+      "B_basis_coverage_on_A": 0.837532639503479
+    },
+    {
+      "group": "layer_07_attn",
+      "rank_A": 220,
+      "rank_B": 230,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6360526344992897,
+      "overlap_normalized_by_larger_rank": 0.6083981721297554,
+      "A_basis_coverage_on_B": 0.8069955110549927,
+      "B_basis_coverage_on_A": 0.8148636221885681
+    },
+    {
+      "group": "layer_07_o",
+      "rank_A": 237,
+      "rank_B": 250,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5650173782799315,
+      "overlap_normalized_by_larger_rank": 0.535636474609375,
+      "A_basis_coverage_on_B": 0.7192881107330322,
+      "B_basis_coverage_on_A": 0.7330455183982849
+    },
+    {
+      "group": "layer_07_mlp",
+      "rank_A": 297,
+      "rank_B": 314,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5806714195996423,
+      "overlap_normalized_by_larger_rank": 0.5492337949716362,
+      "A_basis_coverage_on_B": 0.7384036779403687,
+      "B_basis_coverage_on_A": 0.7566399574279785
+    },
+    {
+      "group": "layer_08_attn",
+      "rank_A": 215,
+      "rank_B": 222,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6509422124818314,
+      "overlap_normalized_by_larger_rank": 0.6304170075837556,
+      "A_basis_coverage_on_B": 0.8134739995002747,
+      "B_basis_coverage_on_A": 0.8175297975540161
+    },
+    {
+      "group": "layer_08_o",
+      "rank_A": 185,
+      "rank_B": 190,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6019903234533361,
+      "overlap_normalized_by_larger_rank": 0.5861484728361431,
+      "A_basis_coverage_on_B": 0.7771377563476562,
+      "B_basis_coverage_on_A": 0.7702748775482178
+    },
+    {
+      "group": "layer_08_mlp",
+      "rank_A": 309,
+      "rank_B": 325,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.576727610961519,
+      "overlap_normalized_by_larger_rank": 0.5483348670372596,
+      "A_basis_coverage_on_B": 0.7398782968521118,
+      "B_basis_coverage_on_A": 0.753731906414032
+    },
+    {
+      "group": "layer_09_attn",
+      "rank_A": 245,
+      "rank_B": 253,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6084158138352997,
+      "overlap_normalized_by_larger_rank": 0.5891773691290452,
+      "A_basis_coverage_on_B": 0.8015933632850647,
+      "B_basis_coverage_on_A": 0.8037371039390564
+    },
+    {
+      "group": "layer_09_o",
+      "rank_A": 238,
+      "rank_B": 241,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5301824617786568,
+      "overlap_normalized_by_larger_rank": 0.5235826800967648,
+      "A_basis_coverage_on_B": 0.6741451025009155,
+      "B_basis_coverage_on_A": 0.6865475177764893
+    },
+    {
+      "group": "layer_09_mlp",
+      "rank_A": 282,
+      "rank_B": 293,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5601162741370235,
+      "overlap_normalized_by_larger_rank": 0.5390880181114015,
+      "A_basis_coverage_on_B": 0.7576694488525391,
+      "B_basis_coverage_on_A": 0.7640494108200073
+    },
+    {
+      "group": "layer_10_attn",
+      "rank_A": 233,
+      "rank_B": 240,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5993965378135059,
+      "overlap_normalized_by_larger_rank": 0.5819141387939453,
+      "A_basis_coverage_on_B": 0.7988705635070801,
+      "B_basis_coverage_on_A": 0.7992549538612366
+    },
+    {
+      "group": "layer_10_o",
+      "rank_A": 187,
+      "rank_B": 195,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5838051862257687,
+      "overlap_normalized_by_larger_rank": 0.5598542042267628,
+      "A_basis_coverage_on_B": 0.7668706178665161,
+      "B_basis_coverage_on_A": 0.7635278105735779
+    },
+    {
+      "group": "layer_10_mlp",
+      "rank_A": 317,
+      "rank_B": 330,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5467097526093011,
+      "overlap_normalized_by_larger_rank": 0.5251727017489347,
+      "A_basis_coverage_on_B": 0.7283022999763489,
+      "B_basis_coverage_on_A": 0.7356593608856201
+    },
+    {
+      "group": "layer_11_attn",
+      "rank_A": 222,
+      "rank_B": 228,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6123021443684896,
+      "overlap_normalized_by_larger_rank": 0.596188930043003,
+      "A_basis_coverage_on_B": 0.8046875596046448,
+      "B_basis_coverage_on_A": 0.8046053647994995
+    },
+    {
+      "group": "layer_11_o",
+      "rank_A": 187,
+      "rank_B": 197,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5760164311862884,
+      "overlap_normalized_by_larger_rank": 0.5467770184357155,
+      "A_basis_coverage_on_B": 0.7468384504318237,
+      "B_basis_coverage_on_A": 0.7548056244850159
+    },
+    {
+      "group": "layer_11_mlp",
+      "rank_A": 324,
+      "rank_B": 336,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5458639168444975,
+      "overlap_normalized_by_larger_rank": 0.526368776957194,
+      "A_basis_coverage_on_B": 0.7295942902565002,
+      "B_basis_coverage_on_A": 0.7360568046569824
+    },
+    {
+      "group": "layer_12_attn",
+      "rank_A": 237,
+      "rank_B": 244,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6000382306706553,
+      "overlap_normalized_by_larger_rank": 0.5828240191350218,
+      "A_basis_coverage_on_B": 0.7987428307533264,
+      "B_basis_coverage_on_A": 0.7990007400512695
+    },
+    {
+      "group": "layer_12_o",
+      "rank_A": 176,
+      "rank_B": 183,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5637979073957964,
+      "overlap_normalized_by_larger_rank": 0.5422318672221866,
+      "A_basis_coverage_on_B": 0.7579199075698853,
+      "B_basis_coverage_on_A": 0.7584753632545471
+    },
+    {
+      "group": "layer_12_mlp",
+      "rank_A": 324,
+      "rank_B": 336,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5452247902199074,
+      "overlap_normalized_by_larger_rank": 0.5257524762834821,
+      "A_basis_coverage_on_B": 0.7350009083747864,
+      "B_basis_coverage_on_A": 0.7391449213027954
+    },
+    {
+      "group": "layer_13_attn",
+      "rank_A": 250,
+      "rank_B": 256,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5916464233398437,
+      "overlap_normalized_by_larger_rank": 0.5777797102928162,
+      "A_basis_coverage_on_B": 0.7946344614028931,
+      "B_basis_coverage_on_A": 0.7930141687393188
+    },
+    {
+      "group": "layer_13_o",
+      "rank_A": 195,
+      "rank_B": 201,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5514232537685296,
+      "overlap_normalized_by_larger_rank": 0.5349628581336482,
+      "A_basis_coverage_on_B": 0.6974573135375977,
+      "B_basis_coverage_on_A": 0.7125861644744873
+    },
+    {
+      "group": "layer_13_mlp",
+      "rank_A": 321,
+      "rank_B": 331,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.543147767444266,
+      "overlap_normalized_by_larger_rank": 0.5267384693341673,
+      "A_basis_coverage_on_B": 0.7358095645904541,
+      "B_basis_coverage_on_A": 0.738573431968689
+    },
+    {
+      "group": "layer_14_attn",
+      "rank_A": 229,
+      "rank_B": 232,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6124877263364834,
+      "overlap_normalized_by_larger_rank": 0.6045676264269598,
+      "A_basis_coverage_on_B": 0.8053069710731506,
+      "B_basis_coverage_on_A": 0.8010175228118896
+    },
+    {
+      "group": "layer_14_o",
+      "rank_A": 173,
+      "rank_B": 173,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5294377321452763,
+      "overlap_normalized_by_larger_rank": 0.5294377321452763,
+      "A_basis_coverage_on_B": 0.7399760484695435,
+      "B_basis_coverage_on_A": 0.7261825203895569
+    },
+    {
+      "group": "layer_14_mlp",
+      "rank_A": 329,
+      "rank_B": 337,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5346856856418598,
+      "overlap_normalized_by_larger_rank": 0.5219928503743972,
+      "A_basis_coverage_on_B": 0.7331910729408264,
+      "B_basis_coverage_on_A": 0.7321635484695435
+    },
+    {
+      "group": "layer_15_attn",
+      "rank_A": 213,
+      "rank_B": 214,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6276858334250294,
+      "overlap_normalized_by_larger_rank": 0.6247527220538843,
+      "A_basis_coverage_on_B": 0.8159012794494629,
+      "B_basis_coverage_on_A": 0.8110904693603516
+    },
+    {
+      "group": "layer_15_o",
+      "rank_A": 192,
+      "rank_B": 190,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5687441374126233,
+      "overlap_normalized_by_larger_rank": 0.5628197193145752,
+      "A_basis_coverage_on_B": 0.7727470397949219,
+      "B_basis_coverage_on_A": 0.7646702527999878
+    },
+    {
+      "group": "layer_15_mlp",
+      "rank_A": 331,
+      "rank_B": 336,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5334294713876039,
+      "overlap_normalized_by_larger_rank": 0.5254915328252883,
+      "A_basis_coverage_on_B": 0.7412663698196411,
+      "B_basis_coverage_on_A": 0.7380204200744629
+    },
+    {
+      "group": "layer_16_attn",
+      "rank_A": 239,
+      "rank_B": 239,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5874022160613886,
+      "overlap_normalized_by_larger_rank": 0.5874022160613886,
+      "A_basis_coverage_on_B": 0.8051772713661194,
+      "B_basis_coverage_on_A": 0.7989822030067444
+    },
+    {
+      "group": "layer_16_o",
+      "rank_A": 196,
+      "rank_B": 201,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5056714038459622,
+      "overlap_normalized_by_larger_rank": 0.4930925132030278,
+      "A_basis_coverage_on_B": 0.6980582475662231,
+      "B_basis_coverage_on_A": 0.6898710131645203
+    },
+    {
+      "group": "layer_16_mlp",
+      "rank_A": 344,
+      "rank_B": 350,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5295107641885447,
+      "overlap_normalized_by_larger_rank": 0.5204334368024554,
+      "A_basis_coverage_on_B": 0.7344004511833191,
+      "B_basis_coverage_on_A": 0.7317506670951843
+    },
+    {
+      "group": "layer_17_attn",
+      "rank_A": 262,
+      "rank_B": 263,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5748109890304449,
+      "overlap_normalized_by_larger_rank": 0.5726253959162607,
+      "A_basis_coverage_on_B": 0.7937908172607422,
+      "B_basis_coverage_on_A": 0.7875298261642456
+    },
+    {
+      "group": "layer_17_o",
+      "rank_A": 211,
+      "rank_B": 211,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.4911194570821608,
+      "overlap_normalized_by_larger_rank": 0.4911194570821608,
+      "A_basis_coverage_on_B": 0.7145524024963379,
+      "B_basis_coverage_on_A": 0.6907492280006409
+    },
+    {
+      "group": "layer_17_mlp",
+      "rank_A": 344,
+      "rank_B": 349,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5274503840956577,
+      "overlap_normalized_by_larger_rank": 0.5198937883349749,
+      "A_basis_coverage_on_B": 0.7380416393280029,
+      "B_basis_coverage_on_A": 0.7342817187309265
+    },
+    {
+      "group": "layer_18_attn",
+      "rank_A": 279,
+      "rank_B": 281,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5616644308985775,
+      "overlap_normalized_by_larger_rank": 0.5576668192907585,
+      "A_basis_coverage_on_B": 0.7872601747512817,
+      "B_basis_coverage_on_A": 0.7812246084213257
+    },
+    {
+      "group": "layer_18_o",
+      "rank_A": 245,
+      "rank_B": 249,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5395631128427933,
+      "overlap_normalized_by_larger_rank": 0.5308954323151983,
+      "A_basis_coverage_on_B": 0.7177910208702087,
+      "B_basis_coverage_on_A": 0.7071074843406677
+    },
+    {
+      "group": "layer_18_mlp",
+      "rank_A": 325,
+      "rank_B": 331,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5320029860276442,
+      "overlap_normalized_by_larger_rank": 0.5223594273685328,
+      "A_basis_coverage_on_B": 0.7474413514137268,
+      "B_basis_coverage_on_A": 0.7436160445213318
+    },
+    {
+      "group": "layer_19_attn",
+      "rank_A": 256,
+      "rank_B": 258,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5761936902999878,
+      "overlap_normalized_by_larger_rank": 0.5717270725457243,
+      "A_basis_coverage_on_B": 0.7952436804771423,
+      "B_basis_coverage_on_A": 0.7897392511367798
+    },
+    {
+      "group": "layer_19_o",
+      "rank_A": 213,
+      "rank_B": 219,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5258657249486502,
+      "overlap_normalized_by_larger_rank": 0.5114584448130708,
+      "A_basis_coverage_on_B": 0.6975334882736206,
+      "B_basis_coverage_on_A": 0.6959652900695801
+    },
+    {
+      "group": "layer_19_mlp",
+      "rank_A": 310,
+      "rank_B": 316,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5429358205487651,
+      "overlap_normalized_by_larger_rank": 0.532626912563662,
+      "A_basis_coverage_on_B": 0.752196192741394,
+      "B_basis_coverage_on_A": 0.7478743195533752
+    },
+    {
+      "group": "layer_20_attn",
+      "rank_A": 263,
+      "rank_B": 265,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5749523322391873,
+      "overlap_normalized_by_larger_rank": 0.5706130693543632,
+      "A_basis_coverage_on_B": 0.7892811298370361,
+      "B_basis_coverage_on_A": 0.7833118438720703
+    },
+    {
+      "group": "layer_20_o",
+      "rank_A": 208,
+      "rank_B": 208,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5063166251549354,
+      "overlap_normalized_by_larger_rank": 0.5063166251549354,
+      "A_basis_coverage_on_B": 0.7114179134368896,
+      "B_basis_coverage_on_A": 0.7048381567001343
+    },
+    {
+      "group": "layer_20_mlp",
+      "rank_A": 311,
+      "rank_B": 315,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5477398446135199,
+      "overlap_normalized_by_larger_rank": 0.540784418015253,
+      "A_basis_coverage_on_B": 0.7568985819816589,
+      "B_basis_coverage_on_A": 0.7516725063323975
+    },
+    {
+      "group": "layer_21_attn",
+      "rank_A": 257,
+      "rank_B": 259,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.592222102421267,
+      "overlap_normalized_by_larger_rank": 0.5876489587732263,
+      "A_basis_coverage_on_B": 0.7955451607704163,
+      "B_basis_coverage_on_A": 0.7900223731994629
+    },
+    {
+      "group": "layer_21_o",
+      "rank_A": 264,
+      "rank_B": 262,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.523328417130099,
+      "overlap_normalized_by_larger_rank": 0.5193638079094164,
+      "A_basis_coverage_on_B": 0.6796430349349976,
+      "B_basis_coverage_on_A": 0.6799201369285583
+    },
+    {
+      "group": "layer_21_mlp",
+      "rank_A": 312,
+      "rank_B": 317,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5531282180394882,
+      "overlap_normalized_by_larger_rank": 0.544403798196594,
+      "A_basis_coverage_on_B": 0.7548542022705078,
+      "B_basis_coverage_on_A": 0.7525030374526978
+    },
+    {
+      "group": "layer_22_attn",
+      "rank_A": 248,
+      "rank_B": 249,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6240605385072769,
+      "overlap_normalized_by_larger_rank": 0.6215542712843561,
+      "A_basis_coverage_on_B": 0.8002758026123047,
+      "B_basis_coverage_on_A": 0.7978626489639282
+    },
+    {
+      "group": "layer_22_o",
+      "rank_A": 262,
+      "rank_B": 261,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.47829779263200434,
+      "overlap_normalized_by_larger_rank": 0.47647222853798904,
+      "A_basis_coverage_on_B": 0.6350024342536926,
+      "B_basis_coverage_on_A": 0.6415647268295288
+    },
+    {
+      "group": "layer_22_mlp",
+      "rank_A": 325,
+      "rank_B": 327,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5516020789513221,
+      "overlap_normalized_by_larger_rank": 0.5482283659302131,
+      "A_basis_coverage_on_B": 0.7527774572372437,
+      "B_basis_coverage_on_A": 0.7507412433624268
+    },
+    {
+      "group": "layer_23_attn",
+      "rank_A": 236,
+      "rank_B": 236,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6827788272146451,
+      "overlap_normalized_by_larger_rank": 0.6827788272146451,
+      "A_basis_coverage_on_B": 0.8079817295074463,
+      "B_basis_coverage_on_A": 0.807846188545227
+    },
+    {
+      "group": "layer_23_o",
+      "rank_A": 288,
+      "rank_B": 288,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.48940054575602215,
+      "overlap_normalized_by_larger_rank": 0.48940054575602215,
+      "A_basis_coverage_on_B": 0.6544036865234375,
+      "B_basis_coverage_on_A": 0.6676156520843506
+    },
+    {
+      "group": "layer_23_mlp",
+      "rank_A": 354,
+      "rank_B": 357,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5348122806872352,
+      "overlap_normalized_by_larger_rank": 0.5303180598411239,
+      "A_basis_coverage_on_B": 0.7335968017578125,
+      "B_basis_coverage_on_A": 0.7346853613853455
+    },
+    {
+      "group": "layer_24_attn",
+      "rank_A": 279,
+      "rank_B": 278,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.623843076417772,
+      "overlap_normalized_by_larger_rank": 0.6216070797281026,
+      "A_basis_coverage_on_B": 0.7841557264328003,
+      "B_basis_coverage_on_A": 0.7853740453720093
+    },
+    {
+      "group": "layer_24_o",
+      "rank_A": 317,
+      "rank_B": 295,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5182833396782309,
+      "overlap_normalized_by_larger_rank": 0.48231414891191837,
+      "A_basis_coverage_on_B": 0.6497765183448792,
+      "B_basis_coverage_on_A": 0.665884792804718
+    },
+    {
+      "group": "layer_24_mlp",
+      "rank_A": 389,
+      "rank_B": 390,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5196642642768918,
+      "overlap_normalized_by_larger_rank": 0.518331791804387,
+      "A_basis_coverage_on_B": 0.7148113250732422,
+      "B_basis_coverage_on_A": 0.7177324295043945
+    },
+    {
+      "group": "layer_25_attn",
+      "rank_A": 258,
+      "rank_B": 256,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.6673902273178101,
+      "overlap_normalized_by_larger_rank": 0.6622166596641836,
+      "A_basis_coverage_on_B": 0.7999888062477112,
+      "B_basis_coverage_on_A": 0.8012652397155762
+    },
+    {
+      "group": "layer_25_o",
+      "rank_A": 284,
+      "rank_B": 286,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.47710504666180675,
+      "overlap_normalized_by_larger_rank": 0.4737686477341018,
+      "A_basis_coverage_on_B": 0.6470363736152649,
+      "B_basis_coverage_on_A": 0.6820192933082581
+    },
+    {
+      "group": "layer_25_mlp",
+      "rank_A": 418,
+      "rank_B": 419,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.49984664551949387,
+      "overlap_normalized_by_larger_rank": 0.4986536940982063,
+      "A_basis_coverage_on_B": 0.7017009854316711,
+      "B_basis_coverage_on_A": 0.7059442400932312
+    },
+    {
+      "group": "layer_26_attn",
+      "rank_A": 187,
+      "rank_B": 185,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.7826488597972973,
+      "overlap_normalized_by_larger_rank": 0.7742782837566845,
+      "A_basis_coverage_on_B": 0.8388935327529907,
+      "B_basis_coverage_on_A": 0.8382516503334045
+    },
+    {
+      "group": "layer_26_o",
+      "rank_A": 349,
+      "rank_B": 340,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.47452581069048716,
+      "overlap_normalized_by_larger_rank": 0.4622887554004746,
+      "A_basis_coverage_on_B": 0.6049482226371765,
+      "B_basis_coverage_on_A": 0.615148663520813
+    },
+    {
+      "group": "layer_26_mlp",
+      "rank_A": 437,
+      "rank_B": 438,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.4871191727487664,
+      "overlap_normalized_by_larger_rank": 0.48600702851874644,
+      "A_basis_coverage_on_B": 0.701786994934082,
+      "B_basis_coverage_on_A": 0.7057468295097351
+    },
+    {
+      "group": "layer_27_attn",
+      "rank_A": 144,
+      "rank_B": 143,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.8191635025131119,
+      "overlap_normalized_by_larger_rank": 0.8134748670789931,
+      "A_basis_coverage_on_B": 0.8546804785728455,
+      "B_basis_coverage_on_A": 0.8529072403907776
+    },
+    {
+      "group": "layer_27_o",
+      "rank_A": 218,
+      "rank_B": 219,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.5109813585193879,
+      "overlap_normalized_by_larger_rank": 0.5086481103069707,
+      "A_basis_coverage_on_B": 0.7511075735092163,
+      "B_basis_coverage_on_A": 0.7464520931243896
+    },
+    {
+      "group": "layer_27_mlp",
+      "rank_A": 337,
+      "rank_B": 335,
+      "text_tokens_including_single_prefix": [
+        1959,
+        1897
+      ],
+      "overlap_normalized_by_smaller_rank": 0.4931575034981343,
+      "overlap_normalized_by_larger_rank": 0.4902307527355341,
+      "A_basis_coverage_on_B": 0.7776563167572021,
+      "B_basis_coverage_on_A": 0.7779350876808167
+    }
+  ],
+  "tau": 0.9,
+  "definition": "Each half uses uncentered (T+single-prefix second moment). Eigenvectors span 90% text energy, as in S1 text component.",
+  "comparison": "Cross-half captured energy and principal-subspace overlap; dimensional differences reported.",
+  "caveat": "Descriptive fixed sample split. It does not quantify complete S1 stability or population uncertainty; does not select candidates or thresholds.",
+  "selection_sha256": "81cc6391ba1e0cb171d12722e95cfeb4f864e6db4840d2e4fbe1ebdd31864ede"
+}
